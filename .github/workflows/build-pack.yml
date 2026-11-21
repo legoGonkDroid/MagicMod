@@ -2,7 +2,7 @@ name: Build pack
 
 # Push a tag like v0.2.0 to publish a release:
 #  - the `pack` branch gets a packwiz pack (what friends' packwiz-installer syncs from)
-#  - a GitHub Release gets .mrpack (Modrinth/Prism import) and CurseForge .zip exports
+#  - a GitHub Release gets the CurseForge .zip (upload to CurseForge / import into Prism)
 on:
   push:
     tags: ["v*"]
@@ -43,12 +43,7 @@ jobs:
           git commit -q -m "MagicMod $VERSION"
           git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" pack
 
-      - name: Export .mrpack
-        continue-on-error: true
-        run: cd build/pack && packwiz -y modrinth export -o "../MagicMod-$VERSION.mrpack"
-
       - name: Export CurseForge zip
-        continue-on-error: true
         run: cd build/pack && packwiz -y curseforge export -o "../MagicMod-$VERSION-curseforge.zip"
 
       - name: Create release
@@ -59,4 +54,4 @@ jobs:
           NOTES=changelogs/${GITHUB_REF_NAME}.md
           [ -f "$NOTES" ] || NOTES=CHANGELOG.md
           gh release create "$GITHUB_REF_NAME" --title "MagicMod $VERSION" --notes-file "$NOTES" \
-            $(ls build/*.mrpack build/*.zip 2>/dev/null)
+            build/*.zip
