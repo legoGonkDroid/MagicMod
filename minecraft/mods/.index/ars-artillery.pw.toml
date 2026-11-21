@@ -1,18 +1,25 @@
 filename = 'Ars Artillery 1.21.1-1.1.jar'
 name = 'Ars Artillery'
-side = 'both'
-x-prismlauncher-dependencies = []
+side = ''
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.1'
+x-prismlauncher-version-number = 'Ars Artillery 1.21.1-1.1.jar'
 
 [download]
-hash = '52fde745e6013fbead0631a4f6b5a3b57be5d40000c3d5cce31a3cd0861654a19a9982d40a43326d03e523bb940d45820c3f0d90e9eafa4dfbc5acedc620f637'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/65NbZTp2/versions/oIIBEnSK/Ars Artillery 1.21.1-1.1.jar'
+hash = '51133e2bee87586a1d78f7bab514ba93d02ffbf9'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
 
-[update.modrinth]
-mod-id = '65NbZTp2'
-version = 'oIIBEnSK'
+[update.curseforge]
+file-id = 6140482
+project-id = 1070559
+
+[[x-prismlauncher-dependencies]]
+addonId = '401955'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '306770'
+type = 'OPTIONAL'

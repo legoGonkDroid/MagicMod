@@ -62,10 +62,6 @@
     "entity": true,
     "entity_variant": true
   },
-  "tombstone": {
-    "decorative_graves": true,
-    "player_graves": true
-  },
   "quark": {
     "oretoise_eating_cooldown": true
   },
@@ -86,13 +82,13 @@
   "waystones": {
     "waystone": true
   },
-  "ars_zero": {
-    "entity_mana": true
-  },
   "jadearsnouveauprogress": {
     "ars_nouveau_tooltip": true,
     "show_tooltip": true,
     "bar_only": false
+  },
+  "corpse": {
+    "corpse": true
   },
   "balm": {
     "jade": true

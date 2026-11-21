@@ -609,7 +609,10 @@
 		{
 			dependencies: ["0FE252D0DAFDA5BE"]
 			icon: {
-				id: "ars_zero:novice_spell_staff"
+				components: {
+					"ftbquests:missing_item": "ars_zero:novice_spell_staff"
+				}
+				id: "ftbquests:missing_item"
 			}
 			id: "02DA498EA9B0E907"
 			rewards: [
@@ -630,7 +633,7 @@
 			]
 			tasks: [{
 				id: "289FD03D1F3037A4"
-				item: { count: 1, id: "ars_zero:novice_spell_staff" }
+				item: { components: { "ftbquests:missing_item": "ars_zero:novice_spell_staff" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -639,7 +642,10 @@
 		{
 			dependencies: ["02DA498EA9B0E907"]
 			icon: {
-				id: "ars_zero:mage_spell_staff"
+				components: {
+					"ftbquests:missing_item": "ars_zero:mage_spell_staff"
+				}
+				id: "ftbquests:missing_item"
 			}
 			id: "42A68A0F01CCD563"
 			rewards: [
@@ -659,7 +665,7 @@
 			]
 			tasks: [{
 				id: "7AA5DBB87F7ABCB4"
-				item: { count: 1, id: "ars_zero:mage_spell_staff" }
+				item: { components: { "ftbquests:missing_item": "ars_zero:mage_spell_staff" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 3.75d
@@ -668,7 +674,10 @@
 		{
 			dependencies: ["42A68A0F01CCD563"]
 			icon: {
-				id: "ars_zero:archmage_spell_staff"
+				components: {
+					"ftbquests:missing_item": "ars_zero:archmage_spell_staff"
+				}
+				id: "ftbquests:missing_item"
 			}
 			id: "68A0162088DEBC97"
 			rewards: [
@@ -689,7 +698,7 @@
 			]
 			tasks: [{
 				id: "07CD125A087EBFAD"
-				item: { count: 1, id: "ars_zero:archmage_spell_staff" }
+				item: { components: { "ftbquests:missing_item": "ars_zero:archmage_spell_staff" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 5.5d
@@ -698,7 +707,10 @@
 		{
 			dependencies: ["68A0162088DEBC97"]
 			icon: {
-				id: "ars_zero:spellcasting_circlet"
+				components: {
+					"ftbquests:missing_item": "ars_zero:spellcasting_circlet"
+				}
+				id: "ftbquests:missing_item"
 			}
 			id: "1308FF5D4E0ACEE0"
 			rewards: [
@@ -719,7 +731,7 @@
 			]
 			tasks: [{
 				id: "4D8BD9E38C2E9555"
-				item: { count: 1, id: "ars_zero:spellcasting_circlet" }
+				item: { components: { "ftbquests:missing_item": "ars_zero:spellcasting_circlet" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 7.25d
@@ -728,7 +740,10 @@
 		{
 			dependencies: ["1308FF5D4E0ACEE0"]
 			icon: {
-				id: "ars_zero:bone_chest"
+				components: {
+					"ftbquests:missing_item": "ars_zero:bone_chest"
+				}
+				id: "ftbquests:missing_item"
 			}
 			id: "70AFA729684267D0"
 			rewards: [

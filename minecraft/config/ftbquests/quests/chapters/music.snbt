@@ -1250,7 +1250,10 @@
 		{
 			dependencies: ["381C8803B2C3EADB"]
 			icon: {
-				id: "biomesoplenty:music_disc_wanderer"
+				components: {
+					"ftbquests:missing_item": "biomesoplenty:music_disc_wanderer"
+				}
+				id: "ftbquests:missing_item"
 			}
 			id: "4C079D355566C1DA"
 			rewards: [{
@@ -1261,7 +1264,7 @@
 			size: 0.75d
 			tasks: [{
 				id: "59FF8DD2CFFB9B7C"
-				item: { count: 1, id: "biomesoplenty:music_disc_wanderer" }
+				item: { components: { "ftbquests:missing_item": "biomesoplenty:music_disc_wanderer" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 2.0d

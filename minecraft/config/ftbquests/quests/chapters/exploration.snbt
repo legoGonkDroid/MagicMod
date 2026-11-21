@@ -644,8 +644,11 @@
 					count: 4
 					id: "67B1179F63E24CA5"
 					item: {
+						components: {
+							"ftbquests:missing_item": "biomesoplenty:jacaranda_sapling"
+						}
 						count: 1
-						id: "biomesoplenty:jacaranda_sapling"
+						id: "ftbquests:missing_item"
 					}
 					type: "item"
 				}
@@ -1399,7 +1402,10 @@
 		{
 			dependencies: ["5FE210D795C1ABF3"]
 			icon: {
-				id: "biomesoplenty:magic_planks"
+				components: {
+					"ftbquests:missing_item": "biomesoplenty:magic_planks"
+				}
+				id: "ftbquests:missing_item"
 			}
 			id: "13E82652CA594670"
 			rewards: [

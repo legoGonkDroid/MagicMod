@@ -1,25 +1,25 @@
 filename = 'reliquified_ars_nouveau-1.21.1-0.8.2.jar'
 name = 'Reliquified Ars Nouveau'
-side = 'both'
+side = 'server'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'beta'
-x-prismlauncher-version-number = '0.8.2'
+x-prismlauncher-version-number = 'reliquified_ars_nouveau-1.21.1-0.8.2.jar'
 
 [download]
-hash = 'd42b2740e1c67c89103d7804c152540955887714b292c19f5ab4e2b2e3527bf99b5cac588caefb26e2f680481b0ebd20424e1fcc69e28373e32ceef9bf0323f2'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/qNOCEdeg/versions/wglJA85h/reliquified_ars_nouveau-1.21.1-0.8.2.jar'
+hash = 'b9587f72152f7dd59c3ca20420e0f2262e51c98c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
 
-[update.modrinth]
-mod-id = 'qNOCEdeg'
-version = 'wglJA85h'
+[update.curseforge]
+file-id = 9240198
+project-id = 1196449
 
 [[x-prismlauncher-dependencies]]
-addonId = 'OCJRPujW'
+addonId = '401955'
 type = 'REQUIRED'
 
 [[x-prismlauncher-dependencies]]
-addonId = 'TKB6INcv'
+addonId = '445274'
 type = 'REQUIRED'
