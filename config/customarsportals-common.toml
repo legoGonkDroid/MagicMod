@@ -1,0 +1,7 @@
+#Maximum number of interior blocks an arbitrary-shape portal may contain.
+#The flood-fill aborts (and Ars Nouveau's rectangular logic takes over) if a closed
+#frame is not found within this many cells. Higher values allow bigger portals but
+#cost more when checking an unenclosed frame.
+# Default: 400
+# Range: 9 ~ 20000
+maxPortalCells = 400

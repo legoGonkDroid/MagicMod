@@ -1,0 +1,34 @@
+#Hide Ars Nouveau's Thread of Undying activation and sleep reminder messages.
+suppressThreadMessages = true
+
+#Revival source indicators.
+[revivalIndicators]
+	#Display ready revival sources.  This works with vanilla held totems even when no integration mods are installed.
+	enabled = true
+	#Horizontal distance from the left edge of the screen.
+	# Default: 10
+	# Range: 0 ~ 10000
+	leftOffset = 10
+	#Vertical distance from the top edge of the screen.
+	# Default: 25
+	# Range: 0 ~ 10000
+	topOffset = 25
+	#Scale of each revival source icon.
+	# Default: 0.8
+	# Range: 0.25 ~ 2.0
+	scale = 0.8
+	#Draw a subtle gold-edged background behind each icon.
+	showFrame = true
+
+#Essence Charge HUD.
+[chargeHud]
+	#Display charges for a worn Revealing Reserve Orb.  Requires Ars Nouveau.
+	enabled = true
+	#Horizontal adjustment from the automatic position above the Ars Nouveau mana bar.
+	# Default: 0
+	# Range: -10000 ~ 10000
+	leftOffset = 0
+	#Vertical adjustment from the automatic position above the Ars Nouveau spell name.
+	# Default: 0
+	# Range: -10000 ~ 10000
+	topOffset = 0

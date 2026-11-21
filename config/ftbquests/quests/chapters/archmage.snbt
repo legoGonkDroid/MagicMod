@@ -1,0 +1,366 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "archmage"
+	group: "4F280FD29EF0C5A6"
+	icon: {
+		id: "ars_nouveau:archmage_spell_book"
+	}
+	id: "36B2FB7AD29625FE"
+	images: [ ]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["43D035AE4CBC4BC7"]
+			icon: {
+				id: "ars_nouveau:archmage_spell_book"
+			}
+			id: "12A631DB684183E8"
+			rewards: [
+				{
+					count: 4
+					id: "26C78A1AEC3A15AF"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem_block"
+					}
+					type: "item"
+				}
+				{
+					id: "49222B47077230F9"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				advancement: "ars_nouveau:archmage_spell_book"
+				criterion: ""
+				id: "46B1E0E53BD81CC7"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["12A631DB684183E8"]
+			icon: {
+				id: "ars_nouveau:glyph_lightning"
+			}
+			id: "6CBCE6D2F9D80696"
+			rewards: [
+				{
+					count: 4
+					id: "1B0E8AB1E06C91C1"
+					item: {
+						count: 1
+						id: "ars_nouveau:air_essence"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2D1C1FBFF5093E78"
+					item: {
+						count: 1
+						id: "ars_nouveau:conjuration_essence"
+					}
+					type: "item"
+				}
+				{
+					id: "70E3ECCD64BD616E"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [
+				{
+					id: "41338ED3733745E6"
+					item: { count: 1, id: "ars_nouveau:glyph_split" }
+					type: "item"
+				}
+				{
+					id: "2A9DE44D4AC28EE7"
+					item: { count: 1, id: "ars_nouveau:glyph_linger" }
+					type: "item"
+				}
+				{
+					id: "731085FC4A14A8B6"
+					item: { count: 1, id: "ars_nouveau:glyph_lightning" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["12A631DB684183E8"]
+			icon: {
+				id: "ars_nouveau:spell_prism"
+			}
+			id: "2567D9536CE91EAB"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "222D5E4F447B418F"
+					item: {
+						count: 1
+						id: "minecraft:quartz_block"
+					}
+					type: "item"
+				}
+				{
+					id: "0B8AC3786B15505F"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [{
+				advancement: "ars_nouveau:spell_prism"
+				criterion: ""
+				id: "3D4A8B3CD2B3F358"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["12A631DB684183E8"]
+			icon: {
+				id: "ars_elemental:lesser_fire_focus"
+			}
+			id: "3954AC5B128AB0AF"
+			rewards: [
+				{
+					count: 4
+					id: "014BCA6F27242705"
+					item: {
+						count: 1
+						id: "ars_nouveau:fire_essence"
+					}
+					type: "item"
+				}
+				{
+					id: "4206624031C47CC4"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [{
+				id: "35ACE22CB08C2764"
+				item: { count: 1, id: "ars_elemental:lesser_fire_focus" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3954AC5B128AB0AF"]
+			icon: {
+				id: "ars_elemental:fire_focus"
+			}
+			id: "54F5CCD27A9861BF"
+			rewards: [
+				{
+					count: 8
+					id: "5E035473AC38398F"
+					item: {
+						count: 1
+						id: "ars_nouveau:fire_essence"
+					}
+					type: "item"
+				}
+				{
+					id: "7800D3A886DCDA78"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "23C976784F748EBC"
+				item: { count: 1, id: "ars_elemental:fire_focus" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["54F5CCD27A9861BF"]
+			icon: {
+				id: "ars_elemental:mark_of_mastery"
+			}
+			id: "48A385B64098E770"
+			rewards: [
+				{
+					id: "52575CE97D5FB381"
+					item: {
+						count: 1
+						id: "minecraft:nether_star"
+					}
+					type: "item"
+				}
+				{
+					id: "0F808BC886790D67"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				advancement: "ars_nouveau:mark_of_mastery"
+				criterion: ""
+				id: "396F75A04FF9E653"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48A385B64098E770"]
+			icon: {
+				id: "ars_elemental:fire_robes"
+			}
+			id: "3B42F8B58D223B1A"
+			optional: true
+			rewards: [
+				{
+					id: "7382D56DEB34F3BF"
+					item: {
+						count: 1
+						id: "ars_nouveau:thread_spellpower"
+					}
+					type: "item"
+				}
+				{
+					id: "352D2C190FA8CBF3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "7BC6174487F404C2"
+				item: { count: 1, id: "ars_elemental:fire_robes" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["12A631DB684183E8"]
+			icon: {
+				id: "ars_nouveau:greater_experience_gem"
+			}
+			id: "70A5DBC9A448E072"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "2CC1ED2B407EDD10"
+					item: {
+						count: 1
+						id: "ars_nouveau:greater_experience_gem"
+					}
+					type: "item"
+				}
+				{
+					id: "046B35D865B930B4"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "5D4DBC9448B09517"
+				item: { count: 1, id: "ars_nouveau:greater_experience_gem" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["12A631DB684183E8"]
+			icon: {
+				id: "ars_nouveau:ritual_flight"
+			}
+			id: "04AF310DBBD1A011"
+			rewards: [
+				{
+					count: 16
+					id: "624539A83C55BC41"
+					item: {
+						count: 1
+						id: "minecraft:feather"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1A28CB217334D09D"
+					item: {
+						count: 1
+						id: "minecraft:phantom_membrane"
+					}
+					type: "item"
+				}
+				{
+					id: "18B74A31263C2C2B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "54BF3B96D6200D15"
+				item: { count: 1, id: "ars_nouveau:ritual_flight" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"6CBCE6D2F9D80696"
+				"48A385B64098E770"
+				"04AF310DBBD1A011"
+			]
+			icon: {
+				id: "ars_nouveau:archmage_spell_book"
+			}
+			id: "5EFA885D9AEFAE41"
+			rewards: [
+				{
+					count: 12
+					id: "561FC399C0B10D5B"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "2C9AC59A713C35EF"
+					item: {
+						count: 1
+						id: "minecraft:blaze_rod"
+					}
+					type: "item"
+				}
+				{
+					id: "66903EE8CFE2D2FA"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "5B36E8396177B253"
+				item: { count: 1, id: "ars_nouveau:source_gem_block" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.75d
+		}
+	]
+}

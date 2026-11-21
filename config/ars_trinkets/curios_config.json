@@ -1,0 +1,707 @@
+{
+  "_readme": [
+    "One entry per trinket. Entries are generated automatically; existing ones are never overwritten.",
+    "mode OVERRIDE: only 'attributes' below apply. mode MERGE: built-in stats + 'attributes'.",
+    "enabled false: the trinket gives no attributes. Delete an entry to restore the built-in stats.",
+    "operation: add_value | add_multiplied_base | add_multiplied_total. id: 'auto' or a unique name.",
+    "The file is re-read when it changes; re-equip the trinket to apply it."
+  ],
+  "ars_trinkets:warrior_rune": {
+    "enabled": true,
+    "mode": "OVERRIDE",
+    "attributes": {
+      "minecraft:generic.knockback_resistance": [
+        {
+          "id": "auto",
+          "amount": 1.0,
+          "operation": "add_multiplied_total"
+        }
+      ],
+      "minecraft:generic.armor": [
+        {
+          "id": "auto",
+          "amount": 1.0,
+          "operation": "add_multiplied_total"
+        }
+      ],
+      "minecraft:generic.attack_damage": [
+        {
+          "id": "auto",
+          "amount": 1.0,
+          "operation": "add_multiplied_total"
+        }
+      ]
+    }
+  },
+  "ars_trinkets:mage_rune_lesser": {
+    "enabled": true,
+    "mode": "OVERRIDE",
+    "attributes": {
+      "ars_nouveau:ars_nouveau.perk.max_mana": [
+        {
+          "id": "auto",
+          "amount": 0.5,
+          "operation": "add_multiplied_total"
+        }
+      ],
+      "ars_trinkets:ars_trinkets.perk.spell_damage_increase_absolute": [
+        {
+          "id": "auto",
+          "amount": 0.5,
+          "operation": "add_multiplied_total"
+        }
+      ],
+      "ars_nouveau:ars_nouveau.perk.mana_regen": [
+        {
+          "id": "auto",
+          "amount": 0.5,
+          "operation": "add_multiplied_total"
+        }
+      ]
+    }
+  },
+  "ars_trinkets:warrior_rune_greater": {
+    "enabled": true,
+    "mode": "OVERRIDE",
+    "attributes": {
+      "minecraft:generic.knockback_resistance": [
+        {
+          "id": "auto",
+          "amount": 1.5,
+          "operation": "add_multiplied_total"
+        }
+      ],
+      "minecraft:generic.armor": [
+        {
+          "id": "auto",
+          "amount": 1.5,
+          "operation": "add_multiplied_total"
+        }
+      ],
+      "minecraft:generic.attack_damage": [
+        {
+          "id": "auto",
+          "amount": 1.5,
+          "operation": "add_multiplied_total"
+        }
+      ]
+    }
+  },
+  "ars_trinkets:eternity_rune": {
+    "enabled": true,
+    "mode": "OVERRIDE",
+    "attributes": {
+      "minecraft:generic.max_health": [
+        {
+          "id": "auto",
+          "amount": 1.0,
+          "operation": "add_multiplied_total"
+        }
+      ],
+      "ars_nouveau:ars_nouveau.perk.max_mana": [
+        {
+          "id": "auto",
+          "amount": 1.0,
+          "operation": "add_multiplied_total"
+        }
+      ],
+      "minecraft:generic.movement_efficiency": [
+        {
+          "id": "auto",
+          "amount": 0.5,
+          "operation": "add_multiplied_total"
+        }
+      ],
+      "ars_trinkets:ars_trinkets.perk.spell_damage_increase_absolute": [
+        {
+          "id": "auto",
+          "amount": 1.0,
+          "operation": "add_multiplied_total"
+        }
+      ],
+      "minecraft:generic.attack_speed": [
+        {
+          "id": "auto",
+          "amount": 1.0,
+          "operation": "add_multiplied_total"
+        }
+      ],
+      "minecraft:generic.armor_toughness": [
+        {
+          "id": "auto",
+          "amount": 1.0,
+          "operation": "add_multiplied_total"
+        }
+      ],
+      "minecraft:generic.knockback_resistance": [
+        {
+          "id": "auto",
+          "amount": 1.0,
+          "operation": "add_multiplied_total"
+        }
+      ],
+      "ars_nouveau:ars_nouveau.perk.mana_regen": [
+        {
+          "id": "auto",
+          "amount": 1.0,
+          "operation": "add_multiplied_total"
+        }
+      ],
+      "minecraft:generic.armor": [
+        {
+          "id": "auto",
+          "amount": 1.0,
+          "operation": "add_multiplied_total"
+        }
+      ],
+      "minecraft:generic.attack_damage": [
+        {
+          "id": "auto",
+          "amount": 1.0,
+          "operation": "add_multiplied_total"
+        }
+      ]
+    }
+  },
+  "ars_trinkets:essence_lotus_3": {
+    "enabled": true,
+    "mode": "OVERRIDE",
+    "attributes": {
+      "ars_nouveau:ars_nouveau.perk.max_mana": [
+        {
+          "id": "auto",
+          "amount": 0.0,
+          "operation": "add_value"
+        }
+      ],
+      "ars_nouveau:ars_nouveau.perk.mana_regen": [
+        {
+          "id": "auto",
+          "amount": 8.0,
+          "operation": "add_value"
+        }
+      ]
+    }
+  },
+  "ars_trinkets:mage_rune": {
+    "enabled": true,
+    "mode": "OVERRIDE",
+    "attributes": {
+      "ars_nouveau:ars_nouveau.perk.max_mana": [
+        {
+          "id": "auto",
+          "amount": 1.0,
+          "operation": "add_multiplied_total"
+        }
+      ],
+      "ars_trinkets:ars_trinkets.perk.spell_damage_increase_absolute": [
+        {
+          "id": "auto",
+          "amount": 1.0,
+          "operation": "add_multiplied_total"
+        }
+      ],
+      "ars_nouveau:ars_nouveau.perk.mana_regen": [
+        {
+          "id": "auto",
+          "amount": 1.0,
+          "operation": "add_multiplied_total"
+        }
+      ]
+    }
+  },
+  "ars_trinkets:essence_lotus_9": {
+    "enabled": true,
+    "mode": "OVERRIDE",
+    "attributes": {
+      "ars_nouveau:ars_nouveau.perk.max_mana": [
+        {
+          "id": "auto",
+          "amount": 128.0,
+          "operation": "add_value"
+        }
+      ],
+      "ars_nouveau:ars_nouveau.perk.mana_regen": [
+        {
+          "id": "auto",
+          "amount": 512.0,
+          "operation": "add_value"
+        }
+      ]
+    }
+  },
+  "ars_trinkets:essence_lotus_8": {
+    "enabled": true,
+    "mode": "OVERRIDE",
+    "attributes": {
+      "ars_nouveau:ars_nouveau.perk.max_mana": [
+        {
+          "id": "auto",
+          "amount": 64.0,
+          "operation": "add_value"
+        }
+      ],
+      "ars_nouveau:ars_nouveau.perk.mana_regen": [
+        {
+          "id": "auto",
+          "amount": 256.0,
+          "operation": "add_value"
+        }
+      ]
+    }
+  },
+  "ars_trinkets:essence_ring_6": {
+    "enabled": true,
+    "mode": "OVERRIDE",
+    "attributes": {
+      "ars_nouveau:ars_nouveau.perk.max_mana": [
+        {
+          "id": "auto",
+          "amount": 512.0,
+          "operation": "add_value"
+        }
+      ],
+      "ars_nouveau:ars_nouveau.perk.mana_regen": [
+        {
+          "id": "auto",
+          "amount": 0.0,
+          "operation": "add_value"
+        }
+      ]
+    }
+  },
+  "ars_trinkets:essence_ring_4": {
+    "enabled": true,
+    "mode": "OVERRIDE",
+    "attributes": {
+      "ars_nouveau:ars_nouveau.perk.max_mana": [
+        {
+          "id": "auto",
+          "amount": 256.0,
+          "operation": "add_value"
+        }
+      ],
+      "ars_nouveau:ars_nouveau.perk.mana_regen": [
+        {
+          "id": "auto",
+          "amount": 0.0,
+          "operation": "add_value"
+        }
+      ]
+    }
+  },
+  "ars_trinkets:mage_rune_greater": {
+    "enabled": true,
+    "mode": "OVERRIDE",
+    "attributes": {
+      "ars_nouveau:ars_nouveau.perk.max_mana": [
+        {
+          "id": "auto",
+          "amount": 1.5,
+          "operation": "add_multiplied_total"
+        }
+      ],
+      "ars_trinkets:ars_trinkets.perk.spell_damage_increase_absolute": [
+        {
+          "id": "auto",
+          "amount": 1.5,
+          "operation": "add_multiplied_total"
+        }
+      ],
+      "ars_nouveau:ars_nouveau.perk.mana_regen": [
+        {
+          "id": "auto",
+          "amount": 1.5,
+          "operation": "add_multiplied_total"
+        }
+      ]
+    }
+  },
+  "ars_trinkets:essence_ring_7": {
+    "enabled": true,
+    "mode": "OVERRIDE",
+    "attributes": {
+      "ars_nouveau:ars_nouveau.perk.max_mana": [
+        {
+          "id": "auto",
+          "amount": 768.0,
+          "operation": "add_value"
+        }
+      ],
+      "ars_nouveau:ars_nouveau.perk.mana_regen": [
+        {
+          "id": "auto",
+          "amount": 0.0,
+          "operation": "add_value"
+        }
+      ]
+    }
+  },
+  "ars_trinkets:essence_ring_3": {
+    "enabled": true,
+    "mode": "OVERRIDE",
+    "attributes": {
+      "ars_nouveau:ars_nouveau.perk.max_mana": [
+        {
+          "id": "auto",
+          "amount": 128.0,
+          "operation": "add_value"
+        }
+      ],
+      "ars_nouveau:ars_nouveau.perk.mana_regen": [
+        {
+          "id": "auto",
+          "amount": 0.0,
+          "operation": "add_value"
+        }
+      ]
+    }
+  },
+  "ars_trinkets:death_rune": {
+    "enabled": true,
+    "mode": "OVERRIDE",
+    "attributes": {
+      "minecraft:generic.attack_speed": [
+        {
+          "id": "auto",
+          "amount": 1.0,
+          "operation": "add_multiplied_total"
+        }
+      ],
+      "minecraft:generic.armor_toughness": [
+        {
+          "id": "auto",
+          "amount": 1.0,
+          "operation": "add_multiplied_total"
+        }
+      ]
+    }
+  },
+  "ars_trinkets:omnipotence_crown": {
+    "enabled": true,
+    "mode": "OVERRIDE",
+    "attributes": {
+      "ars_trinkets:ars_trinkets.perk.bonus_glyph_slots": [
+        {
+          "id": "auto",
+          "amount": 10.0,
+          "operation": "add_value"
+        }
+      ],
+      "ars_trinkets:ars_trinkets.perk.divinity": [
+        {
+          "id": "auto",
+          "amount": 1.5,
+          "operation": "add_multiplied_base"
+        }
+      ]
+    }
+  },
+  "ars_trinkets:essence_lotus_10": {
+    "enabled": true,
+    "mode": "OVERRIDE",
+    "attributes": {
+      "ars_nouveau:ars_nouveau.perk.max_mana": [
+        {
+          "id": "auto",
+          "amount": 256.0,
+          "operation": "add_value"
+        }
+      ],
+      "ars_nouveau:ars_nouveau.perk.mana_regen": [
+        {
+          "id": "auto",
+          "amount": 1024.0,
+          "operation": "add_value"
+        }
+      ]
+    }
+  },
+  "ars_trinkets:life_rune": {
+    "enabled": true,
+    "mode": "OVERRIDE",
+    "attributes": {
+      "minecraft:generic.max_health": [
+        {
+          "id": "auto",
+          "amount": 1.0,
+          "operation": "add_multiplied_total"
+        }
+      ],
+      "minecraft:generic.movement_efficiency": [
+        {
+          "id": "auto",
+          "amount": 0.5,
+          "operation": "add_multiplied_total"
+        }
+      ]
+    }
+  },
+  "ars_trinkets:essence_lotus_5": {
+    "enabled": true,
+    "mode": "OVERRIDE",
+    "attributes": {
+      "ars_nouveau:ars_nouveau.perk.max_mana": [
+        {
+          "id": "auto",
+          "amount": 0.0,
+          "operation": "add_value"
+        }
+      ],
+      "ars_nouveau:ars_nouveau.perk.mana_regen": [
+        {
+          "id": "auto",
+          "amount": 32.0,
+          "operation": "add_value"
+        }
+      ]
+    }
+  },
+  "ars_trinkets:life_rune_greater": {
+    "enabled": true,
+    "mode": "OVERRIDE",
+    "attributes": {
+      "minecraft:generic.max_health": [
+        {
+          "id": "auto",
+          "amount": 1.5,
+          "operation": "add_multiplied_total"
+        }
+      ],
+      "minecraft:generic.movement_efficiency": [
+        {
+          "id": "auto",
+          "amount": 0.75,
+          "operation": "add_multiplied_total"
+        }
+      ]
+    }
+  },
+  "ars_trinkets:death_rune_lesser": {
+    "enabled": true,
+    "mode": "OVERRIDE",
+    "attributes": {
+      "minecraft:generic.attack_speed": [
+        {
+          "id": "auto",
+          "amount": 0.5,
+          "operation": "add_multiplied_total"
+        }
+      ],
+      "minecraft:generic.armor_toughness": [
+        {
+          "id": "auto",
+          "amount": 0.5,
+          "operation": "add_multiplied_total"
+        }
+      ]
+    }
+  },
+  "ars_trinkets:death_rune_greater": {
+    "enabled": true,
+    "mode": "OVERRIDE",
+    "attributes": {
+      "minecraft:generic.attack_speed": [
+        {
+          "id": "auto",
+          "amount": 1.5,
+          "operation": "add_multiplied_total"
+        }
+      ],
+      "minecraft:generic.armor_toughness": [
+        {
+          "id": "auto",
+          "amount": 1.5,
+          "operation": "add_multiplied_total"
+        }
+      ]
+    }
+  },
+  "ars_trinkets:essence_ring_10": {
+    "enabled": true,
+    "mode": "OVERRIDE",
+    "attributes": {
+      "ars_nouveau:ars_nouveau.perk.max_mana": [
+        {
+          "id": "auto",
+          "amount": 2048.0,
+          "operation": "add_value"
+        }
+      ],
+      "ars_nouveau:ars_nouveau.perk.mana_regen": [
+        {
+          "id": "auto",
+          "amount": 0.0,
+          "operation": "add_value"
+        }
+      ]
+    }
+  },
+  "ars_trinkets:essence_lotus_7": {
+    "enabled": true,
+    "mode": "OVERRIDE",
+    "attributes": {
+      "ars_nouveau:ars_nouveau.perk.max_mana": [
+        {
+          "id": "auto",
+          "amount": 32.0,
+          "operation": "add_value"
+        }
+      ],
+      "ars_nouveau:ars_nouveau.perk.mana_regen": [
+        {
+          "id": "auto",
+          "amount": 128.0,
+          "operation": "add_value"
+        }
+      ]
+    }
+  },
+  "ars_trinkets:essence_lotus_4": {
+    "enabled": true,
+    "mode": "OVERRIDE",
+    "attributes": {
+      "ars_nouveau:ars_nouveau.perk.max_mana": [
+        {
+          "id": "auto",
+          "amount": 0.0,
+          "operation": "add_value"
+        }
+      ],
+      "ars_nouveau:ars_nouveau.perk.mana_regen": [
+        {
+          "id": "auto",
+          "amount": 16.0,
+          "operation": "add_value"
+        }
+      ]
+    }
+  },
+  "ars_trinkets:essence_ring_9": {
+    "enabled": true,
+    "mode": "OVERRIDE",
+    "attributes": {
+      "ars_nouveau:ars_nouveau.perk.max_mana": [
+        {
+          "id": "auto",
+          "amount": 1536.0,
+          "operation": "add_value"
+        }
+      ],
+      "ars_nouveau:ars_nouveau.perk.mana_regen": [
+        {
+          "id": "auto",
+          "amount": 0.0,
+          "operation": "add_value"
+        }
+      ]
+    }
+  },
+  "ars_trinkets:essence_lotus_6": {
+    "enabled": true,
+    "mode": "OVERRIDE",
+    "attributes": {
+      "ars_nouveau:ars_nouveau.perk.max_mana": [
+        {
+          "id": "auto",
+          "amount": 0.0,
+          "operation": "add_value"
+        }
+      ],
+      "ars_nouveau:ars_nouveau.perk.mana_regen": [
+        {
+          "id": "auto",
+          "amount": 64.0,
+          "operation": "add_value"
+        }
+      ]
+    }
+  },
+  "ars_trinkets:essence_ring_5": {
+    "enabled": true,
+    "mode": "OVERRIDE",
+    "attributes": {
+      "ars_nouveau:ars_nouveau.perk.max_mana": [
+        {
+          "id": "auto",
+          "amount": 384.0,
+          "operation": "add_value"
+        }
+      ],
+      "ars_nouveau:ars_nouveau.perk.mana_regen": [
+        {
+          "id": "auto",
+          "amount": 0.0,
+          "operation": "add_value"
+        }
+      ]
+    }
+  },
+  "ars_trinkets:essence_ring_8": {
+    "enabled": true,
+    "mode": "OVERRIDE",
+    "attributes": {
+      "ars_nouveau:ars_nouveau.perk.max_mana": [
+        {
+          "id": "auto",
+          "amount": 1024.0,
+          "operation": "add_value"
+        }
+      ],
+      "ars_nouveau:ars_nouveau.perk.mana_regen": [
+        {
+          "id": "auto",
+          "amount": 0.0,
+          "operation": "add_value"
+        }
+      ]
+    }
+  },
+  "ars_trinkets:warrior_rune_lesser": {
+    "enabled": true,
+    "mode": "OVERRIDE",
+    "attributes": {
+      "minecraft:generic.knockback_resistance": [
+        {
+          "id": "auto",
+          "amount": 0.5,
+          "operation": "add_multiplied_total"
+        }
+      ],
+      "minecraft:generic.armor": [
+        {
+          "id": "auto",
+          "amount": 0.5,
+          "operation": "add_multiplied_total"
+        }
+      ],
+      "minecraft:generic.attack_damage": [
+        {
+          "id": "auto",
+          "amount": 0.5,
+          "operation": "add_multiplied_total"
+        }
+      ]
+    }
+  },
+  "ars_trinkets:life_rune_lesser": {
+    "enabled": true,
+    "mode": "OVERRIDE",
+    "attributes": {
+      "minecraft:generic.max_health": [
+        {
+          "id": "auto",
+          "amount": 0.5,
+          "operation": "add_multiplied_total"
+        }
+      ],
+      "minecraft:generic.movement_efficiency": [
+        {
+          "id": "auto",
+          "amount": 0.25,
+          "operation": "add_multiplied_total"
+        }
+      ]
+    }
+  }
+}

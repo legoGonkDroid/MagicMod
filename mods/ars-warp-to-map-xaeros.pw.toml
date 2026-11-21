@@ -1,0 +1,25 @@
+filename = 'arswarptomapx-1.0.1-neoforge-1.21.1.jar'
+name = "Ars Warp to Map: Xaero's Minimap & Ars Nouveau Addon"
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'arswarptomapx-1.0.1+neoforge-1.21.1'
+
+[download]
+hash = '4174b439ff0504022ff2b90e08badbaf41442b2b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9609225
+project-id = 1747589
+
+[[x-prismlauncher-dependencies]]
+addonId = '263420'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '401955'
+type = 'REQUIRED'

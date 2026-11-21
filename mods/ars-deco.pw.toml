@@ -1,0 +1,18 @@
+filename = 'ars_deco-1.21.1-5.0.0.jar'
+name = 'Ars Deco'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ars_deco-1.21.1-5.0.0.jar'
+
+[download]
+hash = '9060cc4345320cb17ab1f5ef07ff8ee50cbaee6a'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8162375
+project-id = 1557102

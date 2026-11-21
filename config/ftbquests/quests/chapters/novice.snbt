@@ -1,0 +1,610 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "novice"
+	group: "4F280FD29EF0C5A6"
+	icon: {
+		id: "ars_nouveau:source_gem"
+	}
+	id: "0EDD8C97E938B26E"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["428689FA45B6DC80"]
+			icon: {
+				id: "ars_nouveau:worn_notebook"
+			}
+			id: "7A9ED5810C7931B2"
+			rewards: [
+				{
+					count: 2
+					id: "1F97AC519DEDB24B"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
+					type: "item"
+				}
+				{
+					id: "2D2D0547478A4B3E"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0CB54B220BDE3F13"
+				item: { count: 1, id: "ars_nouveau:worn_notebook" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A9ED5810C7931B2"]
+			icon: {
+				id: "ars_nouveau:green_archwood_sapling"
+			}
+			id: "288342F5DBA56BA6"
+			rewards: [
+				{
+					count: 4
+					id: "16DF0610DDCF1621"
+					item: {
+						count: 1
+						id: "ars_nouveau:magebloom_crop"
+					}
+					type: "item"
+				}
+				{
+					id: "571E6A566E3F1B88"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				biome: "ars_nouveau:archwood_forest"
+				id: "6153FF6A030C459E"
+				type: "biome"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["288342F5DBA56BA6"]
+			icon: {
+				id: "ars_nouveau:archwood_planks"
+			}
+			id: "0D9750BC039C3B72"
+			rewards: [
+				{
+					id: "1F48E6C83141DB16"
+					item: {
+						count: 1
+						id: "ars_nouveau:red_archwood_sapling"
+					}
+					type: "item"
+				}
+				{
+					id: "75721093F2C8E8EE"
+					item: {
+						count: 1
+						id: "ars_nouveau:blue_archwood_sapling"
+					}
+					type: "item"
+				}
+				{
+					id: "7C57963E044732F3"
+					item: {
+						count: 1
+						id: "ars_nouveau:purple_archwood_sapling"
+					}
+					type: "item"
+				}
+				{
+					id: "4DE04E41F3841F1C"
+					item: {
+						count: 1
+						id: "ars_nouveau:green_archwood_sapling"
+					}
+					type: "item"
+				}
+				{
+					id: "7E950BB2B1F2A296"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [{
+				id: "75660C5A6BC34453"
+				item: { count: 1, id: "ars_nouveau:archwood_planks" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["288342F5DBA56BA6"]
+			icon: {
+				id: "ars_nouveau:sourceberry_bush"
+			}
+			id: "18416607A24CED78"
+			rewards: [
+				{
+					count: 2
+					id: "1493FCD1649C4392"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_berry_pie"
+					}
+					type: "item"
+				}
+				{
+					id: "1C302B02120D1C03"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [{
+				id: "15D00E4512C0FC28"
+				item: { count: 1, id: "ars_nouveau:sourceberry_bush" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["288342F5DBA56BA6"]
+			icon: {
+				id: "ars_nouveau:magebloom"
+			}
+			id: "0E96C8FFC7218B7E"
+			rewards: [
+				{
+					count: 16
+					id: "5A6370A1E843FE78"
+					item: {
+						count: 1
+						id: "minecraft:bone_meal"
+					}
+					type: "item"
+				}
+				{
+					id: "776363FCDA25F045"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					advancement: "ars_nouveau:magebloom_crop"
+					criterion: ""
+					id: "357A8BE03FBEACF0"
+					type: "advancement"
+				}
+				{
+					id: "738DA1E3C5D68200"
+					item: { count: 1, id: "ars_nouveau:magebloom_fiber" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0D9750BC039C3B72"]
+			icon: {
+				id: "ars_nouveau:scribes_table"
+			}
+			id: "21F1F2E6D4356870"
+			rewards: [
+				{
+					count: 4
+					id: "00DDC5976C37C488"
+					item: {
+						count: 1
+						id: "ars_nouveau:blank_parchment"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "28C4372C631C881D"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					id: "23DE61E196FE49AE"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [{
+				id: "289606E5C3217965"
+				item: { count: 1, id: "ars_nouveau:scribes_table" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["0D9750BC039C3B72"]
+			icon: {
+				id: "ars_nouveau:imbuement_chamber"
+			}
+			id: "5E962CFB1BC98875"
+			rewards: [
+				{
+					count: 16
+					id: "6F00390AB5D606DD"
+					item: {
+						count: 1
+						id: "minecraft:amethyst_shard"
+					}
+					type: "item"
+				}
+				{
+					id: "4D6440BB8ABDD37C"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [{
+				advancement: "ars_nouveau:imbuement_chamber"
+				criterion: ""
+				id: "74D4723A85C4DD3E"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["5E962CFB1BC98875"]
+			icon: {
+				id: "ars_nouveau:source_gem"
+			}
+			id: "05D02313969E8967"
+			rewards: [
+				{
+					id: "3E31B467FCA203F4"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem_block"
+					}
+					type: "item"
+				}
+				{
+					id: "5FB9883B4A0E93C3"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [{
+				id: "76CAC2EEADC6F093"
+				item: { count: 1, id: "ars_nouveau:source_gem" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["05D02313969E8967"]
+			icon: {
+				id: "ars_nouveau:source_jar"
+			}
+			id: "15F8D5D2CC6155B6"
+			rewards: [
+				{
+					count: 16
+					id: "3F22104648266D28"
+					item: {
+						count: 1
+						id: "minecraft:glass"
+					}
+					type: "item"
+				}
+				{
+					id: "6BF940BBF4F3FB58"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [{
+				advancement: "ars_nouveau:source_jar"
+				criterion: ""
+				id: "3292C9C15F07239F"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["15F8D5D2CC6155B6"]
+			icon: {
+				id: "ars_nouveau:volcanic_sourcelink"
+			}
+			id: "5C4E2C7CD58646CE"
+			rewards: [
+				{
+					count: 8
+					id: "19EF380FC4286FEB"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7B8E43EEBB123409"
+					item: {
+						count: 1
+						id: "minecraft:coal_block"
+					}
+					type: "item"
+				}
+				{
+					id: "3EFBB1D733D7B743"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "61A63F47DF03E468"
+					item: { count: 1, id: "ars_nouveau:volcanic_sourcelink" }
+					type: "item"
+				}
+				{
+					id: "7092B8EEBDC98D7F"
+					item: { count: 1, id: "ars_nouveau:agronomic_sourcelink" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -0.75d
+		}
+		{
+			dependencies: [
+				"21F1F2E6D4356870"
+				"05D02313969E8967"
+			]
+			icon: {
+				id: "ars_nouveau:glyph_projectile"
+			}
+			id: "762F5A30278849C6"
+			rewards: [
+				{
+					count: 4
+					id: "0E14B253C0963F0E"
+					item: {
+						count: 1
+						id: "ars_nouveau:blank_parchment"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0C2841CC86C0F3DB"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
+					type: "item"
+				}
+				{
+					id: "7AC17A039DA71C19"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "537B9081FF64405E"
+					item: { count: 1, id: "ars_nouveau:glyph_projectile" }
+					type: "item"
+				}
+				{
+					id: "58257B3EC3BE23A1"
+					item: { count: 1, id: "ars_nouveau:glyph_break" }
+					type: "item"
+				}
+				{
+					id: "1D47AEFA812E46A3"
+					item: { count: 1, id: "ars_nouveau:glyph_harm" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["762F5A30278849C6"]
+			icon: {
+				id: "ars_nouveau:glyph_light"
+			}
+			id: "1FE4072CE5684CA8"
+			rewards: [
+				{
+					count: 8
+					id: "73ECA5B701B6093B"
+					item: {
+						count: 1
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "06F9DC6D65B438D4"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [
+				{
+					id: "0B4DBF03DB776F47"
+					item: { count: 1, id: "ars_nouveau:glyph_light" }
+					type: "item"
+				}
+				{
+					id: "3CBC55A383ABE896"
+					item: { count: 1, id: "ars_nouveau:glyph_leap" }
+					type: "item"
+				}
+				{
+					id: "625E5C7CD16D3BA2"
+					item: { count: 1, id: "ars_nouveau:glyph_heal" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["05D02313969E8967"]
+			icon: {
+				id: "ars_nouveau:magelight_torch"
+			}
+			id: "7B490B7F1FF4C2D9"
+			optional: true
+			rewards: [
+				{
+					count: 32
+					id: "31A0B67EA6FE9700"
+					item: {
+						count: 1
+						id: "ars_nouveau:sourcestone"
+					}
+					type: "item"
+				}
+				{
+					id: "3AC47E4D16E9506F"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [{
+				id: "5F3D6D916271E473"
+				item: { count: 1, id: "ars_nouveau:magelight_torch" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["05D02313969E8967"]
+			icon: {
+				id: "ars_nouveau:dowsing_rod"
+			}
+			id: "7D62DE475B7EDAF4"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "6512F4E9A90C6C8D"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
+					type: "item"
+				}
+				{
+					id: "725D4CD87A62AE51"
+					type: "xp"
+					xp: 15
+				}
+			]
+			tasks: [{
+				id: "73997CC8C0B955B6"
+				item: { count: 1, id: "ars_nouveau:dowsing_rod" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["05D02313969E8967"]
+			icon: {
+				id: "ars_nouveau:warp_scroll"
+			}
+			id: "291939FBD261934B"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "5265A3BBA51D292E"
+					item: {
+						count: 1
+						id: "waystones:warp_dust"
+					}
+					type: "item"
+				}
+				{
+					id: "3C8FF44375E3B057"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [{
+				advancement: "ars_nouveau:warp_scroll"
+				criterion: ""
+				id: "69BD9468EDD34BDC"
+				type: "advancement"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"5C4E2C7CD58646CE"
+				"1FE4072CE5684CA8"
+				"18416607A24CED78"
+				"0E96C8FFC7218B7E"
+			]
+			icon: {
+				id: "ars_nouveau:source_gem_block"
+			}
+			id: "5B37B35489169E9F"
+			rewards: [
+				{
+					count: 2
+					id: "5AD9FA1390680478"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem_block"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7CFBC336FEA88358"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "58623846DF8CA9D4"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "04F043189D46B0F8"
+				item: { count: 1, id: "ars_nouveau:source_gem" }
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+	]
+}

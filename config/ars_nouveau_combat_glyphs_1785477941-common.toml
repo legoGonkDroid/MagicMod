@@ -1,0 +1,5 @@
+[general]
+	#Mana refunded per damage dealt, scaled by the thread slot level (1/2/3). Formula: refund = damage * refund_rate * slot_level. Must be greater than 0.
+	# Default: 0.3
+	# Range: 0.0 ~ 100.0
+	refund_rate = 0.3

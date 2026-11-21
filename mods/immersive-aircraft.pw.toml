@@ -1,0 +1,29 @@
+filename = 'immersive_aircraft-neoforge-1.7.0+1.21.1.jar'
+name = 'Immersive Aircraft'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[NeoForge 1.21.1] Immersive Aircraft - 1.7.0'
+
+[download]
+hash = '5cf33cd634a88ec5728668bf13421645f11fbbe4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9224351
+project-id = 666014
+
+[[x-prismlauncher-dependencies]]
+addonId = '835847'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '621768'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '317269'
+type = 'OPTIONAL'

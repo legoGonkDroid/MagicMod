@@ -1,0 +1,537 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nether"
+	group: "4F280FD29EF0C5A6"
+	icon: {
+		id: "minecraft:netherrack"
+	}
+	id: "18E829F559BFDE60"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["33280491BB2AEAFB"]
+			icon: {
+				id: "minecraft:obsidian"
+			}
+			id: "5F3B1ED70B21C352"
+			rewards: [
+				{
+					count: 4
+					id: "12CF3EDE98D046AB"
+					item: {
+						count: 1
+						id: "minecraft:fire_charge"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "270CC3BDE63CAAC4"
+					item: {
+						count: 1
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "08537BFA20376BBA"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				advancement: "minecraft:story/enter_the_nether"
+				criterion: ""
+				id: "516D2C2E2FC98E4D"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F3B1ED70B21C352"]
+			icon: {
+				id: "minecraft:nether_bricks"
+			}
+			id: "67F9E26B331EC26A"
+			rewards: [
+				{
+					id: "4E62175111A6710D"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "42AA70A814ED914D"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:nether/find_fortress"
+				criterion: ""
+				id: "6B6426837E2071FE"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["67F9E26B331EC26A"]
+			icon: {
+				id: "minecraft:blaze_rod"
+			}
+			id: "6EEEC55B820F90E5"
+			rewards: [
+				{
+					count: 2
+					id: "20B8760CA497ECDD"
+					item: {
+						count: 1
+						id: "ars_nouveau:fire_essence"
+					}
+					type: "item"
+				}
+				{
+					id: "6ADC018189F70B8D"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "19815893F84A51D7"
+				item: { count: 1, id: "minecraft:blaze_rod" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5F3B1ED70B21C352"]
+			icon: {
+				id: "minecraft:gilded_blackstone"
+			}
+			id: "1D029F2E70F9C1A6"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "72955BB5F4520AB9"
+					item: {
+						count: 1
+						id: "minecraft:gold_block"
+					}
+					type: "item"
+				}
+				{
+					id: "7B57DDFF889C6C25"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:nether/find_bastion"
+				criterion: ""
+				id: "367E8D797D9ED4DD"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F3B1ED70B21C352"]
+			icon: {
+				id: "minecraft:ancient_debris"
+			}
+			id: "291A2E58A0CF9EBE"
+			rewards: [
+				{
+					count: 8
+					id: "2121E5DA0650054A"
+					item: {
+						count: 1
+						id: "minecraft:tnt"
+					}
+					type: "item"
+				}
+				{
+					id: "58735F2463BC0B69"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:nether/obtain_ancient_debris"
+				criterion: ""
+				id: "09BFB8328A75CD95"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["291A2E58A0CF9EBE"]
+			icon: {
+				id: "minecraft:netherite_ingot"
+			}
+			id: "451C61E5DEBA0BE7"
+			rewards: [
+				{
+					id: "568581B27198E7C8"
+					item: {
+						count: 1
+						id: "minecraft:netherite_upgrade_smithing_template"
+					}
+					type: "item"
+				}
+				{
+					id: "7FA281D2624B419B"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [{
+				id: "193E0C93B771AACA"
+				item: { count: 1, id: "minecraft:netherite_ingot" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6EEEC55B820F90E5"]
+			icon: {
+				id: "minecraft:brewing_stand"
+			}
+			id: "212F979C9F2C6602"
+			optional: true
+			rewards: [
+				{
+					count: 16
+					id: "2A3EF8441640554B"
+					item: {
+						count: 1
+						id: "minecraft:nether_wart"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "29ADA8D65366B1F2"
+					item: {
+						count: 1
+						id: "minecraft:glass_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "3D9E15551FFBAE0E"
+					type: "xp"
+					xp: 40
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:nether/brew_potion"
+				criterion: ""
+				id: "33FB416F7E733C30"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6EEEC55B820F90E5"]
+			icon: {
+				id: "cataclysm:flame_eye"
+			}
+			id: "0481426C1DC70ACB"
+			rewards: [
+				{
+					count: 2
+					id: "6232533C35F65F1B"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:long_fire_resistance"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+				{
+					id: "4F58A627C1AAA749"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [{
+				id: "01AE55CBDEF74810"
+				item: { count: 1, id: "cataclysm:flame_eye" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0481426C1DC70ACB"]
+			icon: {
+				id: "cataclysm:altar_of_fire"
+			}
+			id: "5CB07AD8CDB09297"
+			rewards: [
+				{
+					count: 2
+					id: "7EAE0395F2DD16A7"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "4020B6E5C7C34598"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [{
+				id: "6FCEF5667528737A"
+				structure: "cataclysm:burning_arena"
+				type: "structure"
+			}]
+			x: 8.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["5CB07AD8CDB09297"]
+			icon: {
+				id: "cataclysm:music_disc_ignis"
+			}
+			id: "4CC906EF71AE9DFE"
+			rewards: [
+				{
+					count: 2
+					id: "42F075B7A445039C"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+				{
+					id: "6D35C7DF270D0B05"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "0EBC0BE9CA43FB1E"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:ignis"
+				id: "323CAD237000CF5A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["451C61E5DEBA0BE7"]
+			icon: {
+				id: "cataclysm:monstrous_eye"
+			}
+			id: "6AA595CF37F5D0CF"
+			rewards: [
+				{
+					count: 2
+					id: "2EA398EABC86945A"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:long_fire_resistance"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+				{
+					id: "2682AC50E90EE229"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [{
+				id: "616149D429959D2F"
+				item: { count: 1, id: "cataclysm:monstrous_eye" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6AA595CF37F5D0CF"]
+			icon: {
+				id: "cataclysm:monstrous_horn"
+			}
+			id: "21F392894E85475B"
+			rewards: [
+				{
+					count: 2
+					id: "30E9B6F378754EB1"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "20AD4F40E3748BA2"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [{
+				id: "345D21ED53FCF1DE"
+				structure: "cataclysm:soul_black_smith"
+				type: "structure"
+			}]
+			x: 8.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["21F392894E85475B"]
+			icon: {
+				id: "cataclysm:music_disc_netherite_monstrosity"
+			}
+			id: "625F33B59B65C3D7"
+			rewards: [
+				{
+					id: "605A14DC36E71CE2"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "75CEBBB2D26C2BE9"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "4B47CBE8959F9F08"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				id: "72395E714D6B9BED"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["67F9E26B331EC26A"]
+			icon: {
+				id: "minecraft:bone"
+			}
+			id: "146514BFB9FE6A33"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "09BB0AD94D24BB42"
+					item: {
+						count: 1
+						id: "minecraft:bone_block"
+					}
+					type: "item"
+				}
+				{
+					id: "31ECDBC3C12F82EF"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:ignited_revenant"
+				id: "06C4D156832FEEF2"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"4CC906EF71AE9DFE"
+				"625F33B59B65C3D7"
+			]
+			icon: {
+				id: "minecraft:blaze_powder"
+			}
+			id: "54B4BDFB34BDCE24"
+			rewards: [
+				{
+					count: 8
+					id: "6B23DE28E0813EE3"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "22563D3D5A66718C"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "7929F0F20E3B9C12"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "575122897DB53E1C"
+				item: { count: 1, id: "minecraft:blaze_rod" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+	]
+}

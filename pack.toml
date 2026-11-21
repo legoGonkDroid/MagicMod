@@ -1,0 +1,13 @@
+name = "MagicMod"
+author = "jarroyer"
+version = "0.1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "7c3dccf3e407cbae601cf4f0220b4e353eacf65d8092b1faedb39568b11b1ed2"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.267"

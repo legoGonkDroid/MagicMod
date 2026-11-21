@@ -1,0 +1,1396 @@
+{
+	chapter.0571A4BA7FBD32AA.chapter_subtitle: ["Build a proper workshop."]
+	chapter.0571A4BA7FBD32AA.title: "Arcane Infrastructure"
+	chapter.085E9076B13CEE29.chapter_subtitle: ["Better spells, mage armour, and the Wilden Chimera."]
+	chapter.085E9076B13CEE29.title: "Apprentice Arcanist"
+	chapter.0EDD8C97E938B26E.chapter_subtitle: ["Source, glyphs and the first tools of a mage."]
+	chapter.0EDD8C97E938B26E.title: "Novice Mage"
+	chapter.0F8457B1E19AEECC.chapter_subtitle: ["Five ancient horrors guard the way to the End."]
+	chapter.0F8457B1E19AEECC.title: "Ancient Threats"
+	chapter.18E829F559BFDE60.chapter_subtitle: ["Fire, fortresses, and two Cataclysm bosses."]
+	chapter.18E829F559BFDE60.title: "Into the Nether"
+	chapter.234B481C14C48B0F.chapter_subtitle: ["Catalogue the strange creatures of this world."]
+	chapter.234B481C14C48B0F.title: "Bestiary"
+	chapter.25BCA6FD3BEEF7EF.chapter_subtitle: ["Found an Archwood colony with MineColonies."]
+	chapter.25BCA6FD3BEEF7EF.title: "Colonies"
+	chapter.2C39066EEAC0E894.chapter_subtitle: ["Food, storage, and comforts of home."]
+	chapter.2C39066EEAC0E894.title: "Homestead"
+	chapter.2DA16B45A587F2FD.chapter_subtitle: ["Collect every music disc."]
+	chapter.2DA16B45A587F2FD.title: "Music Discs"
+	chapter.348A0D3791AEEFA3.chapter_subtitle: ["Slay the Ender Dragon, then face what waits beyond."]
+	chapter.348A0D3791AEEFA3.title: "The End"
+	chapter.36B2FB7AD29625FE.chapter_subtitle: ["Reach the height of Ars Nouveau magic."]
+	chapter.36B2FB7AD29625FE.title: "Archmage"
+	chapter.437F09FD80AB7B28.chapter_subtitle: ["See the world: biomes, dungeons, and wonders."]
+	chapter.437F09FD80AB7B28.title: "Exploration"
+	chapter.5402FC1CA514E906.chapter_subtitle: ["Unique items from every corner of the world."]
+	chapter.5402FC1CA514E906.title: "Relics & Treasures"
+	chapter.59ABA17E7E8E86A8.chapter_subtitle: ["Your first steps toward becoming an Archmage."]
+	chapter.59ABA17E7E8E86A8.title: "Welcome to MagicMod"
+	chapter.63E15E0E2B711266.chapter_subtitle: ["Bind a companion from every magical species."]
+	chapter.63E15E0E2B711266.title: "Familiars"
+	chapter.7FFF3F79EEF72F60.chapter_subtitle: ["The many add-ons to Ars Nouveau."]
+	chapter.7FFF3F79EEF72F60.title: "Ars Expansions"
+	chapter_group.0A002B5076C58111.title: "Codex & Collections"
+	chapter_group.4F280FD29EF0C5A6.title: "The Journey"
+	quest.0010B1D6395BDFD4.quest_desc: [
+		"&bArs Elemancy&r combines two elements into a hybrid school. Tempest is one of them."
+	]
+	quest.0010B1D6395BDFD4.title: "Tempest Essence"
+	quest.0011998919F201C6.quest_desc: ["Every item in &6Ars Trinkets&r."]
+	quest.0011998919F201C6.title: "Ars Trinkets"
+	quest.00136B4CEC5B8F1C.quest_desc: ["The fire school's mage armour."]
+	quest.00136B4CEC5B8F1C.title: "Fire Robes"
+	quest.00BECAEF41F3C4E6.quest_desc: ["Build a &6Fisherman&r hut."]
+	quest.00BECAEF41F3C4E6.title: "Fisherman"
+	quest.00EDDF435BB9D876.quest_desc: ["Stack upgrades multiply how many items fit in each slot."]
+	quest.00EDDF435BB9D876.title: "Stack Upgrade"
+	quest.0141E5FE304EBFA6.quest_desc: [
+		"&bArs Elemancy&r combines two elements into a hybrid school. Lava is one of them."
+	]
+	quest.0141E5FE304EBFA6.title: "Lava Essence"
+	quest.019E0FBD0EA26623.quest_desc: ["Look at a &bShadowbuncle&r."]
+	quest.019E0FBD0EA26623.title: "Shadowbuncle"
+	quest.024B70493C434823.quest_desc: ["You have seen every creature in &6Creatures of Ars Elemental&r."]
+	quest.024B70493C434823.title: "Creatures of Ars Elemental"
+	quest.028135C4F99230EB.quest_desc: [
+		"Bind a &dStarbuncle&r. Summon one from its &6Starbuncle Charm&r first."
+		""
+		"Each familiar grants a different bonus; see the Worn Notebook."
+	]
+	quest.028135C4F99230EB.title: "Starbuncle Familiar"
+	quest.02D38E528014C510.quest_desc: ["Look at a &bSeasprig&r."]
+	quest.02D38E528014C510.title: "Seasprig"
+	quest.02DA498EA9B0E907.quest_desc: ["&bArs Zero&r adds spell staves that cast continuous and multi-phase spells."]
+	quest.02DA498EA9B0E907.title: "Novice Spell Staff"
+	quest.0318F0640DC57F53.title: "Music Disc"
+	quest.038423391688E885.quest_desc: ["Violetgold gear from Ars Violetgold Equipment."]
+	quest.038423391688E885.title: "Violetgold Ring of Discount"
+	quest.03BB98C08B4CBF81.quest_desc: ["Visit a &aVexing Caves&r biome."]
+	quest.03BB98C08B4CBF81.title: "Vexing Caves"
+	quest.03C2583BFDE19630.quest_desc: ["Signature weapons and gear forged from Cataclysm boss drops."]
+	quest.03C2583BFDE19630.title: "Infernal Forge"
+	quest.046131EBA9392223.quest_desc: ["Magical relics themed around Ars Nouveau, found in loot or crafted (check EMI)."]
+	quest.046131EBA9392223.title: "Horn of the Wild Hunter"
+	quest.04701C34862DD9D6.quest_desc: [
+		"Relics are found in loot chests all over the world. They level up as you use them."
+	]
+	quest.04701C34862DD9D6.title: "Hunting Belt"
+	quest.0481426C1DC70ACB.quest_desc: [
+		"Obtain an &6Eye of Flame&r (check EMI). Throw it like an Eye of Ender and it leads you to the &cBurning Arena&r."
+	]
+	quest.0481426C1DC70ACB.title: "Eye of Flame"
+	quest.04AF310DBBD1A011.quest_desc: [
+		"The &dRitual of Flight&r grants creative-style flight to nearby players while it runs. A huge help for building."
+	]
+	quest.04AF310DBBD1A011.title: "Ritual of Flight"
+	quest.04CF6B9F65BDD1C9.quest_desc: ["Signature weapons and gear forged from Cataclysm boss drops."]
+	quest.04CF6B9F65BDD1C9.title: "Astrape"
+	quest.04F6248117437E68.quest_desc: ["Obtain an &6Eye of Curse&r. Throw it to point toward the Frosted Prison."]
+	quest.04F6248117437E68.title: "Eye of Curse"
+	quest.0527639780A4D4DB.quest_desc: ["Signature weapons and gear forged from Cataclysm boss drops."]
+	quest.0527639780A4D4DB.title: "Final Fractal"
+	quest.059D52720152DFA8.quest_desc: ["Visit a &aSnowblossom Grove&r biome."]
+	quest.059D52720152DFA8.title: "Snowblossom Grove"
+	quest.059E5DF517A07FE2.quest_desc: ["Powerful trinkets from Ars Trinkets. Check EMI for how to make each."]
+	quest.059E5DF517A07FE2.title: "Human's Heart"
+	quest.05A4D8EDC1D2899E.quest_desc: ["Find the &6Mechanical Nest&r. Use a Wayfinder (Ars Additions) or explore."]
+	quest.05A4D8EDC1D2899E.title: "Mechanical Nest"
+	quest.05D02313969E8967.quest_desc: ["Source Gems are needed for nearly everything. Keep the chamber busy."]
+	quest.05D02313969E8967.title: "Source Gems"
+	quest.05F9BE71C1803F32.title: "Music Disc"
+	quest.0627D30BAE62E76D.quest_desc: ["Fry food on a stove, or hit mobs with it."]
+	quest.0627D30BAE62E76D.title: "Skillet"
+	quest.0650B9A7FE357A9E.quest_desc: ["Signature weapons and gear forged from Cataclysm boss drops."]
+	quest.0650B9A7FE357A9E.title: "Void Assault Shoulder Weapon"
+	quest.06F5B7B95888F941.quest_desc: [
+		"&bArs Artillery&r adds elemental turrets that defend an area. This one asks for a fire turret; any element is fine for your base."
+	]
+	quest.06F5B7B95888F941.title: "Turret Crate"
+	quest.0795821FA062D1F1.quest_desc: ["Magical relics themed around Ars Nouveau, found in loot or crafted (check EMI)."]
+	quest.0795821FA062D1F1.title: "Ring of Last Will"
+	quest.07BB68C27288814B.quest_desc: ["Find the &cAcropolis&r."]
+	quest.07BB68C27288814B.title: "Acropolis"
+	quest.07FFE4E99B5D0A3D.quest_desc: [
+		"Craft a &bSophisticated Backpack&r. Place it, or open it with the backpack key, for extra storage."
+		""
+		"Upgrades add auto-pickup, magnets, feeding, and much more."
+	]
+	quest.07FFE4E99B5D0A3D.title: "Pack Your Bags"
+	quest.083D2660206105A4.quest_desc: ["The clipboard lists every open request from your citizens."]
+	quest.083D2660206105A4.title: "Clipboard"
+	quest.0856CA332FD03E37.quest_desc: ["Look at a &bChefbuncle&r."]
+	quest.0856CA332FD03E37.title: "Chefbuncle"
+	quest.0866C1882A463E90.quest_desc: ["There is little left that you haven't seen."]
+	quest.0866C1882A463E90.quest_subtitle: "Collection complete"
+	quest.0866C1882A463E90.title: "World Explorer"
+	quest.096CE349218E4340.quest_desc: ["Loot chests in this pack are per-player (&bLootr&r). Open 10 of them."]
+	quest.096CE349218E4340.title: "Lootr"
+	quest.0A39E5A615194978.quest_desc: ["Build a &6Blacksmith&r hut."]
+	quest.0A39E5A615194978.title: "Blacksmith"
+	quest.0A5267BC32384A85.title: "Music Disc"
+	quest.0AA9D64C096EFE5D.quest_desc: [
+		"Every mage needs a comfortable base. These quests cover cooking, storage and other handy mods. Everything here is optional."
+		""
+		"Tip: &eCarry On&r lets you pick up chests and animals: shift + right-click with an empty hand."
+	]
+	quest.0AA9D64C096EFE5D.title: "Home Sweet Home"
+	quest.0B05F0408FBB04B0.quest_desc: ["Visit a &aFlashing Archwood Forest&r biome."]
+	quest.0B05F0408FBB04B0.title: "Flashing Archwood Forest"
+	quest.0B1F42180D6C711D.quest_desc: [
+		"Find an elytra on an End Ship. (The dragon already gave you one, but a spare never hurts.)"
+	]
+	quest.0B1F42180D6C711D.title: "Wings"
+	quest.0B2473CBA51ABA8C.quest_desc: [
+		"You arrived with a &dNovice Spell Book&r. It is the heart of Ars Nouveau magic."
+		""
+		"Hold it and press &eC&r to open the spell crafting screen. Combine a &aForm&r (how the spell is cast) with &aEffects&r (what it does)."
+		""
+		"Lost it? It can be crafted. Check EMI."
+	]
+	quest.0B2473CBA51ABA8C.title: "A Book of Spells"
+	quest.0B75C918042A1BBE.quest_desc: [
+		"Relics are found in loot chests all over the world. They level up as you use them."
+	]
+	quest.0B75C918042A1BBE.title: "Pet Bone"
+	quest.0B8D4CD1DC40F45A.quest_desc: [
+		"&bArs Elemancy&r combines two elements into a hybrid school. Vapor is one of them."
+	]
+	quest.0B8D4CD1DC40F45A.title: "Vapor Essence"
+	quest.0BD9BAA6E8BAD39D.title: "Ambience Disc"
+	quest.0C5E5CB2B626B9C9.quest_desc: [
+		"&bSophisticated Storage&r chests and barrels can be upgraded in tier and given upgrades."
+	]
+	quest.0C5E5CB2B626B9C9.title: "Sophisticated Storage"
+	quest.0D0C6CE3052F5D2D.quest_desc: [
+		"A cursed warrior spirit in a frozen prison. It leaps and rains phantom halberds; dodge sideways."
+	]
+	quest.0D0C6CE3052F5D2D.quest_subtitle: "Boss"
+	quest.0D0C6CE3052F5D2D.title: "Maledictus"
+	quest.0D3EBED06BBE12BF.quest_desc: ["Every disc from &6Vanilla Discs&r."]
+	quest.0D3EBED06BBE12BF.title: "Vanilla Discs"
+	quest.0D4644813C2958EE.quest_desc: [
+		"The item list on the right side of your inventory is &bEMI&r."
+		""
+		"&eR&r on an item shows how to craft it, &eU&r shows what it is used for."
+		"Look at a block in the world and &bJade&r tells you what it is and which mod adds it."
+		""
+		"The vanilla recipe book is disabled outside creative mode. Use EMI instead."
+	]
+	quest.0D4644813C2958EE.title: "Looking Things Up"
+	quest.0D8A816DA41F7962.quest_desc: ["Visit a &aMystic Grove&r biome."]
+	quest.0D8A816DA41F7962.title: "Mystic Grove"
+	quest.0D9750BC039C3B72.quest_desc: [
+		"Archwood is the building material of Ars Nouveau. Every colour of archwood log makes the same planks."
+	]
+	quest.0D9750BC039C3B72.title: "Archwood Planks"
+	quest.0DB900E99D35E2C8.quest_desc: ["Powerful trinkets from Ars Trinkets. Check EMI for how to make each."]
+	quest.0DB900E99D35E2C8.title: "Purple Mana Limitless Ring"
+	quest.0DD2A04B795C4D93.quest_desc: ["Powerful trinkets from Ars Trinkets. Check EMI for how to make each."]
+	quest.0DD2A04B795C4D93.title: "Heart of Blasphemy"
+	quest.0E1829C46F55F9E8.quest_desc: ["Eat every kind of vanilla food."]
+	quest.0E1829C46F55F9E8.title: "A Balanced Diet"
+	quest.0E2D87E019D366CD.quest_desc: ["Rich soil makes crops grow faster and turns mushrooms into colonies."]
+	quest.0E2D87E019D366CD.title: "Rich Soil"
+	quest.0E5EC7B8E869E926.quest_desc: ["Look at a &bFlashjack&r."]
+	quest.0E5EC7B8E869E926.title: "Flashjack"
+	quest.0E96C8FFC7218B7E.quest_desc: [
+		"Plant &dMagebloom&r and harvest it. Its fiber is used for mage armour, threads and blank parchment."
+	]
+	quest.0E96C8FFC7218B7E.title: "Magebloom"
+	quest.0F1E47952E9CE18C.quest_desc: [
+		"Bind a &dWixie&r. Summon one from its &6Wixie Charm&r first."
+		""
+		"Each familiar grants a different bonus; see the Worn Notebook."
+	]
+	quest.0F1E47952E9CE18C.title: "Wixie Familiar"
+	quest.0F3ADFD142EF50EC.quest_desc: ["Powerful trinkets from Ars Trinkets. Check EMI for how to make each."]
+	quest.0F3ADFD142EF50EC.title: "Eternity Rune"
+	quest.0F6104D59BC79A1E.quest_desc: ["Every disc from &6Ars Nouveau&r."]
+	quest.0F6104D59BC79A1E.title: "Ars Nouveau"
+	quest.0F8A45E36902A134.quest_desc: [
+		"Light armour focused on mana. Each set has a different stat profile; crafting any one set completes the next quest."
+	]
+	quest.0F8A45E36902A134.title: "Sorcerer Robes"
+	quest.0F8F72EB9ED847C2.quest_desc: ["Points the way to a chosen structure."]
+	quest.0F8F72EB9ED847C2.title: "Wayfinder"
+	quest.0FCFE593E476E122.quest_desc: ["You have seen every creature in &6Creatures of Ars Nouveau&r."]
+	quest.0FCFE593E476E122.title: "Creatures of Ars Nouveau"
+	quest.0FDD3749B5053F88.quest_desc: ["Signature weapons and gear forged from Cataclysm boss drops."]
+	quest.0FDD3749B5053F88.title: "Monstrous Helm"
+	quest.0FE252D0DAFDA5BE.quest_desc: [
+		"This pack has many Ars Nouveau add-ons. Each row here explores one of them. Most need the matching Ars Nouveau progress first; EMI shows every recipe."
+	]
+	quest.0FE252D0DAFDA5BE.title: "Beyond Ars Nouveau"
+	quest.1017CD026C100140.quest_desc: ["Upgrade a placed chest or barrel without emptying it."]
+	quest.1017CD026C100140.title: "Tier Upgrade"
+	quest.1133AAAF20C04E2B.title: "Music Disc"
+	quest.114E56F0DF426423.quest_desc: [
+		"Every quest here only asks you to &elook at&r a creature: aim your crosshair at it and the task completes. No need to fight anything."
+		""
+		"A spyglass helps for creatures far away."
+	]
+	quest.114E56F0DF426423.title: "The Bestiary"
+	quest.11934F5B4C409A3C.quest_desc: ["Defeat the Lich that rules the Necropolis."]
+	quest.11934F5B4C409A3C.title: "The Lich"
+	quest.11E8B6A8FB49C98C.quest_desc: [
+		"&dRelays&r move source between jars over a distance. Link them with a &dDominion Wand&r."
+	]
+	quest.11E8B6A8FB49C98C.title: "Source Relays"
+	quest.12A631DB684183E8.quest_desc: [
+		"Upgrade to the &dArchmage Spell Book&r in the Enchanting Apparatus. It holds the most spells and unlocks tier 3 glyphs."
+	]
+	quest.12A631DB684183E8.title: "Archmage Spell Book"
+	quest.12E410E912DAE42B.quest_desc: ["Signature weapons and gear forged from Cataclysm boss drops."]
+	quest.12E410E912DAE42B.title: "Gauntlet of Maelstrom"
+	quest.12F9739B94BAD14D.quest_desc: [
+		"Upgrade your book in the Enchanting Apparatus. The &dApprentice Spell Book&r holds more spells and lets you learn tier 2 glyphs."
+	]
+	quest.12F9739B94BAD14D.title: "Apprentice Spell Book"
+	quest.1308FF5D4E0ACEE0.quest_desc: ["Cast spells without a book in hand."]
+	quest.1308FF5D4E0ACEE0.title: "Psion's Circlet"
+	quest.134AD9BF431E5B2F.quest_desc: ["A controller links nearby storage into one inventory."]
+	quest.134AD9BF431E5B2F.title: "Storage Controller"
+	quest.13B10A2BDE304751.quest_desc: ["&bFarmer's Delight&r: knives cut crops and harvest straw from grass."]
+	quest.13B10A2BDE304751.title: "Kitchen Knife"
+	quest.13CC3BB1585909E5.title: "Music Disc"
+	quest.13CFAC4C810F1E92.quest_desc: ["Visit a &aCrystalline Chasm&r biome."]
+	quest.13CFAC4C810F1E92.title: "Crystalline Chasm"
+	quest.13E82652CA594670.quest_desc: ["Find the &6Mystic Village&r. Use a Wayfinder (Ars Additions) or explore."]
+	quest.13E82652CA594670.title: "Mystic Village"
+	quest.13F0BB055AF70A1C.quest_desc: ["A bigger backpack with more upgrade slots."]
+	quest.13F0BB055AF70A1C.title: "Diamond Backpack"
+	quest.14313733D8DFE7F0.quest_desc: ["Look at a &bFaebuncle&r."]
+	quest.14313733D8DFE7F0.title: "Faebuncle"
+	quest.146514BFB9FE6A33.quest_desc: ["An optional mini-boss that guards Cataclysm Nether structures."]
+	quest.146514BFB9FE6A33.title: "Ignited Revenant"
+	quest.14E5B135384EA44E.quest_desc: ["Find the Ruined Citadel. The &5Ender Guardian&r sleeps within."]
+	quest.14E5B135384EA44E.title: "The Ruined Citadel"
+	quest.151045886BEF9BF0.quest_desc: ["Magical relics themed around Ars Nouveau, found in loot or crafted (check EMI)."]
+	quest.151045886BEF9BF0.title: "Wing of the Wild Stalker"
+	quest.151102FF9D6BE0D4.quest_desc: ["Look at a &bWilden Stalker&r."]
+	quest.151102FF9D6BE0D4.title: "Wilden Stalker"
+	quest.15A3C96C1B7BD016.quest_desc: ["Upgrade the Town Hall to level 5: your colony is complete."]
+	quest.15A3C96C1B7BD016.quest_subtitle: "Collection complete"
+	quest.15A3C96C1B7BD016.title: "Seat of Power"
+	quest.15F8D5D2CC6155B6.quest_desc: ["&dSource Jars&r store source. Devices nearby draw from them automatically."]
+	quest.15F8D5D2CC6155B6.title: "Source Jar"
+	quest.1605D4D69480B201.quest_desc: [
+		"The &dArcane Core&r is the base of the Enchanting Apparatus. Craft one to begin."
+	]
+	quest.1605D4D69480B201.title: "The Arcane Core"
+	quest.160A2087324C23F0.quest_desc: [
+		"Obtain an &6Eye of Void&r (check EMI). It leads to the &cRuined Citadel&r, found only in the End Highlands and Midlands."
+	]
+	quest.160A2087324C23F0.title: "Eye of Void"
+	quest.1625C2D726F782C5.quest_desc: [
+		"Relics are found in loot chests all over the world. They level up as you use them."
+	]
+	quest.1625C2D726F782C5.title: "Clot of Time"
+	quest.16265B06EC9CED50.quest_desc: ["Signature weapons and gear forged from Cataclysm boss drops."]
+	quest.16265B06EC9CED50.title: "Ceraunus"
+	quest.165DDC838BF685B8.quest_desc: [
+		"&bQuark&r adds many small features. The trowel places random blocks from your hotbar."
+	]
+	quest.165DDC838BF685B8.title: "Quark"
+	quest.166BE45650C4CB90.quest_desc: [
+		"Place a ritual tablet on the &dRitual Brazier&r to start a ritual. Some rituals take items as augments."
+	]
+	quest.166BE45650C4CB90.title: "Ritual Brazier"
+	quest.169862A858888433.quest_desc: ["Find the &6A Warm Tavern&r. Use a Wayfinder (Ars Additions) or explore."]
+	quest.169862A858888433.title: "A Warm Tavern"
+	quest.1711FF4789FEEE5E.quest_desc: ["Look at a &bBookwyrm&r."]
+	quest.1711FF4789FEEE5E.title: "Bookwyrm"
+	quest.171DDCEBD97E32E7.title: "Music Disc"
+	quest.17A2250BA62FE4E3.title: "Music Disc"
+	quest.17CA64F98FF9657E.quest_desc: [
+		"Relics are found in loot chests all over the world. They level up as you use them."
+	]
+	quest.17CA64F98FF9657E.title: "Chef's Hat"
+	quest.17D50557BBE6CF28.title: "Music Disc"
+	quest.18316BCC92F0803A.quest_desc: ["Look at a &bWilden Hunter&r."]
+	quest.18316BCC92F0803A.title: "Wilden Hunter"
+	quest.18416607A24CED78.quest_desc: [
+		"Sourceberries grow in Archwood Forests. Eating them restores mana, and they are a fuel for some sourcelinks."
+	]
+	quest.18416607A24CED78.title: "Sourceberries"
+	quest.184B019B556AA2D9.quest_desc: ["Find the &6Keep Kayra&r. Use a Wayfinder (Ars Additions) or explore."]
+	quest.184B019B556AA2D9.title: "Keep Kayra"
+	quest.1868E1D6CBCFC639.quest_desc: ["Signature weapons and gear forged from Cataclysm boss drops."]
+	quest.1868E1D6CBCFC639.title: "Ignitium Helmet"
+	quest.1879F23453B8E00E.quest_desc: ["Magical relics themed around Ars Nouveau, found in loot or crafted (check EMI)."]
+	quest.1879F23453B8E00E.title: "Archmage Glove"
+	quest.189B74E52F5CC453.title: "Music Disc"
+	quest.18A84A750EB3E150.quest_desc: ["Look at a &bPyrobuncle&r."]
+	quest.18A84A750EB3E150.title: "Pyrobuncle"
+	quest.19023612F3F73F25.title: "Music Disc"
+	quest.19062D6AEE2655D0.quest_desc: ["Spoils from the Thunderous Tower and its Deviser."]
+	quest.19062D6AEE2655D0.title: "Soul Of Thunder"
+	quest.19919BEDB5AF98F5.quest_desc: ["Find the &cAncient Factory&r."]
+	quest.19919BEDB5AF98F5.title: "Ancient Factory"
+	quest.19A3111EF6C0B792.quest_desc: ["Build a &6Cook&r hut."]
+	quest.19A3111EF6C0B792.title: "Cook"
+	quest.1A308D03BFECB39C.title: "Music Disc"
+	quest.1A3D104AB991F105.quest_desc: ["Warp plates send anything standing on them to a paired plate."]
+	quest.1A3D104AB991F105.title: "Warp Plate"
+	quest.1A480FE2173077B9.quest_desc: [
+		"Relics are found in loot chests all over the world. They level up as you use them."
+	]
+	quest.1A480FE2173077B9.title: "Springy Boot"
+	quest.1A5A859E9C90EF1E.quest_desc: [
+		"Armor stands are more useful here:"
+		""
+		"&eSneak + right-click with an empty hand&r opens the &bArmor Statues&r menu to pose and equip the stand."
+		"&eSneak + right-click while holding an item&r swaps your armor with the stand's."
+	]
+	quest.1A5A859E9C90EF1E.title: "Statues and Swaps"
+	quest.1A79B721FE6CBBC2.quest_desc: ["Every item in &6Greatest Discount&r."]
+	quest.1A79B721FE6CBBC2.title: "Greatest Discount"
+	quest.1AAD8BF0B2A4D119.quest_desc: ["Powerful trinkets from Ars Trinkets. Check EMI for how to make each."]
+	quest.1AAD8BF0B2A4D119.title: "Greater Arcane Rune"
+	quest.1B02BE149BA254A9.quest_desc: ["Build a &6Tavern&r hut."]
+	quest.1B02BE149BA254A9.title: "Tavern"
+	quest.1B16E0942069D44D.title: "Music Disc"
+	quest.1B4348885AE97924.quest_desc: ["Build a &6Mystical Site&r hut."]
+	quest.1B4348885AE97924.title: "Mystical Site"
+	quest.1B49F5046D7011B9.quest_desc: ["Violetgold gear from Ars Violetgold Equipment."]
+	quest.1B49F5046D7011B9.title: "Violetgold Boots"
+	quest.1B6199B1C59DDC18.quest_desc: ["Violetgold gear from Ars Violetgold Equipment."]
+	quest.1B6199B1C59DDC18.title: "Violetgold Runic Blade"
+	quest.1BB648DB56C39EC4.quest_desc: ["Stalkers leap at you from above. They drop &dWilden Wings&r."]
+	quest.1BB648DB56C39EC4.title: "Wilden Stalker"
+	quest.1C2810CE60616090.quest_desc: ["Magical relics themed around Ars Nouveau, found in loot or crafted (check EMI)."]
+	quest.1C2810CE60616090.title: "Emblem of Defense"
+	quest.1C60806349525130.quest_desc: ["Magical relics themed around Ars Nouveau, found in loot or crafted (check EMI)."]
+	quest.1C60806349525130.title: "Quantum Bubble"
+	quest.1C92FFC6226C0549.quest_desc: [
+		"Relics are found in loot chests all over the world. They level up as you use them."
+	]
+	quest.1C92FFC6226C0549.title: "Ghostly Mantle"
+	quest.1CD87AF98D579DC1.quest_desc: [
+		"Essences are imbued in the Imbuement Chamber. &dWater Essence&r unlocks water glyphs and items."
+	]
+	quest.1CD87AF98D579DC1.title: "Water Essence"
+	quest.1D029F2E70F9C1A6.quest_desc: ["Bastions are full of loot and piglin brutes. Be careful."]
+	quest.1D029F2E70F9C1A6.title: "Bastion Remnant"
+	quest.1D26E3D6E92E0E01.quest_desc: ["Throw an Eye of Ender and follow it to a stronghold."]
+	quest.1D26E3D6E92E0E01.title: "Follow the Eye"
+	quest.1D4D545BAF00D54E.quest_desc: [
+		"Essences are imbued in the Imbuement Chamber. &dEarth Essence&r unlocks earth glyphs and items."
+	]
+	quest.1D4D545BAF00D54E.title: "Earth Essence"
+	quest.1DB3802D664C10BF.quest_desc: ["Find the &6Drygmy Pens&r. Use a Wayfinder (Ars Additions) or explore."]
+	quest.1DB3802D664C10BF.title: "Drygmy Pens"
+	quest.1DD0D07EB665C37D.quest_desc: [
+		"Relics are found in loot chests all over the world. They level up as you use them."
+	]
+	quest.1DD0D07EB665C37D.title: "Golden Tooth"
+	quest.1DE836D13296045F.quest_desc: [
+		"Relics are found in loot chests all over the world. They level up as you use them."
+	]
+	quest.1DE836D13296045F.title: "Midnight Mantle"
+	quest.1DF68D0E8441B901.quest_desc: ["Look at a &bForgotten&r."]
+	quest.1DF68D0E8441B901.title: "Forgotten"
+	quest.1E35004D61FD2837.quest_desc: ["Build a &6Farmer&r hut."]
+	quest.1E35004D61FD2837.title: "Farmer"
+	quest.1E60A1EC6814780F.quest_desc: ["Defeat &cThe Lich&r. A dangerous foe found in this pack's dungeons."]
+	quest.1E60A1EC6814780F.title: "The Lich"
+	quest.1E79250F725387A7.quest_desc: [
+		"Essences are imbued in the Imbuement Chamber. &dConjuration Essence&r unlocks conjuration glyphs and items."
+	]
+	quest.1E79250F725387A7.title: "Conjuration Essence"
+	quest.1F066F44BD830294.quest_desc: ["Defenders curl up into spiked balls. They drop &dWilden Spikes&r."]
+	quest.1F066F44BD830294.title: "Wilden Defender"
+	quest.1F06BE7F2A651B5A.quest_desc: ["Look at a &bAlakarkinos&r."]
+	quest.1F06BE7F2A651B5A.title: "Alakarkinos"
+	quest.1F9E55993D947C93.title: "Music Disc"
+	quest.1FAC4E4B6A8BEF47.quest_desc: ["The Leviathan is summoned with an &6Abyssal Sacrifice&r at the Altar of Abyss."]
+	quest.1FAC4E4B6A8BEF47.title: "Abyssal Sacrifice"
+	quest.1FE4072CE5684CA8.quest_desc: [
+		"Light, Leap and Heal make survival much easier. Try Self + Heal, or Touch + Light."
+	]
+	quest.1FE4072CE5684CA8.title: "Useful Magic"
+	quest.206700F5E175A9D7.quest_desc: ["Signature weapons and gear forged from Cataclysm boss drops."]
+	quest.206700F5E175A9D7.title: "Gauntlet of Guard"
+	quest.206A89D716A9547F.quest_desc: [
+		"A wither-like war machine buried underground. It fires missiles and lasers; fight it in the open chamber and keep moving."
+	]
+	quest.206A89D716A9547F.quest_subtitle: "Boss"
+	quest.206A89D716A9547F.title: "The Harbinger"
+	quest.20905454197202DF.quest_desc: ["Violetgold gear from Ars Violetgold Equipment."]
+	quest.20905454197202DF.title: "Violetgold Helmet"
+	quest.20A5CD4438292C00.quest_desc: ["The water school's mage armour."]
+	quest.20A5CD4438292C00.title: "Aqua Robes"
+	quest.20A6DDC2978CAC14.quest_desc: [
+		"&dSpell Power&r and &dMagic Capacity&r threads are two of the most useful. Socket them at the Alteration Table."
+	]
+	quest.20A6DDC2978CAC14.title: "Threads of Power"
+	quest.20C32DFE6F984FEF.quest_desc: ["Look at a &bCloudbuncle&r."]
+	quest.20C32DFE6F984FEF.title: "Cloudbuncle"
+	quest.20C80E26E5994CAD.quest_desc: ["Find the &6Bookwyrm Library&r. Use a Wayfinder (Ars Additions) or explore."]
+	quest.20C80E26E5994CAD.title: "Bookwyrm Library"
+	quest.212F979C9F2C6602.quest_desc: ["Fire resistance potions make the Nether and its bosses much safer."]
+	quest.212F979C9F2C6602.title: "Brewing"
+	quest.214002E38C9ABFB4.quest_desc: ["The earth school's mage armour."]
+	quest.214002E38C9ABFB4.title: "Earth Robes"
+	quest.2161222425066A52.title: "Music Disc"
+	quest.217C5C4E77E3972B.quest_desc: ["Look at a &bFrostbuncle&r."]
+	quest.217C5C4E77E3972B.title: "Frostbuncle"
+	quest.21F1F2E6D4356870.quest_desc: [
+		"Glyphs are crafted at a &dScribe's Table&r. Right-click it with your spell book to open the glyph list, then place the ingredients on the table."
+	]
+	quest.21F1F2E6D4356870.title: "Scribe's Table"
+	quest.21F392894E85475B.quest_desc: ["Find the Soul Blacksmith, a ruined forge in the Nether."]
+	quest.21F392894E85475B.title: "The Soul Blacksmith"
+	quest.222080DBAC7454FE.quest_desc: ["Visit a &aBlazing Archwood Forest&r biome."]
+	quest.222080DBAC7454FE.title: "Blazing Archwood Forest"
+	quest.2287D6533206131A.quest_desc: ["Signature weapons and gear forged from Cataclysm boss drops."]
+	quest.2287D6533206131A.title: "The Annihilator"
+	quest.22C71BAE96D84902.quest_desc: [
+		"This quest book will guide you from your first spell to the defeat of the Ender Dragon."
+		""
+		"Chapters in &6The Journey&r unlock one after another. Chapters in &bCodex & Collections&r are open from the start: familiars, bestiary, music discs, relics, exploration and more."
+		""
+		"Click the checkmark to begin."
+	]
+	quest.22C71BAE96D84902.quest_subtitle: "The Path of the Archmage begins here."
+	quest.22C71BAE96D84902.title: "Welcome, Apprentice"
+	quest.22E24C1B33BC8C32.quest_desc: ["Find the &6Whirlisprig Clearing&r. Use a Wayfinder (Ars Additions) or explore."]
+	quest.22E24C1B33BC8C32.title: "Whirlisprig Clearing"
+	quest.23163383E5AF04BA.title: "Music Disc"
+	quest.2321AE2AE2AD1E96.quest_desc: [
+		"A catalogue of the rarest items in the pack: relics, trinkets, and boss weapons."
+		""
+		"Items are only checked, never taken. &eLootr&r chests mean every player gets their own loot."
+	]
+	quest.2321AE2AE2AD1E96.title: "Treasure Hunter"
+	quest.2321C1B02FF9EB17.quest_desc: [
+		"Relics are found in loot chests all over the world. They level up as you use them."
+	]
+	quest.2321C1B02FF9EB17.title: "Cut Glass Boot"
+	quest.2345BFD12F4FA1C9.quest_desc: ["Dress up a starbuncle. Purely for style."]
+	quest.2345BFD12F4FA1C9.title: "Fancy Starbuncle"
+	quest.238EF073BD4077A7.quest_desc: ["Powerful trinkets from Ars Trinkets. Check EMI for how to make each."]
+	quest.238EF073BD4077A7.title: "Greater Life Rune"
+	quest.23EDDE1DC3C56D3E.quest_desc: [
+		"Familiars are small companions that follow you and grant bonuses. Only one can be summoned at a time."
+		""
+		"To get one: summon the creature (usually from its &dcharm&r), then run the &dRitual of Binding&r next to it. The ritual turns it into a familiar item."
+		""
+		"Familiar quests only check that you have the item, so it is never taken. Complete the quest before you use the item, because using it binds it to you."
+	]
+	quest.23EDDE1DC3C56D3E.title: "Ritual of Binding"
+	quest.23F4090AAA7CD071.quest_desc: ["Look at a &bGiant Carnivorous Starbuncle&r."]
+	quest.23F4090AAA7CD071.title: "Giant Carnivorous Starbuncle"
+	quest.23FA5FDA20C88B86.title: "Ambience Disc"
+	quest.252343A58D50E16E.quest_desc: ["Look at a &bVexing Weald Walker&r."]
+	quest.252343A58D50E16E.title: "Vexing Weald Walker"
+	quest.2567D9536CE91EAB.quest_desc: [
+		"Prisms redirect spell projectiles. Combine them with turrets for complex machines."
+	]
+	quest.2567D9536CE91EAB.title: "Spell Prism"
+	quest.259A331D03330E9D.quest_desc: [
+		"Relics are found in loot chests all over the world. They level up as you use them."
+	]
+	quest.259A331D03330E9D.title: "Rider Flute"
+	quest.25A7B51F7AA7B55A.quest_desc: ["You have seen every biome on the list."]
+	quest.25A7B51F7AA7B55A.title: "Globetrotter"
+	quest.25B2D86D42DE5B63.quest_desc: ["Look at a &bFlashing Weald Walker&r."]
+	quest.25B2D86D42DE5B63.title: "Flashing Weald Walker"
+	quest.262BA00A72FFC152.quest_desc: ["You own all 52 music discs in the pack. Have a spare Pigstep."]
+	quest.262BA00A72FFC152.quest_subtitle: "Collection complete"
+	quest.262BA00A72FFC152.title: "Complete Discography"
+	quest.270995E5ACCB42A2.quest_desc: ["Powerful trinkets from Ars Trinkets. Check EMI for how to make each."]
+	quest.270995E5ACCB42A2.title: "Greater Death Rune"
+	quest.2717CCEDD87C220C.quest_desc: ["Visit a &aTropics&r biome."]
+	quest.2717CCEDD87C220C.title: "Tropics"
+	quest.283B9C4CD9C526C1.quest_desc: ["Visit a &aOminous Woods&r biome."]
+	quest.283B9C4CD9C526C1.title: "Ominous Woods"
+	quest.2873FA8EC558B439.quest_desc: [
+		"Relics are found in loot chests all over the world. They level up as you use them."
+	]
+	quest.2873FA8EC558B439.title: "Chorus Staff"
+	quest.288342F5DBA56BA6.quest_desc: [
+		"&dArchwood Forests&r are where magic grows. Their colourful trees, Sourceberries and creatures are all useful to a mage."
+	]
+	quest.288342F5DBA56BA6.title: "Into the Archwood"
+	quest.2892823A25BB8C08.quest_desc: ["Magical relics themed around Ars Nouveau, found in loot or crafted (check EMI)."]
+	quest.2892823A25BB8C08.title: "Emblem of Assault"
+	quest.28BB727AD4BE7057.quest_desc: [
+		"&aArea of Effect&r widens any effect and &aPierce&r lets projectiles pass through targets. Explosion is a strong tier 2 combat effect."
+	]
+	quest.28BB727AD4BE7057.title: "Apprentice Glyphs"
+	quest.28E97E0505BBD2A7.quest_desc: ["Look at a &bRogue Fire Mage&r."]
+	quest.28E97E0505BBD2A7.title: "Rogue Fire Mage"
+	quest.291939FBD261934B.quest_desc: ["Bind a &dWarp Scroll&r to a location, then use it to return there."]
+	quest.291939FBD261934B.title: "Warp Scroll"
+	quest.291A2E58A0CF9EBE.quest_desc: [
+		"Ancient Debris is found deep in the Nether, around Y 15. A Break spell with Amplify helps, and TNT works well."
+	]
+	quest.291A2E58A0CF9EBE.title: "Ancient Debris"
+	quest.29D1F1E3CD4AF47C.quest_desc: [
+		"Bind a &dWhirlisprig&r. Summon one from its &6Whirlisprig Charm&r first."
+		""
+		"Each familiar grants a different bonus; see the Worn Notebook."
+	]
+	quest.29D1F1E3CD4AF47C.title: "Whirlisprig Familiar"
+	quest.29ED9FA48728B604.quest_desc: [
+		"A giant skeletal beast awakened by sandstorms. Watch for its charge and the earthquake slam."
+	]
+	quest.29ED9FA48728B604.quest_subtitle: "Boss"
+	quest.29ED9FA48728B604.title: "Ancient Remnant"
+	quest.2A0615CF0F78CE05.quest_desc: ["Visit a &aArchwood Forest&r biome."]
+	quest.2A0615CF0F78CE05.title: "Archwood Forest"
+	quest.2A88FF472E005454.quest_desc: ["You have seen every creature in &6Curious Critters&r."]
+	quest.2A88FF472E005454.title: "Curious Critters"
+	quest.2AC6E80C91AA4CB5.title: "Ambience Disc"
+	quest.2B0F863E8980534E.quest_desc: ["Look at a &bFoxhound&r."]
+	quest.2B0F863E8980534E.title: "Foxhound"
+	quest.2B1ED3E5E6EB906A.quest_desc: ["Spoils from the Thunderous Tower and its Deviser."]
+	quest.2B1ED3E5E6EB906A.title: "Spark Rod"
+	quest.2B23C9B7FF6FE9C5.quest_desc: ["A hub for teleporting between many locations."]
+	quest.2B23C9B7FF6FE9C5.title: "Warp Nexus"
+	quest.2B410A86CC79EFBF.title: "Ambience Disc"
+	quest.2B41C7C4662A09F7.quest_desc: ["A reusable item that teleports you to any activated waystone."]
+	quest.2B41C7C4662A09F7.title: "Warp Stone"
+	quest.2B7CFD6E731AAB09.quest_desc: ["Look at a &bShiba&r."]
+	quest.2B7CFD6E731AAB09.title: "Shiba"
+	quest.2B91457CABD0F3E4.quest_desc: ["Find one of the ruined magical portals added by Ars Additions."]
+	quest.2B91457CABD0F3E4.title: "Ruined Portal"
+	quest.2B98D952CECCD6C5.quest_desc: ["Your home is complete."]
+	quest.2B98D952CECCD6C5.quest_subtitle: "Collection complete"
+	quest.2B98D952CECCD6C5.title: "Comfortable Living"
+	quest.2C253CA2C2919DA7.quest_desc: [
+		"Mage armour has slots for &dThreads&r, which add perks. Get a blank thread and apply it at the Alteration Table."
+	]
+	quest.2C253CA2C2919DA7.title: "Dressed for Magic"
+	quest.2CCB653B8BE89078.title: "Ambience Disc"
+	quest.2D6B68DAF71F8ADB.quest_desc: [
+		"&bArs Elemancy&r combines two elements into a hybrid school. Cinder is one of them."
+	]
+	quest.2D6B68DAF71F8ADB.title: "Cinder Essence"
+	quest.2D896E315E7F06DD.quest_desc: ["Signature weapons and gear forged from Cataclysm boss drops."]
+	quest.2D896E315E7F06DD.title: "Cursed Bow"
+	quest.2E5AA8D0EBD3F36E.quest_desc: ["An optional Cataclysm mini-boss that roams the outer End islands."]
+	quest.2E5AA8D0EBD3F36E.title: "Ender Golem"
+	quest.2E6CA86761B14F83.quest_desc: ["Look at a &bOretoise&r."]
+	quest.2E6CA86761B14F83.title: "Oretoise"
+	quest.2E6EB8F042D14DE8.quest_desc: ["Keep the Tribute safe. Check EMI (&eU&r) to see what it is used for."]
+	quest.2E6EB8F042D14DE8.title: "Wilden Tribute"
+	quest.2E8374AAB411A0DB.title: "Music Disc"
+	quest.2EC188A6FE332060.quest_desc: ["Every item in &6Relics&r."]
+	quest.2EC188A6FE332060.title: "Relics"
+	quest.2F59EE3DCE32565E.quest_desc: ["Find the &6Coliseum&r. Use a Wayfinder (Ars Additions) or explore."]
+	quest.2F59EE3DCE32565E.title: "Coliseum"
+	quest.2F5EC2D34037DE42.quest_desc: ["Look at a &bWhirlisprig&r."]
+	quest.2F5EC2D34037DE42.title: "Whirlisprig"
+	quest.2F66205A76F4ADC3.quest_desc: ["Holds several stacks of arrows."]
+	quest.2F66205A76F4ADC3.title: "Quiver"
+	quest.2F7BE38DEBC0A331.quest_desc: ["Magical relics themed around Ars Nouveau, found in loot or crafted (check EMI)."]
+	quest.2F7BE38DEBC0A331.title: "Staff of the Spectral Walker"
+	quest.3074E30189868D60.quest_desc: ["Look at a &bRogue Air Mage&r."]
+	quest.3074E30189868D60.title: "Rogue Air Mage"
+	quest.30A134AA495502CB.quest_desc: [
+		"&bImmersive Aircraft&r lets you build planes and airships. A biplane is the classic first aircraft."
+	]
+	quest.30A134AA495502CB.title: "Take to the Skies"
+	quest.3127E3BEE65176C7.quest_desc: ["Use a knife on a cutting board to process ingredients."]
+	quest.3127E3BEE65176C7.title: "Cutting Board"
+	quest.3147BD15BA276955.quest_desc: ["Powerful trinkets from Ars Trinkets. Check EMI for how to make each."]
+	quest.3147BD15BA276955.title: "Crown of the Exalted One"
+	quest.317465858DE5EB14.quest_desc: [
+		"Craft Eyes of Ender. Some will break when thrown, and the portal needs up to 12."
+	]
+	quest.317465858DE5EB14.title: "Eyes of Ender"
+	quest.31A76EF5BE3BE5F3.quest_desc: ["Look at a &bStoneling&r."]
+	quest.31A76EF5BE3BE5F3.title: "Stoneling"
+	quest.329200E0FC883964.quest_desc: ["Look at a &bEnderbuncle&r."]
+	quest.329200E0FC883964.title: "Enderbuncle"
+	quest.32C64EB4845D2359.quest_desc: ["Visit a &aGlimmering Weald&r biome."]
+	quest.32C64EB4845D2359.title: "Glimmering Weald"
+	quest.33280491BB2AEAFB.quest_desc: [
+		"You are ready to leave the Overworld behind for a while."
+		""
+		"Completing this quest unlocks &6Into the Nether&r."
+	]
+	quest.33280491BB2AEAFB.title: "Apprentice Arcanist"
+	quest.3430B31F6CB80744.quest_desc: [
+		"Essences are imbued in the Imbuement Chamber. &dFire Essence&r unlocks fire glyphs and items."
+	]
+	quest.3430B31F6CB80744.title: "Fire Essence"
+	quest.343118A8AA3274D9.quest_desc: ["Signature weapons and gear forged from Cataclysm boss drops."]
+	quest.343118A8AA3274D9.title: "Gauntlet of Bulwark"
+	quest.346044176347B28F.quest_desc: ["You have seen every creature in &6Ars Fauna&r."]
+	quest.346044176347B28F.title: "Ars Fauna"
+	quest.34A7C1A20198EBAB.quest_desc: ["Visit a &aFlourishing Archwood Forest&r biome."]
+	quest.34A7C1A20198EBAB.title: "Flourishing Archwood Forest"
+	quest.35C8D9579C92E5C6.quest_desc: [
+		"Relics are found in loot chests all over the world. They level up as you use them."
+	]
+	quest.35C8D9579C92E5C6.title: "Kinetic Belt"
+	quest.3673C0166D78D6A1.quest_desc: [
+		"&bArs Elemancy&r combines two elements into a hybrid school. Mire is one of them."
+	]
+	quest.3673C0166D78D6A1.title: "Mire Essence"
+	quest.36DB20DF77E4C6EC.quest_desc: ["A heat source for cooking."]
+	quest.36DB20DF77E4C6EC.title: "Stove"
+	quest.370800047752CCC8.quest_desc: ["Build a &6Enchanter&r hut."]
+	quest.370800047752CCC8.title: "Enchanter"
+	quest.371911768A3ADA3B.quest_desc: [
+		"Relics are found in loot chests all over the world. They level up as you use them."
+	]
+	quest.371911768A3ADA3B.title: "Jellyfish Necklace"
+	quest.37AFEDB75355326E.quest_desc: [
+		"Bind a &dDrygmy&r. Summon one from its &6Drygmy Charm&r first."
+		""
+		"Each familiar grants a different bonus; see the Worn Notebook."
+	]
+	quest.37AFEDB75355326E.title: "Drygmy Familiar"
+	quest.37EE06D121DE4C71.quest_desc: ["Signature weapons and gear forged from Cataclysm boss drops."]
+	quest.37EE06D121DE4C71.title: "The Immolator"
+	quest.381C8803B2C3EADB.quest_desc: [
+		"Collect every music disc in the pack. Discs are only checked, never taken."
+		""
+		"Vanilla discs drop when a skeleton kills a creeper, or from chests. Boss discs drop from Cataclysm bosses. Others are found in dungeon loot."
+	]
+	quest.381C8803B2C3EADB.title: "Jukebox"
+	quest.387C2074008076BE.quest_desc: ["Visit a &aBlight Forest&r biome."]
+	quest.387C2074008076BE.title: "Blight Forest"
+	quest.38BE02671CD75231.quest_desc: [
+		"A storm goddess atop a sunken acropolis. She throws lightning spears; never stand still."
+	]
+	quest.38BE02671CD75231.quest_subtitle: "Boss"
+	quest.38BE02671CD75231.title: "Scylla"
+	quest.38F78245FC844893.quest_desc: ["Look at a &bWilden Defender&r."]
+	quest.38F78245FC844893.title: "Wilden Defender"
+	quest.38FB7F5E67BBAD55.quest_desc: ["Find the &cFrosted Prison&r."]
+	quest.38FB7F5E67BBAD55.title: "Frosted Prison"
+	quest.3902DA79A3CB60D3.quest_desc: ["Build a &6Guard Tower&r hut."]
+	quest.3902DA79A3CB60D3.title: "Guard Tower"
+	quest.3954AC5B128AB0AF.quest_desc: [
+		"Ars Elemental foci boost one school of magic. Any element works here, but this quest asks for a &6Lesser Fire Focus&r, the easiest to start with. Check EMI for the others."
+	]
+	quest.3954AC5B128AB0AF.title: "Lesser Focus"
+	quest.397F7EA1C64D7E9C.quest_desc: [
+		"The &dRitual of Sunrise&r turns night into day. Craft the tablet to complete this."
+	]
+	quest.397F7EA1C64D7E9C.title: "A First Ritual"
+	quest.398B66729C66E007.quest_desc: ["You have bound every kind of familiar. Here is a plush to remember them by."]
+	quest.398B66729C66E007.quest_subtitle: "Collection complete"
+	quest.398B66729C66E007.title: "Menagerie"
+	quest.39D27B1C48A89A23.quest_desc: ["End Cities hold loot, shulkers and sometimes an End Ship with an elytra."]
+	quest.39D27B1C48A89A23.title: "End City"
+	quest.3A1144A369C32944.quest_desc: ["The best mana trinkets in the pack."]
+	quest.3A1144A369C32944.title: "Scarf of Greatest Mana Regen"
+	quest.3A3ECC580FB32065.quest_desc: ["Look at a &bSongbuncle&r."]
+	quest.3A3ECC580FB32065.title: "Songbuncle"
+	quest.3ABAC3FE9F194EEA.quest_desc: ["Powerful trinkets from Ars Trinkets. Check EMI for how to make each."]
+	quest.3ABAC3FE9F194EEA.title: "Purple Essence Flawless Monocle"
+	quest.3B0D870E8836EEC2.quest_desc: ["Magical relics themed around Ars Nouveau, found in loot or crafted (check EMI)."]
+	quest.3B0D870E8836EEC2.title: "Ring of Thrift"
+	quest.3B42F8B58D223B1A.quest_desc: [
+		"Ars Elemental armour boosts one school. Any element is fine for you, but this quest tracks the fire set. See the &bArs Expansions&r chapter for the rest."
+	]
+	quest.3B42F8B58D223B1A.title: "Elemental Armour"
+	quest.3B8456C1F9FF92AD.quest_desc: ["Build a &6Courier&r hut."]
+	quest.3B8456C1F9FF92AD.title: "Courier"
+	quest.3B85A499F8D3886F.title: "Music Disc"
+	quest.3BA252D2C611CA91.quest_desc: ["Find the &cCursed Pyramid&r."]
+	quest.3BA252D2C611CA91.title: "Cursed Pyramid"
+	quest.3BA8DB469650EB54.quest_desc: ["Spoils from the Thunderous Tower and its Deviser."]
+	quest.3BA8DB469650EB54.title: "Voltaic Hammer"
+	quest.3BDD9BC6E1A80350.quest_desc: [
+		"&bArs Elemancy&r combines two elements into a hybrid school. Silt is one of them."
+	]
+	quest.3BDD9BC6E1A80350.title: "Silt Essence"
+	quest.3CEBBCFE4E9379E8.quest_desc: ["Look at a &bCrab&r."]
+	quest.3CEBBCFE4E9379E8.title: "Crab"
+	quest.3D14C2603A6CF8EF.title: "Music Disc"
+	quest.3D5D96B865831F38.quest_desc: ["Visit a &aGlowing Grotto&r biome."]
+	quest.3D5D96B865831F38.title: "Glowing Grotto"
+	quest.3DAFE05A6E7ED08F.quest_desc: ["Look at a &bDark Drygmy&r."]
+	quest.3DAFE05A6E7ED08F.title: "Dark Drygmy"
+	quest.3DE347D80DD426E3.quest_desc: [
+		"Essences are imbued in the Imbuement Chamber. &dAir Essence&r unlocks air glyphs and items."
+	]
+	quest.3DE347D80DD426E3.title: "Air Essence"
+	quest.3E0369D6D5FA2771.quest_desc: ["A magnet upgrade pulls nearby items into your backpack."]
+	quest.3E0369D6D5FA2771.title: "Magnetic Backpack"
+	quest.3E7FBF19B0CED2BD.quest_desc: ["Build a &6Stonemason&r hut."]
+	quest.3E7FBF19B0CED2BD.title: "Stonemason"
+	quest.3EA689D6EDFF2600.quest_desc: ["Signature weapons and gear forged from Cataclysm boss drops."]
+	quest.3EA689D6EDFF2600.title: "The Incinerator"
+	quest.3F936B469C00244A.quest_desc: [
+		"Bind a &dAmethyst Golem&r. Summon one from its &6Amethyst Golem Charm&r first."
+		""
+		"Each familiar grants a different bonus; see the Worn Notebook."
+	]
+	quest.3F936B469C00244A.title: "Amethyst Golem Familiar"
+	quest.3F99E250434B5E56.quest_desc: [
+		"Bind a &dSiren&r. Summon one from its &6Siren Charm&r first."
+		""
+		"Each familiar grants a different bonus; see the Worn Notebook."
+	]
+	quest.3F99E250434B5E56.title: "Siren Familiar"
+	quest.407FD230AD592E53.quest_desc: ["You have found every notable structure on the list."]
+	quest.407FD230AD592E53.title: "Cartographer"
+	quest.40A41E3A83261D26.quest_desc: ["Look at a &bCascading Weald Walker&r."]
+	quest.40A41E3A83261D26.title: "Cascading Weald Walker"
+	quest.40B64B9902B7A2A6.quest_desc: ["Look at a &bDrygmy&r."]
+	quest.40B64B9902B7A2A6.title: "Drygmy"
+	quest.40E2DA2963AEC363.quest_desc: ["Powerful trinkets from Ars Trinkets. Check EMI for how to make each."]
+	quest.40E2DA2963AEC363.title: "Mage's Heart"
+	quest.40FE0C9E7A5D0246.quest_desc: ["Every disc from &6Other Mods&r."]
+	quest.40FE0C9E7A5D0246.title: "Other Mods"
+	quest.4115374BB4A77E43.quest_desc: ["Measures distances between blocks."]
+	quest.4115374BB4A77E43.title: "Abacus"
+	quest.41888980E8A5A2D5.quest_desc: ["Magical relics themed around Ars Nouveau, found in loot or crafted (check EMI)."]
+	quest.41888980E8A5A2D5.title: "Mana Ring"
+	quest.419B2763E3C41EE4.quest_desc: ["Look at a &bWixie&r."]
+	quest.419B2763E3C41EE4.title: "Wixie"
+	quest.41A2F7F2A8E0B40E.title: "Ambience Disc"
+	quest.42100A38168C9807.quest_desc: ["Magical relics themed around Ars Nouveau, found in loot or crafted (check EMI)."]
+	quest.42100A38168C9807.title: "Cloak of Concealment"
+	quest.423304DD5DC2087C.title: "Music Disc"
+	quest.428689FA45B6DC80.quest_desc: [
+		"You have the basics. Now it is time to study magic properly."
+		""
+		"Your reward includes a &aGlyph of Amplify&r: right-click it to learn it, then add it after an effect to make that effect stronger."
+		""
+		"Completing this quest unlocks &6Novice Mage&r."
+	]
+	quest.428689FA45B6DC80.title: "Ready for Magic"
+	quest.42A2E5F29909217E.quest_desc: ["Look at a &bTentabuncle&r."]
+	quest.42A2E5F29909217E.title: "Tentabuncle"
+	quest.42A68A0F01CCD563.quest_desc: ["A stronger staff."]
+	quest.42A68A0F01CCD563.title: "Mage Spell Staff"
+	quest.432C0F5872CFF707.quest_desc: [
+		"When placing huts with the &6Build Tool&r, pick the &dArchwood&r style pack from &bArchwood Colonies&r so your colony is built in Archwood designs."
+		""
+		"Check this off once you have chosen it."
+	]
+	quest.432C0F5872CFF707.title: "Archwood Style"
+	quest.432C951C8420C5E7.quest_desc: ["Every item in &6Violetgold Equipment&r."]
+	quest.432C951C8420C5E7.title: "Violetgold Equipment"
+	quest.434C1E76E0D01B2B.quest_desc: ["Look at a &bBlazing Weald Walker&r."]
+	quest.434C1E76E0D01B2B.title: "Blazing Weald Walker"
+	quest.434D9A399499117E.title: "Music Disc"
+	quest.43CA67642DEA496F.quest_desc: ["Build a &6Sawmill&r hut."]
+	quest.43CA67642DEA496F.title: "Sawmill"
+	quest.43D035AE4CBC4BC7.quest_desc: [
+		"All five ancient bosses are defeated."
+		""
+		"Completing this quest unlocks &6Archmage&r."
+	]
+	quest.43D035AE4CBC4BC7.title: "Ancient Threats Ended"
+	quest.43EB2FEBADB138A8.quest_desc: ["Find the &6Undead Pirate Ship&r. Use a Wayfinder (Ars Additions) or explore."]
+	quest.43EB2FEBADB138A8.title: "Undead Pirate Ship"
+	quest.43F3961CE7FA79D2.quest_desc: ["Signature weapons and gear forged from Cataclysm boss drops."]
+	quest.43F3961CE7FA79D2.title: "Wither Assault Shoulder Weapon"
+	quest.4425E5C14EF65EE4.quest_desc: ["Holds and plants seeds in bulk."]
+	quest.4425E5C14EF65EE4.title: "Seed Pouch"
+	quest.44D089DDF4FD0271.quest_desc: [
+		"The minimap in the corner is &bXaero's Minimap&r. Press &eM&r for the full world map."
+		""
+		"Press &eB&r to create a waypoint. Activated waystones show up on the map automatically."
+	]
+	quest.44D089DDF4FD0271.title: "Mapping the World"
+	quest.44DE079252DD31C1.quest_desc: ["Signature weapons and gear forged from Cataclysm boss drops."]
+	quest.44DE079252DD31C1.title: "Soul Render"
+	quest.451C61E5DEBA0BE7.quest_desc: ["Combine netherite scraps with gold to make an ingot."]
+	quest.451C61E5DEBA0BE7.title: "Netherite"
+	quest.4545848B4D52CEB6.quest_desc: ["Find the &cSunken City&r."]
+	quest.4545848B4D52CEB6.title: "Sunken City"
+	quest.459F70F303D8E119.quest_desc: ["Find the &6Wilden Den&r. Use a Wayfinder (Ars Additions) or explore."]
+	quest.459F70F303D8E119.title: "Wilden Den"
+	quest.4657BCC10052A211.quest_desc: [
+		"Fill the portal and jump in. There is no way back except by winning or dying, so bring everything you need: blocks, food, potions and a full spell book."
+	]
+	quest.4657BCC10052A211.title: "The End"
+	quest.46CB486610FD08A7.quest_desc: ["Visit a &aVolcano&r biome."]
+	quest.46CB486610FD08A7.title: "Volcano"
+	quest.4738CBF2097E539C.quest_desc: ["&bArs Delight&r brings magical cooking to Farmer's Delight."]
+	quest.4738CBF2097E539C.title: "Ars Delight"
+	quest.47662A20A6F45AAE.quest_desc: ["Violetgold gear from Ars Violetgold Equipment."]
+	quest.47662A20A6F45AAE.title: "Violetgold Leggings"
+	quest.476D82C4150D2EB2.quest_desc: ["Build a &6Barracks&r hut."]
+	quest.476D82C4150D2EB2.title: "Barracks"
+	quest.48A385B64098E770.quest_desc: ["The &6Mark of Mastery&r is needed for the strongest Ars Elemental gear."]
+	quest.48A385B64098E770.title: "Mark of Mastery"
+	quest.48A3CCCA2DB113D7.quest_desc: ["The egg teleports when touched. Push it onto a torch to collect it."]
+	quest.48A3CCCA2DB113D7.title: "The Dragon Egg"
+	quest.4913D604BD619239.quest_desc: [
+		"Gather some food for the road. Farmer's Delight adds many more meals later on."
+		""
+		"Bread is only checked, not taken."
+	]
+	quest.4913D604BD619239.title: "Provisions"
+	quest.4981DA7CBD0B5AD9.quest_desc: [
+		"Relics are found in loot chests all over the world. They level up as you use them."
+	]
+	quest.4981DA7CBD0B5AD9.title: "Shield of Retaliation"
+	quest.49862A26D14C441F.quest_desc: [
+		"Summon it at the Altar of Abyss with an &6Abyssal Sacrifice&r. Fought underwater: bring water breathing, night vision and a ranged spell."
+	]
+	quest.49862A26D14C441F.quest_subtitle: "Boss"
+	quest.49862A26D14C441F.title: "The Leviathan"
+	quest.499EE46CE87C284C.title: "Music Disc"
+	quest.49F496AB488F9D0E.quest_desc: ["Make a hamburger."]
+	quest.49F496AB488F9D0E.title: "A Proper Meal"
+	quest.4A3B9E8985B526E5.quest_desc: ["Powerful trinkets from Ars Trinkets. Check EMI for how to make each."]
+	quest.4A3B9E8985B526E5.title: "Purple Mana Limitless Lotus"
+	quest.4A60F9C26DACEBA1.quest_desc: ["Shulker shells are needed for the &6Eye of Void&r and for shulker boxes."]
+	quest.4A60F9C26DACEBA1.title: "Shulker Shells"
+	quest.4A7C7305AAE99FDA.quest_desc: [
+		"Five bosses from &cL_Ender's Cataclysm&r slumber in the Overworld. All of them must fall before you may face the Ender Dragon."
+		""
+		"Each needs its own &6Eye&r: obtain it (check EMI with &eR&r), throw it to find the structure, then defeat the boss. They can be done in any order."
+	]
+	quest.4A7C7305AAE99FDA.title: "Ancient Threats"
+	quest.4A7D4AEDAC95C770.quest_desc: ["Look at a &bStarbuncle&r."]
+	quest.4A7D4AEDAC95C770.title: "Starbuncle"
+	quest.4A924D1A03D58A46.quest_desc: ["Violetgold gear from Ars Violetgold Equipment."]
+	quest.4A924D1A03D58A46.title: "Violetgold Chestplate"
+	quest.4AF42AF578D19BBC.quest_desc: [
+		"Relics are found in loot chests all over the world. They level up as you use them."
+	]
+	quest.4AF42AF578D19BBC.title: "Piglin Mask"
+	quest.4B33564E26678EFE.quest_desc: [
+		"Bind a &dFlarecannon&r. Summon one from its &6Flarecannon Charm&r first."
+		""
+		"Each familiar grants a different bonus; see the Worn Notebook."
+	]
+	quest.4B33564E26678EFE.title: "Flarecannon Familiar"
+	quest.4B88868819FDE868.quest_desc: [
+		"Defeat the &cWilden Chimera&r. It changes phases, charges, and fires spikes."
+		""
+		"It drops the &dWilden Tribute&r, needed for powerful items later."
+	]
+	quest.4B88868819FDE868.quest_subtitle: "Boss"
+	quest.4B88868819FDE868.title: "The Wilden Chimera"
+	quest.4BDC78322262697D.title: "Music Disc"
+	quest.4C079D355566C1DA.title: "Music Disc"
+	quest.4C477EFFFF1E5320.quest_desc: ["Potion Jars hold many doses of a potion. Wixies can brew into them."]
+	quest.4C477EFFFF1E5320.title: "Potion Jars"
+	quest.4C9279647756B1DB.quest_desc: [
+		"&bArs Elemental&r adds elemental schools, foci, armour, bangles, and new familiars."
+	]
+	quest.4C9279647756B1DB.title: "Elemental Bangles"
+	quest.4C94969073E32AA5.quest_desc: ["Reflects spells back."]
+	quest.4C94969073E32AA5.title: "Spell Mirror"
+	quest.4CA7F0379C78DC35.quest_desc: ["Upgrade a turret to tier 2."]
+	quest.4CA7F0379C78DC35.title: "Tier 2 Upgrade"
+	quest.4CC906EF71AE9DFE.quest_desc: [
+		"Defeat &cIgnis&r, the flaming knight. Fire resistance is essential; it gets far more aggressive at low health."
+	]
+	quest.4CC906EF71AE9DFE.quest_subtitle: "Boss"
+	quest.4CC906EF71AE9DFE.title: "Ignis"
+	quest.4CDF290362BDD691.title: "Music Disc"
+	quest.4CE4BC673C64A8B9.quest_desc: ["Spoils from the Thunderous Tower and its Deviser."]
+	quest.4CE4BC673C64A8B9.title: "Thunder Spear"
+	quest.4D1506D8BD8CB66D.quest_desc: [
+		"Bind a &dBookwyrm&r. Summon one from its &6Bookwyrm Charm&r first."
+		""
+		"Each familiar grants a different bonus; see the Worn Notebook."
+	]
+	quest.4D1506D8BD8CB66D.title: "Bookwyrm Familiar"
+	quest.4D5E30984555F4D4.quest_desc: ["A storage block only you can open."]
+	quest.4D5E30984555F4D4.title: "Safe"
+	quest.4D795AB843CD61C4.quest_desc: ["Look at a &bFlourishing Weald Walker&r."]
+	quest.4D795AB843CD61C4.title: "Flourishing Weald Walker"
+	quest.4DF13759352ADED2.quest_desc: ["The air school's mage armour."]
+	quest.4DF13759352ADED2.title: "Air Robes"
+	quest.4DF433C0FDE74535.quest_desc: ["Sleep in a bed to set your respawn point and skip the night."]
+	quest.4DF433C0FDE74535.title: "A Place to Rest"
+	quest.4E6AD90C1675A326.quest_desc: ["Look at a &bSkelebuncle&r."]
+	quest.4E6AD90C1675A326.title: "Skelebuncle"
+	quest.4EAB94E9D6259F62.title: "Music Disc"
+	quest.4F5AFDD43586A126.title: "Music Disc"
+	quest.4F9D6AC803601A28.quest_desc: ["Find the &6Golem Geode&r. Use a Wayfinder (Ars Additions) or explore."]
+	quest.4F9D6AC803601A28.title: "Golem Geode"
+	quest.4FE430461F74742C.quest_desc: [
+		"A &dStorage Lectern&r connected to &dRepositories&r is a simple magical storage network."
+	]
+	quest.4FE430461F74742C.title: "Arcane Storage"
+	quest.50008EA1800142C8.quest_desc: ["Powerful trinkets from Ars Trinkets. Check EMI for how to make each."]
+	quest.50008EA1800142C8.title: "Greater War Rune"
+	quest.504D27EFE81A1698.quest_desc: ["&bArs Additions&r hides codex entries in loot; read them to learn new glyphs."]
+	quest.504D27EFE81A1698.title: "Lost Knowledge"
+	quest.50A61F97A8C4BDAC.quest_desc: ["Look at a &bZombuncle&r."]
+	quest.50A61F97A8C4BDAC.title: "Zombuncle"
+	quest.50DC5E499EF909B9.quest_desc: [
+		"Throw an ender pearl into the End Gateway that appeared after the fight to reach the outer islands."
+	]
+	quest.50DC5E499EF909B9.title: "Beyond the Gateway"
+	quest.518B879968AFF899.quest_desc: ["Visit a &aOrigin Valley&r biome."]
+	quest.518B879968AFF899.title: "Origin Valley"
+	quest.524BE0C10A12C738.quest_desc: ["Look at a &bRogue Water Mage&r."]
+	quest.524BE0C10A12C738.title: "Rogue Water Mage"
+	quest.52EB619774C2C4A5.quest_desc: ["A boomerang that mines blocks."]
+	quest.52EB619774C2C4A5.title: "Pickarang"
+	quest.535DEB2128394A48.quest_desc: ["Every item in &6Reliquified Ars Nouveau&r."]
+	quest.535DEB2128394A48.title: "Reliquified Ars Nouveau"
+	quest.53C5B9D4FF8A9E81.quest_desc: [
+		"Essences are imbued in the Imbuement Chamber. &dAbjuration Essence&r unlocks abjuration glyphs and items."
+	]
+	quest.53C5B9D4FF8A9E81.title: "Abjuration Essence"
+	quest.53CA4EFEE7D33407.quest_desc: ["Even mages need tools. Mine some stone and smelt your first iron."]
+	quest.53CA4EFEE7D33407.title: "Stone and Iron"
+	quest.53DDEC2DF1991868.quest_desc: ["A bag that feeds blocks to your spells."]
+	quest.53DDEC2DF1991868.title: "Handy Haversack"
+	quest.53E68402FE7FF8F1.quest_desc: ["Powerful trinkets from Ars Trinkets. Check EMI for how to make each."]
+	quest.53E68402FE7FF8F1.title: "Cursed Focus"
+	quest.54190642B5F9EC66.title: "Music Disc"
+	quest.5430BC9F3FAA7232.quest_desc: ["Magical relics themed around Ars Nouveau, found in loot or crafted (check EMI)."]
+	quest.5430BC9F3FAA7232.title: "Flaming Bracer"
+	quest.54B4BDFB34BDCE24.quest_desc: [
+		"Both Nether bosses are defeated. Bring extra blaze rods: Ancient Threats and the End will need them."
+		""
+		"Completing this quest unlocks &6Ancient Threats&r."
+	]
+	quest.54B4BDFB34BDCE24.title: "Conqueror of Fire"
+	quest.54CE1AF16E5B3092.quest_desc: [
+		"Place the &dEnchanting Apparatus&r on top of the Arcane Core, surround it with pedestals and give it source. It crafts most advanced Ars items and can apply enchantments."
+	]
+	quest.54CE1AF16E5B3092.title: "Enchanting Apparatus"
+	quest.54ECD9A4FB413473.title: "Music Disc"
+	quest.54F5CCD27A9861BF.quest_desc: [
+		"Upgrade to a full elemental focus. It greatly strengthens fire spells and grants fire immunity."
+	]
+	quest.54F5CCD27A9861BF.title: "Elemental Focus"
+	quest.551DE3E596D53508.quest_desc: ["Find the &6Arcane Library&r. Use a Wayfinder (Ars Additions) or explore."]
+	quest.551DE3E596D53508.title: "Arcane Library"
+	quest.5537F1F0BA4E1DE5.quest_desc: ["Signature weapons and gear forged from Cataclysm boss drops."]
+	quest.5537F1F0BA4E1DE5.title: "Bulwark of the Flame"
+	quest.55DE97DF2D34F2D0.quest_desc: ["Jars hold fluids, fireflies or items."]
+	quest.55DE97DF2D34F2D0.title: "Jar"
+	quest.561B774A78A239CD.quest_desc: ["Magical relics themed around Ars Nouveau, found in loot or crafted (check EMI)."]
+	quest.561B774A78A239CD.title: "Architect's Staff"
+	quest.56F3BA2F1D35594B.quest_desc: ["Obtain an &6Eye of Storm&r. Throw it to point toward the Acropolis."]
+	quest.56F3BA2F1D35594B.title: "Eye of Storm"
+	quest.570DD7BE13CE6DEA.quest_desc: ["Look at a &bIllusibuncle&r."]
+	quest.570DD7BE13CE6DEA.title: "Illusibuncle"
+	quest.5736A942E5C5AC01.quest_desc: ["Signature weapons and gear forged from Cataclysm boss drops."]
+	quest.5736A942E5C5AC01.title: "Cursium Helmet"
+	quest.57E91EDC314D246B.title: "Music Disc"
+	quest.582FB2C9A156456B.quest_desc: ["Wilden roam magical forests at night. Hunters drop &dWilden Horns&r."]
+	quest.582FB2C9A156456B.title: "Wilden Hunter"
+	quest.58667B27A6D7EADE.quest_desc: [
+		"Relics are found in loot chests all over the world. They level up as you use them."
+	]
+	quest.58667B27A6D7EADE.title: "Sphere of Self-Sacrifice"
+	quest.588A915EC371AC44.quest_desc: ["Sharestones of the same colour link to each other for everyone."]
+	quest.588A915EC371AC44.title: "Sharestone"
+	quest.5934436EEEDB07D5.quest_desc: ["The &dAlteration Table&r lets you change the perks (threads) on mage armour."]
+	quest.5934436EEEDB07D5.title: "Alteration Table"
+	quest.5987074FAA87D238.quest_desc: ["Look at a &bSandbuncle&r."]
+	quest.5987074FAA87D238.title: "Sandbuncle"
+	quest.5A01D6F1621E3906.quest_desc: ["Spoils from the Thunderous Tower and its Deviser."]
+	quest.5A01D6F1621E3906.title: "Deviser Gauntlet"
+	quest.5A40534D49C6C4B4.quest_desc: [
+		"A good workshop runs on plenty of stored source."
+		""
+		"Completing this quest unlocks &6Apprentice Arcanist&r."
+	]
+	quest.5A40534D49C6C4B4.title: "Master of the Workshop"
+	quest.5AB0C282D4B785AE.quest_desc: [
+		"Use the &6Build Tool&r to place a Builder's Hut, then hire a builder. The builder constructs everything else and requests materials through the clipboard."
+	]
+	quest.5AB0C282D4B785AE.title: "Builder's Hut"
+	quest.5AB6AFFCD69E3226.quest_desc: ["Visit a &aRedwood Forest&r biome."]
+	quest.5AB6AFFCD69E3226.title: "Redwood Forest"
+	quest.5ACA3710A4B17B15.quest_desc: ["Powerful trinkets from Ars Trinkets. Check EMI for how to make each."]
+	quest.5ACA3710A4B17B15.title: "Sanctified Heart"
+	quest.5AF3E158AAD3AAD6.quest_desc: ["Look at a &bThornsprig&r."]
+	quest.5AF3E158AAD3AAD6.title: "Thornsprig"
+	quest.5B06B5BCD787C414.title: "Music Disc"
+	quest.5B37B35489169E9F.quest_desc: [
+		"Stockpile some Source Gems: the next chapter builds a lot of magical machinery."
+		""
+		"Completing this quest unlocks &6Arcane Infrastructure&r."
+	]
+	quest.5B37B35489169E9F.title: "Novice No More"
+	quest.5B8063984C22400D.quest_desc: [
+		"Relics are found in loot chests all over the world. They level up as you use them."
+	]
+	quest.5B8063984C22400D.title: "Leafy Mantle"
+	quest.5B9526678DA26B94.quest_desc: ["Find the &6Typhon&r. Use a Wayfinder (Ars Additions) or explore."]
+	quest.5B9526678DA26B94.title: "Typhon"
+	quest.5C30D0B3C17179D4.quest_desc: ["Visit a &aCascading Archwood Forest&r biome."]
+	quest.5C30D0B3C17179D4.title: "Cascading Archwood Forest"
+	quest.5C4E2C7CD58646CE.quest_desc: [
+		"Sourcelinks generate source and fill nearby jars:"
+		"&6Volcanic&r burns fuel, &aAgronomic&r feeds on nearby crops growing."
+		""
+		"Mycelial, Vitalic and Alchemical sourcelinks come later."
+	]
+	quest.5C4E2C7CD58646CE.title: "Sourcelinks"
+	quest.5C82D759F2B3E184.quest_desc: ["Look at a &bDeepsprig&r."]
+	quest.5C82D759F2B3E184.title: "Deepsprig"
+	quest.5CB07AD8CDB09297.quest_desc: ["Find the Burning Arena in the Nether. Ignis waits at its altar."]
+	quest.5CB07AD8CDB09297.title: "The Burning Arena"
+	quest.5CB5F60B162C0F37.title: "A Great City"
+	quest.5D0E0B6B8060BAF2.quest_desc: ["Signature weapons and gear forged from Cataclysm boss drops."]
+	quest.5D0E0B6B8060BAF2.title: "Sandstorm in a Bottle"
+	quest.5D0F51623F01BF8D.title: "Music Disc"
+	quest.5D3EEAAC552B8708.quest_desc: [
+		"Balanced armour for all-round mages. Each set has a different stat profile; crafting any one set completes the next quest."
+	]
+	quest.5D3EEAAC552B8708.title: "Arcanist Robes"
+	quest.5D8A0C1D1E572731.title: "Music Disc"
+	quest.5D90AAED86003046.quest_desc: ["Find the &6Wixie Hut&r. Use a Wayfinder (Ars Additions) or explore."]
+	quest.5D90AAED86003046.title: "Wixie Hut"
+	quest.5DC3C58665AACD8E.quest_desc: ["Find the &6All Better Dungeons&r. Use a Wayfinder (Ars Additions) or explore."]
+	quest.5DC3C58665AACD8E.title: "All Better Dungeons"
+	quest.5DDA9B191E346750.quest_desc: ["Look at a &bSeabuncle&r."]
+	quest.5DDA9B191E346750.title: "Seabuncle"
+	quest.5E3C5FF18A92CF0F.quest_desc: ["Look at a &bAmethyst Golem&r."]
+	quest.5E3C5FF18A92CF0F.title: "Amethyst Golem"
+	quest.5E73226AEBF3E496.quest_desc: ["Find the &6Illager Hunter&r. Use a Wayfinder (Ars Additions) or explore."]
+	quest.5E73226AEBF3E496.title: "Illager Hunter"
+	quest.5E85BD2C33D532B6.quest_desc: [
+		"Waystones are found in villages and in the wild. Right-click one to activate it, and you can teleport between activated waystones for a small cost."
+		""
+		"Check this off once you have activated one."
+	]
+	quest.5E85BD2C33D532B6.title: "Waystones"
+	quest.5E962CFB1BC98875.quest_desc: [
+		"The &dImbuement Chamber&r turns amethyst into &dSource Gems&r. Without a source jar nearby it works slowly on its own; with one it is much faster."
+	]
+	quest.5E962CFB1BC98875.title: "Imbuement Chamber"
+	quest.5EDA6521ABA10748.quest_desc: ["Find the stronghold and its End Portal room."]
+	quest.5EDA6521ABA10748.title: "The Stronghold"
+	quest.5EFA885D9AEFAE41.quest_desc: [
+		"You have mastered Ars Nouveau. One challenge remains."
+		""
+		"Completing this quest unlocks &6The End&r."
+	]
+	quest.5EFA885D9AEFAE41.title: "Archmage"
+	quest.5F127E54C11C39D0.quest_desc: ["Every disc from &6Ars Musique&r."]
+	quest.5F127E54C11C39D0.title: "Ars Musique"
+	quest.5F3B1ED70B21C352.quest_desc: ["Build a Nether portal and step through. Wear gold so piglins leave you alone."]
+	quest.5F3B1ED70B21C352.title: "Through the Portal"
+	quest.5FE210D795C1ABF3.quest_desc: [
+		"The world is full of new biomes and structures. Xaero's World Map (&eM&r) keeps track of where you have been; waystones help you get back."
+	]
+	quest.5FE210D795C1ABF3.title: "Wanderlust"
+	quest.6051D613CD3D28A6.quest_desc: ["Stores many different items."]
+	quest.6051D613CD3D28A6.title: "Crate"
+	quest.60C675A46714D4DA.quest_desc: [
+		"Essences are imbued in the Imbuement Chamber. &dManipulation Essence&r unlocks manipulation glyphs and items."
+	]
+	quest.60C675A46714D4DA.title: "Manipulation Essence"
+	quest.60D9D1E27CDC353B.quest_desc: ["Find the &6Dungeon Crawl&r. Use a Wayfinder (Ars Additions) or explore."]
+	quest.60D9D1E27CDC353B.title: "Dungeon Crawl"
+	quest.61B2E6B81EA328C1.quest_desc: ["The best backpack, immune to fire and lava."]
+	quest.61B2E6B81EA328C1.title: "Netherite Backpack"
+	quest.625D1C757252950F.quest_desc: ["Signature weapons and gear forged from Cataclysm boss drops."]
+	quest.625D1C757252950F.title: "Tidal Claws"
+	quest.625F33B59B65C3D7.quest_desc: [
+		"Defeat the &cNetherite Monstrosity&r. It hits very hard and shoots lava bombs: keep moving."
+	]
+	quest.625F33B59B65C3D7.quest_subtitle: "Boss"
+	quest.625F33B59B65C3D7.title: "Netherite Monstrosity"
+	quest.628EA57B6B368F52.quest_desc: ["Signature weapons and gear forged from Cataclysm boss drops."]
+	quest.628EA57B6B368F52.title: "Wrath of the Desert"
+	quest.62EA8751E0AAAB89.quest_desc: ["Build a &6Miner&r hut."]
+	quest.62EA8751E0AAAB89.title: "Miner"
+	quest.6395D5182785716F.title: "Music Disc"
+	quest.63FFC8F8953DB367.quest_desc: [
+		"Relics are found in loot chests all over the world. They level up as you use them."
+	]
+	quest.63FFC8F8953DB367.title: "Glitchy Mantle"
+	quest.640E55A72A7E8F68.title: "Ambience Disc"
+	quest.641C552612036725.quest_desc: ["Use the Dominion Wand to link relays, turrets and starbuncles to blocks."]
+	quest.641C552612036725.title: "Dominion Wand"
+	quest.643E4C7C5535E65C.quest_desc: [
+		"Heavy armour for mages who fight up close. Each set has a different stat profile; crafting any one set completes the next quest."
+	]
+	quest.643E4C7C5535E65C.title: "Battlemage Robes"
+	quest.64C6F1EAE1799F96.title: "Music Disc"
+	quest.6512D8EB47E34ED8.quest_desc: ["Look at a &bWraith&r."]
+	quest.6512D8EB47E34ED8.title: "Wraith"
+	quest.6517613ED0BA791F.quest_desc: ["Build a &6Warehouse&r hut."]
+	quest.6517613ED0BA791F.title: "Warehouse"
+	quest.65717509ABB30009.quest_desc: ["A curio bag that holds your spell books, tomes and parchments."]
+	quest.65717509ABB30009.title: "Caster Bag"
+	quest.660BF833D0AAFC44.title: "Music Disc"
+	quest.664B2A64106F139A.quest_desc: ["Visit a &aJacaranda Glade&r biome."]
+	quest.664B2A64106F139A.title: "Jacaranda Glade"
+	quest.667793AAD652F840.quest_desc: ["Obtain an &6Eye of Abyss&r. Throw it to point toward the Sunken City."]
+	quest.667793AAD652F840.title: "Eye of Abyss"
+	quest.66A0EACEEB1C94F7.quest_desc: [
+		"Relics are found in loot chests all over the world. They level up as you use them."
+	]
+	quest.66A0EACEEB1C94F7.title: "Reflective Necklace"
+	quest.66CFA1B9AFB636E5.title: "A Small Village"
+	quest.66F5E3973D1B546A.quest_desc: [
+		"You started with a &6Supply Camp&r, a &6Town Hall&r and a &6Build Tool&r."
+		""
+		"Place the Supply Camp on flat ground (16x17, no grass or flowers). Take the Town Hall block from its chest, place it, and name your colony."
+	]
+	quest.66F5E3973D1B546A.title: "Supply Camp"
+	quest.671BBE1839CBAEEF.title: "Music Disc"
+	quest.67208313A550A3C1.quest_desc: ["Powerful trinkets from Ars Trinkets. Check EMI for how to make each."]
+	quest.67208313A550A3C1.title: "Archmage's Source Heart"
+	quest.67F9E26B331EC26A.quest_desc: ["Find a Nether Fortress. Blazes and wither skeletons live here."]
+	quest.67F9E26B331EC26A.title: "Nether Fortress"
+	quest.6826CF7BC7E5105E.quest_desc: ["Look at a &bRogue Earth Mage&r."]
+	quest.6826CF7BC7E5105E.title: "Rogue Earth Mage"
+	quest.685D75E57E8DB5C4.quest_desc: ["Magical relics themed around Ars Nouveau, found in loot or crafted (check EMI)."]
+	quest.685D75E57E8DB5C4.title: "Ballistarian Bracer"
+	quest.687A7CE3DB0FD2D9.quest_desc: ["Defeat &cNecromancer&r. A dangerous foe found in this pack's dungeons."]
+	quest.687A7CE3DB0FD2D9.title: "Necromancer"
+	quest.68927E02189AB7BE.quest_desc: [
+		"Relics are found in loot chests all over the world. They level up as you use them."
+	]
+	quest.68927E02189AB7BE.title: "Ring of the Seven Deadly Sins"
+	quest.68A0162088DEBC97.quest_desc: ["The strongest staff."]
+	quest.68A0162088DEBC97.title: "Archmage Spell Staff"
+	quest.68A64415DA04263F.quest_desc: ["Signature weapons and gear forged from Cataclysm boss drops."]
+	quest.68A64415DA04263F.title: "Laser Gatling"
+	quest.68FAFD3AAF3023B4.quest_desc: ["The strongest turret tier."]
+	quest.68FAFD3AAF3023B4.title: "Tier 3 Upgrade"
+	quest.6909A8C6DFBDE3AD.quest_desc: [
+		"The last and strongest of the Cataclysm bosses. Its void attacks pull you in and its blasts break through shields."
+		""
+		"Defeat it to complete &6The Journey&r. Well done."
+	]
+	quest.6909A8C6DFBDE3AD.quest_subtitle: "The final challenge"
+	quest.6909A8C6DFBDE3AD.title: "The Ender Guardian"
+	quest.695796396133F94E.quest_desc: ["Obtain an &6Eye of Desert&r. Throw it to point toward the Cursed Pyramid."]
+	quest.695796396133F94E.title: "Eye of Desert"
+	quest.69F41D3E8A8DF834.quest_desc: ["Look at a &bEyebuncle&r."]
+	quest.69F41D3E8A8DF834.title: "Eyebuncle"
+	quest.6A10146C1BAC9AEA.quest_desc: ["Magical relics themed around Ars Nouveau, found in loot or crafted (check EMI)."]
+	quest.6A10146C1BAC9AEA.title: "Emblem of Devotion"
+	quest.6A34A24F1542F021.quest_desc: ["Put the pot on a stove to cook soups, stews and meals."]
+	quest.6A34A24F1542F021.title: "Cooking Pot"
+	quest.6A6839AEE19AD09B.quest_desc: ["Visit a &aLavender Field&r biome."]
+	quest.6A6839AEE19AD09B.title: "Lavender Field"
+	quest.6AA595CF37F5D0CF.quest_desc: [
+		"Obtain an &6Eye of Monstrous&r (check EMI). It leads to the &cSoul Blacksmith&r."
+	]
+	quest.6AA595CF37F5D0CF.title: "Eye of Monstrous"
+	quest.6B1914EA0DC55F27.title: "Music Disc"
+	quest.6B37DE4B027EBC38.title: "Music Disc"
+	quest.6B94A9E8DA0F8805.quest_desc: ["Look at a &bFlarecannon&r."]
+	quest.6B94A9E8DA0F8805.title: "Flarecannon"
+	quest.6BA98A66C3841E1E.quest_desc: ["Summon your first familiar."]
+	quest.6BA98A66C3841E1E.title: "A Loyal Companion"
+	quest.6BC43689D22EAF19.quest_desc: ["&bArs Affinity&r makes you better at the schools of magic you use the most."]
+	quest.6BC43689D22EAF19.title: "Affinity"
+	quest.6BDCE21650CF82E7.title: "A Bustling Town"
+	quest.6C0D5A6A211AC97E.quest_desc: ["Violetgold gear from Ars Violetgold Equipment."]
+	quest.6C0D5A6A211AC97E.title: "Violetgold Amulet"
+	quest.6C3D1D037E78BAA8.quest_desc: ["Build a &6Lumberjack&r hut."]
+	quest.6C3D1D037E78BAA8.title: "Lumberjack"
+	quest.6CBCE6D2F9D80696.quest_desc: [
+		"&aSplit&r, &aLinger&r and &aLightning&r are among the strongest glyphs in the book."
+	]
+	quest.6CBCE6D2F9D80696.title: "Archmage Glyphs"
+	quest.6CDBF0FFE1C641F9.quest_desc: ["Violetgold gear from Ars Violetgold Equipment."]
+	quest.6CDBF0FFE1C641F9.title: "Violetgold Penetration Wand"
+	quest.6D74C0AD53695AF1.quest_desc: ["Make Ars warp portals that work in both directions."]
+	quest.6D74C0AD53695AF1.title: "Two-Way Portals"
+	quest.6DCFA4861671B688.title: "Music Disc"
+	quest.6E8369BF3356E394.quest_desc: [
+		"Relics are found in loot chests all over the world. They level up as you use them."
+	]
+	quest.6E8369BF3356E394.title: "Roller Skate"
+	quest.6ED68876309F6617.quest_desc: ["Every disc from &6Quark&r."]
+	quest.6ED68876309F6617.title: "Quark"
+	quest.6EEEC55B820F90E5.quest_desc: ["Blaze rods are needed for brewing, eyes of ender and much more."]
+	quest.6EEEC55B820F90E5.title: "Blaze Rods"
+	quest.6F165C75DB733D83.quest_desc: ["Look at a &bVexbuncle&r."]
+	quest.6F165C75DB733D83.title: "Vexbuncle"
+	quest.6F38972BECF556A8.quest_desc: ["Find the &6Shrine Champion&r. Use a Wayfinder (Ars Additions) or explore."]
+	quest.6F38972BECF556A8.title: "Shrine Champion"
+	quest.6FD0E3A396003F53.quest_desc: ["Look at a &bGoobuncle&r."]
+	quest.6FD0E3A396003F53.title: "Goobuncle"
+	quest.707F301859B506F1.quest_desc: ["The essence of all elements at once."]
+	quest.707F301859B506F1.title: "Elemancer"
+	quest.70A5DBC9A448E072.quest_desc: ["Greater Experience Gems store experience for enchanting and repairs."]
+	quest.70A5DBC9A448E072.title: "Experience Gems"
+	quest.70AFA729684267D0.quest_desc: ["Find the Necropolis, home of the Lich."]
+	quest.70AFA729684267D0.title: "Necropolis"
+	quest.70E0292A312F799D.quest_desc: ["Catch the dragon's breath in a glass bottle. Used for lingering potions."]
+	quest.70E0292A312F799D.title: "Dragon's Breath"
+	quest.70E58A4119AB7F40.quest_desc: ["The best mana trinkets in the pack."]
+	quest.70E58A4119AB7F40.title: "Amulet of Greater Mana Regen"
+	quest.711CBA42CDA6DC9D.quest_desc: [
+		"A rare disc found in Cataclysm structures. Part of the &bMusic Discs&r collection."
+	]
+	quest.711CBA42CDA6DC9D.title: "The Cataclysmfarer"
+	quest.712A44BDDDC8DB21.title: "Music Disc"
+	quest.71DAA7ABC77C5354.quest_desc: ["Visit a &aAuroral Garden&r biome."]
+	quest.71DAA7ABC77C5354.title: "Auroral Garden"
+	quest.71EACCAEF123F3B9.quest_desc: [
+		"Spell turrets cast an inscribed spell when powered by redstone. Great for farms."
+	]
+	quest.71EACCAEF123F3B9.title: "Spell Turret"
+	quest.7287477FD850F74C.title: "Music Disc"
+	quest.730628476392760A.quest_desc: ["Master one school completely. This quest tracks fire."]
+	quest.730628476392760A.title: "Fire Affinity Mastery"
+	quest.7314A9BA52B79FA9.quest_desc: ["Every item in &6Harsh Encounters&r."]
+	quest.7314A9BA52B79FA9.title: "Harsh Encounters"
+	quest.7344D0F0466DF6D0.quest_desc: ["Look at a &bSculkbuncle&r."]
+	quest.7344D0F0466DF6D0.title: "Sculkbuncle"
+	quest.7371C0683E759989.quest_desc: ["Obtain an &6Eye of Mech&r. Throw it to point toward the Ancient Factory."]
+	quest.7371C0683E759989.title: "Eye of Mech"
+	quest.737BCDDBEC4AF98D.quest_desc: ["Every item in &6Cataclysm Arsenal&r."]
+	quest.737BCDDBEC4AF98D.title: "Cataclysm Arsenal"
+	quest.73FBECD98956B076.quest_desc: ["Magical relics themed around Ars Nouveau, found in loot or crafted (check EMI)."]
+	quest.73FBECD98956B076.title: "Spiked Cloak"
+	quest.73FE34E7B62BBC58.quest_desc: ["Every creature catalogued."]
+	quest.73FE34E7B62BBC58.quest_subtitle: "Collection complete"
+	quest.73FE34E7B62BBC58.title: "Master Naturalist"
+	quest.743AE69CF398CB0C.quest_desc: ["You have handled all seven essences. Every school of magic is now open to you."]
+	quest.743AE69CF398CB0C.title: "Elemental Theory"
+	quest.744F0AB354322E7B.quest_desc: ["&bArs Controle&r adds remotes and logic filters for spell automation."]
+	quest.744F0AB354322E7B.title: "Ars Controle"
+	quest.74ADE11EF435DDA4.quest_desc: ["Find the &6Archwood Village&r. Use a Wayfinder (Ars Additions) or explore."]
+	quest.74ADE11EF435DDA4.title: "Archwood Village"
+	quest.74E8EEB02A2B9CC0.quest_desc: ["Have your builder construct the Town Hall itself."]
+	quest.74E8EEB02A2B9CC0.title: "Town Hall"
+	quest.7599D7356E551C7E.quest_desc: [
+		"Destroy the End Crystals on the obsidian pillars, then bring down the &5Ender Dragon&r."
+		""
+		"This quest unlocks only after every Cataclysm boss in the Overworld and Nether and the Wilden Chimera are defeated."
+		""
+		"&6Congratulations, Archmage!&r"
+	]
+	quest.7599D7356E551C7E.quest_subtitle: "The goal of the Journey"
+	quest.7599D7356E551C7E.title: "The Ender Dragon"
+	quest.75F75046D07EC09F.quest_desc: ["Signature weapons and gear forged from Cataclysm boss drops."]
+	quest.75F75046D07EC09F.title: "Zweiender"
+	quest.762A914278C0620B.quest_desc: ["Find the &6Starbuncle Shrine&r. Use a Wayfinder (Ars Additions) or explore."]
+	quest.762A914278C0620B.title: "Starbuncle Shrine"
+	quest.762F5A30278849C6.quest_desc: [
+		"Craft the &aProjectile&r form and the &aBreak&r and &aHarm&r effects."
+		""
+		"Hold each glyph for a moment so the quest sees it, then right-click to learn it. Projectile + Harm is your first combat spell; Projectile + Break mines from range."
+	]
+	quest.762F5A30278849C6.title: "First Glyphs"
+	quest.7670D9A951AB8920.quest_desc: ["Every disc from &6Cataclysm&r."]
+	quest.7670D9A951AB8920.title: "Cataclysm"
+	quest.778CB2739B3EF243.quest_desc: ["Find the &6Nexus Tower&r. Use a Wayfinder (Ars Additions) or explore."]
+	quest.778CB2739B3EF243.title: "Nexus Tower"
+	quest.77D81859E0AB760B.quest_desc: ["Magical relics themed around Ars Nouveau, found in loot or crafted (check EMI)."]
+	quest.77D81859E0AB760B.title: "Whirling Broom"
+	quest.7803119F8F3E76F8.quest_desc: ["Look at a &bSiren&r."]
+	quest.7803119F8F3E76F8.title: "Siren"
+	quest.786389E3E7FE4E82.title: "Music Disc"
+	quest.787087FA96409C7B.title: "Music Disc"
+	quest.78BE45D25D100261.quest_desc: ["Build a &6Library&r hut."]
+	quest.78BE45D25D100261.title: "Library"
+	quest.7948C33D9912F7A7.quest_desc: ["Find the &6Shiraz Palace&r. Use a Wayfinder (Ars Additions) or explore."]
+	quest.7948C33D9912F7A7.title: "Shiraz Palace"
+	quest.7973B8F945DEAB94.quest_desc: ["Find the &6Thunderous Tower&r. Use a Wayfinder (Ars Additions) or explore."]
+	quest.7973B8F945DEAB94.title: "Thunderous Tower"
+	quest.7981A1DA93110154.quest_desc: ["Defeat &cThe Deviser&r. A dangerous foe found in this pack's dungeons."]
+	quest.7981A1DA93110154.title: "The Deviser"
+	quest.79D750349472819C.quest_desc: ["Build a &6Smeltery&r hut."]
+	quest.79D750349472819C.title: "Smeltery"
+	quest.7A3CD7F2001B5F6E.quest_desc: ["The vanilla challenge: visit every Overworld biome."]
+	quest.7A3CD7F2001B5F6E.title: "Adventuring Time"
+	quest.7A63D7F81367FEE5.title: "Music Disc"
+	quest.7A9ED5810C7931B2.quest_desc: [
+		"The &dWorn Notebook&r is the Ars Nouveau guide book. Everything in this chapter is explained in it, step by step."
+		""
+		"Craft one (check EMI) and keep it handy."
+	]
+	quest.7A9ED5810C7931B2.title: "The Study of Source"
+	quest.7AEDCCC8F41FFDF1.quest_desc: ["The best mana trinkets in the pack."]
+	quest.7AEDCCC8F41FFDF1.title: "Ring of Greatest Discount"
+	quest.7AF2A5BD389959D5.quest_desc: ["Pedestals hold the ingredients for apparatus recipes and rituals."]
+	quest.7AF2A5BD389959D5.title: "Arcane Pedestals"
+	quest.7B2964731EF1F37C.quest_desc: [
+		"The &dRitual of the Wild&r summons Wilden. Augment it with a horn, a wing and a spike (check the Worn Notebook) to summon the &cWilden Chimera&r instead."
+		""
+		"Prepare: armour, healing, food and a strong spell."
+	]
+	quest.7B2964731EF1F37C.title: "Ritual of the Wild"
+	quest.7B490B7F1FF4C2D9.quest_desc: ["Decorative magical light. Sourcestone makes a fine wizard tower, too."]
+	quest.7B490B7F1FF4C2D9.title: "Magelight"
+	quest.7B69C4736656840B.quest_desc: [
+		"&bSupplementaries&r adds many handy blocks: sacks, jars, ropes, globes and more."
+	]
+	quest.7B69C4736656840B.title: "Supplementaries"
+	quest.7CA28831ABABCC09.quest_desc: ["A spinning globe of your world."]
+	quest.7CA28831ABABCC09.title: "Globe"
+	quest.7CB4286966BA9BAC.quest_desc: ["Find the &6Heavenly Conqueror&r. Use a Wayfinder (Ars Additions) or explore."]
+	quest.7CB4286966BA9BAC.title: "Heavenly Conqueror"
+	quest.7CD26058B647A2FF.quest_desc: [
+		"Relics are found in loot chests all over the world. They level up as you use them."
+	]
+	quest.7CD26058B647A2FF.title: "Experience Disperser"
+	quest.7D06EC4E16976F19.title: "Ambience Disc"
+	quest.7D29386882DF17AF.quest_desc: ["A Relay Splitter spreads source evenly to several jars."]
+	quest.7D29386882DF17AF.title: "Splitting Source"
+	quest.7D62DE475B7EDAF4.quest_desc: ["Use a &dDowsing Rod&r to reveal hidden magical blocks and creatures nearby."]
+	quest.7D62DE475B7EDAF4.title: "Dowsing Rod"
+	quest.7D91B5C3CA090810.quest_desc: [
+		"Bind a &dFlashjack&r. Summon one from its &6Flashjack Charm&r first."
+		""
+		"Each familiar grants a different bonus; see the Worn Notebook."
+	]
+	quest.7D91B5C3CA090810.title: "Flashjack Familiar"
+	quest.7DE82F358FD64963.quest_desc: ["Look at a &bCavebuncle&r."]
+	quest.7DE82F358FD64963.title: "Cavebuncle"
+	quest.7ECEB14F7AEDA045.quest_desc: ["Look at a &bShellbuncle&r."]
+	quest.7ECEB14F7AEDA045.title: "Shellbuncle"
+	quest.7ED86E2A3F491367.quest_desc: ["Every treasure in the pack has passed through your hands."]
+	quest.7ED86E2A3F491367.quest_subtitle: "Collection complete"
+	quest.7ED86E2A3F491367.title: "Curator"
+	quest.7EE07EF3E916855C.quest_desc: ["&bStarbunclemania&r teaches starbuncles to carry fluids and adds fun cosmetics."]
+	quest.7EE07EF3E916855C.title: "Starbunclemania"
+	quest.7F317EBEC0F97512.quest_desc: ["Magical relics themed around Ars Nouveau, found in loot or crafted (check EMI)."]
+	quest.7F317EBEC0F97512.title: "Illusionist's Mantle"
+	quest.7FF18B74C3DAB7F8.quest_desc: ["Signature weapons and gear forged from Cataclysm boss drops."]
+	quest.7FF18B74C3DAB7F8.title: "Void Forge"
+	task.01DB59CF94261510.title: "All 15 collected"
+	task.04F043189D46B0F8.title: "32 Source Gems"
+	task.084ECD3A62E3C494.title: "4 Source Gem Blocks"
+	task.0F0777EA4C9D0050.title: "Every bestiary page complete"
+	task.11030EEC681F96C8.title: "12 Eyes of Ender"
+	task.16463CE38A089586.title: "Every creature observed"
+	task.16498D27646738E4.title: "All 3 discs"
+	task.19815893F84A51D7.title: "8 Blaze Rods"
+	task.1CD4C8074BAE63A9.title: "All 5 collected"
+	task.20422172D4EAA87A.title: "2 Relays"
+	task.22DF068C82909D9D.title: "All 9 discs"
+	task.27FE87C8FAD7C25B.title: "Activate a waystone"
+	task.283CEE5F17F9EA6C.title: "Every collection complete"
+	task.298DF723AC5DCD80.title: "All 18 discs"
+	task.2D5EEFC2514E6AEC.title: "Every creature observed"
+	task.2DF586E57D7B9467.title: "Every familiar collected"
+	task.2E3EBEA1A94022A9.title: "All 22 collected"
+	task.2ED9CE69EBCDA3AE.title: "4 Shulker Shells"
+	task.353E32BE67B956F5.title: "All 2 discs"
+	task.379A98BF1341A48D.title: "All 11 discs"
+	task.39BC8DC367543489.title: "Defeat the Ender Dragon"
+	task.3A43593E78FB9927.title: "All 3 collected"
+	task.3B4D941FBCF765C0.title: "Every creature observed"
+	task.3C14DD14D791257C.title: "All 24 collected"
+	task.3DC685A972C9443A.title: "All 9 discs"
+	task.49FFCC6D2725CAAF.title: "Every biome visited"
+	task.4BDBC8B72C550476.title: "All 8 collected"
+	task.4F70270183B057A1.title: "Place a Town Hall"
+	task.52057B86DA80972E.title: "4 Source Jars"
+	task.52F4B1AB5E6634DA.title: "Pick the Archwood style"
+	task.5544D30DF2FE6562.title: "Exploration complete"
+	task.575122897DB53E1C.title: "12 Blaze Rods"
+	task.5B36E8396177B253.title: "8 Source Gem Blocks"
+	task.5C0496D3911CC338.title: "All 18 collected"
+	task.64EDC093F6177966.title: "All seven essences studied"
+	task.656B139DEF12F478.title: "Every creature observed"
+	task.738DA1E3C5D68200.title: "4 Magebloom Fiber"
+	task.749C96B1E223393F.title: "8 Bread"
+	task.75660C5A6BC34453.title: "32 Archwood Planks"
+	task.76CAC2EEADC6F093.title: "16 Source Gems"
+	task.77E0B9FF4CF989DA.title: "4 Arcane Pedestals"
+	task.799E263C50DB2619.title: "Every structure found"
+	task.7AAFA64A7FE803F6.title: "Homestead complete"
+	task.7B7A370A6E3F3449.title: "All 52 discs"
+}

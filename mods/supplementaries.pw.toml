@@ -1,0 +1,21 @@
+filename = 'supplementaries-1.21.1-4.1.4-neoforge.jar'
+name = 'Supplementaries'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'supplementaries-1.21.1-4.1.4-neoforge'
+
+[download]
+hash = '61932662ec2d95634a7685543a58b2cc99125e11'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9724360
+project-id = 412082
+
+[[x-prismlauncher-dependencies]]
+addonId = '499980'
+type = 'REQUIRED'

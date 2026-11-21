@@ -1,0 +1,9 @@
+[offensive_charges]
+	#Duration of the severe Fire Charge burn.
+	# Default: 10
+	# Range: 1 ~ 120
+	fire_burn_seconds = 10
+	#Total health points dealt by the severe burn at 100 Fire Charges.  Two health points equal one heart.
+	# Default: 30.0
+	# Range: 0.0 ~ 1000.0
+	fire_burn_damage_at_100 = 30.0

@@ -1,0 +1,18 @@
+filename = 'ars_two_way_portals-2.0.0.jar'
+name = 'Ars Nouveau: Two-Way Portals (with immersive portal support)'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ars_two_way_portals-2.0.0.jar'
+
+[download]
+hash = '233846fc30667893c5f36a719da576d5eed43f5c'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8515817
+project-id = 1599062

@@ -1,0 +1,21 @@
+filename = 'morearsnouveau-1.0.0.jar'
+name = 'MoreArsnouveau'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'More Arsnouveau-1.0.0.jar'
+
+[download]
+hash = 'c79adb40f7f88150a6ddca5d363901c6ef6ed0f6'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8189862
+project-id = 1563360
+
+[[x-prismlauncher-dependencies]]
+addonId = '401955'
+type = 'REQUIRED'

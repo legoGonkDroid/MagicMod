@@ -1,0 +1,25 @@
+filename = 'ArmorStatues-v21.1.0-1.21.1-NeoForge.jar'
+name = 'Armor Statues'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '[NEOFORGE] [1.21.1] ArmorStatues-v21.1.0'
+
+[download]
+hash = 'ea74e8434f23b618d3298afda8cad1ccb76f0a94'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5732769
+project-id = 682566
+
+[[x-prismlauncher-dependencies]]
+addonId = '495476'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '544048'
+type = 'OPTIONAL'

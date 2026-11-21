@@ -1,0 +1,1598 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bestiary"
+	group: "0A002B5076C58111"
+	icon: {
+		id: "minecraft:spyglass"
+	}
+	id: "234B481C14C48B0F"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:spyglass"
+			}
+			id: "114E56F0DF426423"
+			rewards: [
+				{
+					id: "23B94E77B15BEFD2"
+					item: {
+						count: 1
+						id: "minecraft:spyglass"
+					}
+					type: "item"
+				}
+				{
+					id: "189681F77A8C4D1C"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "57C1893FE4BF2B06"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "ars_nouveau:starbuncle_charm"
+			}
+			id: "4A7D4AEDAC95C770"
+			rewards: [{
+				id: "5EF3371016FF6023"
+				type: "xp"
+				xp: 25
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "1C77D5C5A5CD5BDF"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ars_nouveau:starbuncle"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "ars_nouveau:starbuncle_charm"
+			}
+			id: "2F5EC2D34037DE42"
+			rewards: [{
+				id: "0E7814F030D9FA59"
+				type: "xp"
+				xp: 25
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "17124CE02A84CDFE"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ars_nouveau:whirlisprig"
+				type: "observation"
+			}]
+			x: 3.25d
+			y: -6.0d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "ars_nouveau:starbuncle_charm"
+			}
+			id: "40B64B9902B7A2A6"
+			rewards: [{
+				id: "13774B1C7DCA6760"
+				type: "xp"
+				xp: 25
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "38826126E2981A38"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ars_nouveau:drygmy"
+				type: "observation"
+			}]
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "ars_nouveau:starbuncle_charm"
+			}
+			id: "419B2763E3C41EE4"
+			rewards: [{
+				id: "1FEC510B62BD3BD1"
+				type: "xp"
+				xp: 25
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "7BD9D5A2EA84C129"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ars_nouveau:wixie"
+				type: "observation"
+			}]
+			x: 5.75d
+			y: -6.0d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "ars_nouveau:starbuncle_charm"
+			}
+			id: "1711FF4789FEEE5E"
+			rewards: [{
+				id: "5B8E511E08470ABC"
+				type: "xp"
+				xp: 25
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "62EE3141BB55EB9F"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ars_nouveau:bookwyrm"
+				type: "observation"
+			}]
+			x: 7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "ars_nouveau:starbuncle_charm"
+			}
+			id: "5E3C5FF18A92CF0F"
+			rewards: [{
+				id: "0819C2B2E39C2E14"
+				type: "xp"
+				xp: 25
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "14378A9AED055A1C"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ars_nouveau:amethyst_golem"
+				type: "observation"
+			}]
+			x: 8.25d
+			y: -6.0d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "ars_nouveau:starbuncle_charm"
+			}
+			id: "1F06BE7F2A651B5A"
+			rewards: [{
+				id: "33FC0046C5768E85"
+				type: "xp"
+				xp: 25
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "382D485020DA69BA"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ars_nouveau:alakarkinos"
+				type: "observation"
+			}]
+			x: 9.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "ars_nouveau:starbuncle_charm"
+			}
+			id: "18316BCC92F0803A"
+			rewards: [{
+				id: "6B90EE4ED73A403F"
+				type: "xp"
+				xp: 25
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "26C11481D8431E28"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ars_nouveau:wilden_hunter"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: -4.75d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "ars_nouveau:starbuncle_charm"
+			}
+			id: "151102FF9D6BE0D4"
+			rewards: [{
+				id: "6FAEEEFE7EE42061"
+				type: "xp"
+				xp: 25
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "768699241082072C"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ars_nouveau:wilden_stalker"
+				type: "observation"
+			}]
+			x: 3.25d
+			y: -4.75d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "ars_nouveau:starbuncle_charm"
+			}
+			id: "38F78245FC844893"
+			rewards: [{
+				id: "58D88D6DAAA66A0E"
+				type: "xp"
+				xp: 25
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "4094F93AA90BEDEB"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ars_nouveau:wilden_guardian"
+				type: "observation"
+			}]
+			x: 4.5d
+			y: -4.75d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "ars_nouveau:starbuncle_charm"
+			}
+			id: "434C1E76E0D01B2B"
+			rewards: [{
+				id: "6B154BF76BB084F6"
+				type: "xp"
+				xp: 25
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "4259677C76E53C9F"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ars_nouveau:blazing_weald_walker"
+				type: "observation"
+			}]
+			x: 5.75d
+			y: -4.75d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "ars_nouveau:starbuncle_charm"
+			}
+			id: "40A41E3A83261D26"
+			rewards: [{
+				id: "549700CFDE1355A8"
+				type: "xp"
+				xp: 25
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "3194AC6DAC385E81"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ars_nouveau:cascading_weald_walker"
+				type: "observation"
+			}]
+			x: 7.0d
+			y: -4.75d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "ars_nouveau:starbuncle_charm"
+			}
+			id: "4D795AB843CD61C4"
+			rewards: [{
+				id: "536C81A6163EC1B4"
+				type: "xp"
+				xp: 25
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "1540C6D903E9B6D4"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ars_nouveau:flourishing_weald_walker"
+				type: "observation"
+			}]
+			x: 8.25d
+			y: -4.75d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "ars_nouveau:starbuncle_charm"
+			}
+			id: "252343A58D50E16E"
+			rewards: [{
+				id: "0F90CCDDE51F399A"
+				type: "xp"
+				xp: 25
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "0E54EAE1E2CF9FA9"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ars_nouveau:vexing_weald_walker"
+				type: "observation"
+			}]
+			x: 9.5d
+			y: -4.75d
+		}
+		{
+			dependencies: [
+				"4A7D4AEDAC95C770"
+				"2F5EC2D34037DE42"
+				"40B64B9902B7A2A6"
+				"419B2763E3C41EE4"
+				"1711FF4789FEEE5E"
+				"5E3C5FF18A92CF0F"
+				"1F06BE7F2A651B5A"
+				"18316BCC92F0803A"
+				"151102FF9D6BE0D4"
+				"38F78245FC844893"
+				"434C1E76E0D01B2B"
+				"40A41E3A83261D26"
+				"4D795AB843CD61C4"
+				"252343A58D50E16E"
+			]
+			icon: {
+				id: "ars_nouveau:starbuncle_charm"
+			}
+			id: "0FCFE593E476E122"
+			rewards: [
+				{
+					count: 2
+					id: "4554A6AA7E971C89"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem_block"
+					}
+					type: "item"
+				}
+				{
+					id: "0B4F38D0CC5C1CCD"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "16463CE38A089586"
+				type: "checkmark"
+			}]
+			x: 11.5d
+			y: -5.375d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "ars_nouveau:starbuncle_shards"
+			}
+			id: "7DE82F358FD64963"
+			rewards: [{
+				id: "3EDF4E2A359B63E0"
+				type: "xp"
+				xp: 25
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "004ECFF25DBEF5D4"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ars_fauna:cavebuncle"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "ars_nouveau:starbuncle_shards"
+			}
+			id: "0856CA332FD03E37"
+			rewards: [{
+				id: "5CA02C977380D954"
+				type: "xp"
+				xp: 25
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "0BE8214C500E8331"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ars_fauna:chefbuncle"
+				type: "observation"
+			}]
+			x: 3.25d
+			y: -2.5d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "ars_nouveau:starbuncle_shards"
+			}
+			id: "20C32DFE6F984FEF"
+			rewards: [{
+				id: "0D1F3E3690EB9341"
+				type: "xp"
+				xp: 25
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "10A5B0320575D947"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ars_fauna:cloudbuncle"
+				type: "observation"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "ars_nouveau:starbuncle_shards"
+			}
+			id: "3DAFE05A6E7ED08F"
+			rewards: [{
+				id: "3FE0BB7D18B116B1"
+				type: "xp"
+				xp: 25
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "23B25D435C7431F7"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ars_fauna:dark_drygmy"
+				type: "observation"
+			}]
+			x: 5.75d
+			y: -2.5d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "ars_nouveau:starbuncle_shards"
+			}
+			id: "5C82D759F2B3E184"
+			rewards: [{
+				id: "2CF00A98B6AAEF31"
+				type: "xp"
+				xp: 25
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "42702BF184E4CA96"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ars_fauna:deepsprig"
+				type: "observation"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "ars_nouveau:starbuncle_shards"
+			}
+			id: "329200E0FC883964"
+			rewards: [{
+				id: "5450802D669DBF95"
+				type: "xp"
+				xp: 25
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "55D5486910DDF75A"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ars_fauna:enderbuncle"
+				type: "observation"
+			}]
+			x: 8.25d
+			y: -2.5d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "ars_nouveau:starbuncle_shards"
+			}
+			id: "69F41D3E8A8DF834"
+			rewards: [{
+				id: "784C7EBA48FE5E1A"
+				type: "xp"
+				xp: 25
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "56541C0DEE4009E1"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ars_fauna:eyebuncle"
+				type: "observation"
+			}]
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "ars_nouveau:starbuncle_shards"
+			}
+			id: "14313733D8DFE7F0"
+			rewards: [{
+				id: "3F4150151CB74222"
+				type: "xp"
+				xp: 25
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "3302C6521582EA82"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ars_fauna:faebuncle"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: -1.25d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "ars_nouveau:starbuncle_shards"
+			}
+			id: "217C5C4E77E3972B"
+			rewards: [{
+				id: "43A969DFD73F4D0C"
+				type: "xp"
+				xp: 25
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "1138A4F4FE34AAB8"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ars_fauna:frostbuncle"
+				type: "observation"
+			}]
+			x: 3.25d
+			y: -1.25d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "ars_nouveau:starbuncle_shards"
+			}
+			id: "23F4090AAA7CD071"
+			rewards: [{
+				id: "7DC4B31B76E3AC6C"
+				type: "xp"
+				xp: 25
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "6D9103305041B832"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ars_fauna:giant_carnivorous_starbuncle"
+				type: "observation"
+			}]
+			x: 4.5d
+			y: -1.25d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "ars_nouveau:starbuncle_shards"
+			}
+			id: "6FD0E3A396003F53"
+			rewards: [{
+				id: "7E5D1E5B74523D6A"
+				type: "xp"
+				xp: 25
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "177228BB43F087CF"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ars_fauna:goobuncle"
+				type: "observation"
+			}]
+			x: 5.75d
+			y: -1.25d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "ars_nouveau:starbuncle_shards"
+			}
+			id: "570DD7BE13CE6DEA"
+			rewards: [{
+				id: "63EE26F8CC0259BE"
+				type: "xp"
+				xp: 25
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "47916B062FAE9847"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ars_fauna:illusibuncle"
+				type: "observation"
+			}]
+			x: 7.0d
+			y: -1.25d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "ars_nouveau:starbuncle_shards"
+			}
+			id: "18A84A750EB3E150"
+			rewards: [{
+				id: "104DDF611D442861"
+				type: "xp"
+				xp: 25
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "0D0C0F0964C01A52"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ars_fauna:pyrobuncle"
+				type: "observation"
+			}]
+			x: 8.25d
+			y: -1.25d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "ars_nouveau:starbuncle_shards"
+			}
+			id: "5987074FAA87D238"
+			rewards: [{
+				id: "281B7520C5FA5D60"
+				type: "xp"
+				xp: 25
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "79B0923EFB9F4CCF"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ars_fauna:sandbuncle"
+				type: "observation"
+			}]
+			x: 9.5d
+			y: -1.25d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "ars_nouveau:starbuncle_shards"
+			}
+			id: "7344D0F0466DF6D0"
+			rewards: [{
+				id: "793A5B50DD2AB805"
+				type: "xp"
+				xp: 25
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "167ABAD8EFBB914C"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ars_fauna:sculkbuncle"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "ars_nouveau:starbuncle_shards"
+			}
+			id: "5DDA9B191E346750"
+			rewards: [{
+				id: "7750A11F919D3834"
+				type: "xp"
+				xp: 25
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "2D2B28A9162679D5"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ars_fauna:seabuncle"
+				type: "observation"
+			}]
+			x: 3.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "ars_nouveau:starbuncle_shards"
+			}
+			id: "02D38E528014C510"
+			rewards: [{
+				id: "4F03DEB2022C1BFD"
+				type: "xp"
+				xp: 25
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "6585752A6EA7B809"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ars_fauna:seasprig"
+				type: "observation"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "ars_nouveau:starbuncle_shards"
+			}
+			id: "019E0FBD0EA26623"
+			rewards: [{
+				id: "2399DBDD242728C6"
+				type: "xp"
+				xp: 25
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "33E55DF2FC1F19E0"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ars_fauna:shadowbuncle"
+				type: "observation"
+			}]
+			x: 5.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "ars_nouveau:starbuncle_shards"
+			}
+			id: "7ECEB14F7AEDA045"
+			rewards: [{
+				id: "5EB36E7FF906CBD9"
+				type: "xp"
+				xp: 25
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "79C27814A81DB0AC"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ars_fauna:shellbuncle"
+				type: "observation"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "ars_nouveau:starbuncle_shards"
+			}
+			id: "4E6AD90C1675A326"
+			rewards: [{
+				id: "0F33C83EBF734308"
+				type: "xp"
+				xp: 25
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "798BEA52C23520D8"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ars_fauna:skelebuncle"
+				type: "observation"
+			}]
+			x: 8.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "ars_nouveau:starbuncle_shards"
+			}
+			id: "3A3ECC580FB32065"
+			rewards: [{
+				id: "44C2AD842FDFA59A"
+				type: "xp"
+				xp: 25
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "4B9FFE746098A111"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ars_fauna:songbuncle"
+				type: "observation"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "ars_nouveau:starbuncle_shards"
+			}
+			id: "42A2E5F29909217E"
+			rewards: [{
+				id: "61E202C621951623"
+				type: "xp"
+				xp: 25
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "541A21FB94878EF6"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ars_fauna:tentabuncle"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "ars_nouveau:starbuncle_shards"
+			}
+			id: "5AF3E158AAD3AAD6"
+			rewards: [{
+				id: "56D57C2DCBC56957"
+				type: "xp"
+				xp: 25
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "355699900F8F367D"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ars_fauna:thornsprig"
+				type: "observation"
+			}]
+			x: 3.25d
+			y: 1.25d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "ars_nouveau:starbuncle_shards"
+			}
+			id: "6F165C75DB733D83"
+			rewards: [{
+				id: "4AC318352A443220"
+				type: "xp"
+				xp: 25
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "0D06B77C79329D5C"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ars_fauna:vexbuncle"
+				type: "observation"
+			}]
+			x: 4.5d
+			y: 1.25d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "ars_nouveau:starbuncle_shards"
+			}
+			id: "50A61F97A8C4BDAC"
+			rewards: [{
+				id: "26FAEDA452F9E21D"
+				type: "xp"
+				xp: 25
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "082E0DFE09B2C39A"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ars_fauna:zombuncle"
+				type: "observation"
+			}]
+			x: 5.75d
+			y: 1.25d
+		}
+		{
+			dependencies: [
+				"7DE82F358FD64963"
+				"0856CA332FD03E37"
+				"20C32DFE6F984FEF"
+				"3DAFE05A6E7ED08F"
+				"5C82D759F2B3E184"
+				"329200E0FC883964"
+				"69F41D3E8A8DF834"
+				"14313733D8DFE7F0"
+				"217C5C4E77E3972B"
+				"23F4090AAA7CD071"
+				"6FD0E3A396003F53"
+				"570DD7BE13CE6DEA"
+				"18A84A750EB3E150"
+				"5987074FAA87D238"
+				"7344D0F0466DF6D0"
+				"5DDA9B191E346750"
+				"02D38E528014C510"
+				"019E0FBD0EA26623"
+				"7ECEB14F7AEDA045"
+				"4E6AD90C1675A326"
+				"3A3ECC580FB32065"
+				"42A2E5F29909217E"
+				"5AF3E158AAD3AAD6"
+				"6F165C75DB733D83"
+				"50A61F97A8C4BDAC"
+			]
+			icon: {
+				id: "ars_nouveau:starbuncle_shards"
+			}
+			id: "346044176347B28F"
+			rewards: [
+				{
+					id: "6EB11457FFC80D03"
+					item: {
+						count: 1
+						id: "ars_nouveau:starbuncle_plush"
+					}
+					type: "item"
+				}
+				{
+					id: "087B9C0FA8FE8972"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "656B139DEF12F478"
+				type: "checkmark"
+			}]
+			x: 11.5d
+			y: -0.625d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "ars_elemental:siren_charm"
+			}
+			id: "7803119F8F3E76F8"
+			rewards: [{
+				id: "0C1B4EB2EEEE3CD2"
+				type: "xp"
+				xp: 25
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "101FA70344B47C5E"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ars_elemental:siren_entity"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "ars_elemental:siren_charm"
+			}
+			id: "6B94A9E8DA0F8805"
+			rewards: [{
+				id: "1F7D047D888F054C"
+				type: "xp"
+				xp: 25
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "7C52DADC59C52DA1"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ars_elemental:firenando_entity"
+				type: "observation"
+			}]
+			x: 3.25d
+			y: 3.5d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "ars_elemental:siren_charm"
+			}
+			id: "0E5EC7B8E869E926"
+			rewards: [{
+				id: "56FEDF39FD92E1AB"
+				type: "xp"
+				xp: 25
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "5CF41E8351AEBF41"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ars_elemental:flashjack_entity"
+				type: "observation"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "ars_elemental:siren_charm"
+			}
+			id: "25B2D86D42DE5B63"
+			rewards: [{
+				id: "7ED1D7094310E215"
+				type: "xp"
+				xp: 25
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "75FE64403C11F4B1"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ars_elemental:flashing_weald_walker"
+				type: "observation"
+			}]
+			x: 5.75d
+			y: 3.5d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "ars_elemental:siren_charm"
+			}
+			id: "28E97E0505BBD2A7"
+			rewards: [{
+				id: "10AB903AEAE25B72"
+				type: "xp"
+				xp: 25
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "3B14C31CECADD67A"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ars_elemental:fire_mage"
+				type: "observation"
+			}]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "ars_elemental:siren_charm"
+			}
+			id: "524BE0C10A12C738"
+			rewards: [{
+				id: "410ABAF794BDA524"
+				type: "xp"
+				xp: 25
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "2FF7F96E45A937A1"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ars_elemental:water_mage"
+				type: "observation"
+			}]
+			x: 8.25d
+			y: 3.5d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "ars_elemental:siren_charm"
+			}
+			id: "3074E30189868D60"
+			rewards: [{
+				id: "7072509117788978"
+				type: "xp"
+				xp: 25
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "5B0D4AE30E52E8B9"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ars_elemental:air_mage"
+				type: "observation"
+			}]
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "ars_elemental:siren_charm"
+			}
+			id: "6826CF7BC7E5105E"
+			rewards: [{
+				id: "007DB28492D86E79"
+				type: "xp"
+				xp: 25
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "7A97CC63BF7D2419"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "ars_elemental:earth_mage"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: 4.75d
+		}
+		{
+			dependencies: [
+				"7803119F8F3E76F8"
+				"6B94A9E8DA0F8805"
+				"0E5EC7B8E869E926"
+				"25B2D86D42DE5B63"
+				"28E97E0505BBD2A7"
+				"524BE0C10A12C738"
+				"3074E30189868D60"
+				"6826CF7BC7E5105E"
+			]
+			icon: {
+				id: "ars_elemental:siren_charm"
+			}
+			id: "024B70493C434823"
+			rewards: [
+				{
+					id: "0AB566B67753E5D5"
+					item: {
+						count: 1
+						id: "ars_elemental:mark_of_mastery"
+					}
+					type: "item"
+				}
+				{
+					id: "4192E4AD9B723C23"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "2D5EEFC2514E6AEC"
+				type: "checkmark"
+			}]
+			x: 11.5d
+			y: 4.125d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "minecraft:spider_eye"
+			}
+			id: "31A76EF5BE3BE5F3"
+			rewards: [{
+				id: "00244B7F2633C81F"
+				type: "xp"
+				xp: 25
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "3D1D404635490E7E"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "quark:stoneling"
+				type: "observation"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "minecraft:spider_eye"
+			}
+			id: "2E6CA86761B14F83"
+			rewards: [{
+				id: "3E63BAB69F1E6B9E"
+				type: "xp"
+				xp: 25
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "28C73E92A455A76B"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "quark:toretoise"
+				type: "observation"
+			}]
+			x: 3.25d
+			y: 7.0d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "minecraft:spider_eye"
+			}
+			id: "3CEBBCFE4E9379E8"
+			rewards: [{
+				id: "2E599E1E697C4496"
+				type: "xp"
+				xp: 25
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "4F963DA0BB68E4F8"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "quark:crab"
+				type: "observation"
+			}]
+			x: 4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "minecraft:spider_eye"
+			}
+			id: "2B0F863E8980534E"
+			rewards: [{
+				id: "14575BE2705F4799"
+				type: "xp"
+				xp: 25
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "57E0B0C569E6AEF0"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "quark:foxhound"
+				type: "observation"
+			}]
+			x: 5.75d
+			y: 7.0d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "minecraft:spider_eye"
+			}
+			id: "2B7CFD6E731AAB09"
+			rewards: [{
+				id: "1817548D296F0EF5"
+				type: "xp"
+				xp: 25
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "701FA6BAA691F39F"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "quark:shiba"
+				type: "observation"
+			}]
+			x: 7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "minecraft:spider_eye"
+			}
+			id: "6512D8EB47E34ED8"
+			rewards: [{
+				id: "23537106B5AD7A59"
+				type: "xp"
+				xp: 25
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "0D18D547694222B5"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "quark:wraith"
+				type: "observation"
+			}]
+			x: 8.25d
+			y: 7.0d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "minecraft:spider_eye"
+			}
+			id: "1DF68D0E8441B901"
+			rewards: [{
+				id: "4175423228931515"
+				type: "xp"
+				xp: 25
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "76C3F9024A20F46D"
+				observation_type: "entity_type"
+				observe_type: 5
+				timer: 0L
+				to_observe: "quark:forgotten"
+				type: "observation"
+			}]
+			x: 9.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"31A76EF5BE3BE5F3"
+				"2E6CA86761B14F83"
+				"3CEBBCFE4E9379E8"
+				"2B0F863E8980534E"
+				"2B7CFD6E731AAB09"
+				"6512D8EB47E34ED8"
+				"1DF68D0E8441B901"
+			]
+			icon: {
+				id: "minecraft:spider_eye"
+			}
+			id: "2A88FF472E005454"
+			rewards: [
+				{
+					count: 3
+					id: "16348E2E168B1B7B"
+					item: {
+						count: 1
+						id: "minecraft:name_tag"
+					}
+					type: "item"
+				}
+				{
+					id: "7E1243A39C192EED"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "3B4D941FBCF765C0"
+				type: "checkmark"
+			}]
+			x: 11.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "minecraft:wither_skeleton_skull"
+			}
+			id: "1E60A1EC6814780F"
+			rewards: [
+				{
+					count: 3
+					id: "693CAD69CE37C3DA"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "1D23ADD19AB35117"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				entity: "ars_zero:lich"
+				id: "27398178478EAFE9"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 9.75d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "minecraft:wither_skeleton_skull"
+			}
+			id: "687A7CE3DB0FD2D9"
+			rewards: [
+				{
+					count: 3
+					id: "1C46013B94AB29C2"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "236ACBC0CC5113F5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				entity: "ars_zero:necromancer"
+				id: "4409EB4DCB12830E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 9.75d
+		}
+		{
+			dependencies: ["114E56F0DF426423"]
+			icon: {
+				id: "minecraft:wither_skeleton_skull"
+			}
+			id: "7981A1DA93110154"
+			rewards: [
+				{
+					count: 3
+					id: "2BB4761CE70825FF"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "30A9EBDDAA5771F6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				entity: "harsh_encounters:deviser"
+				id: "60EE3F86FC26E5C4"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: 9.75d
+		}
+		{
+			dependencies: [
+				"0FCFE593E476E122"
+				"346044176347B28F"
+				"024B70493C434823"
+				"2A88FF472E005454"
+			]
+			icon: {
+				id: "minecraft:writable_book"
+			}
+			id: "73FE34E7B62BBC58"
+			rewards: [
+				{
+					count: 4
+					id: "1571A1F2FF3D5716"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "328A714079ED2D27"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "heart"
+			size: 2.0d
+			tasks: [{
+				id: "0F0777EA4C9D0050"
+				type: "checkmark"
+			}]
+			x: 14.5d
+			y: -2.0d
+		}
+	]
+}

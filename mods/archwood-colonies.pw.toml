@@ -1,0 +1,17 @@
+filename = 'archwoodcolonies-1.04-1.21.1.jar'
+name = 'Archwood Colonies'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'archwoodcolonies-1.04-1.21.1.jar'
+
+[download]
+hash = 'c9995862ca447fe8ccef1db5ed17f52eb3631806'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9232961
+project-id = 1628280

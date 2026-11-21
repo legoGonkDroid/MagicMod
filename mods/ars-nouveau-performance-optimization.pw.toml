@@ -1,0 +1,21 @@
+filename = 'ArsNouveauPerformanceOptimization-1.21.1-1.2.0.jar'
+name = 'Ars Nouveau Performance Optimization'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ArsNouveauPerformanceOptimization-1.21.1-1.2.0.jar'
+
+[download]
+hash = 'aae30590c03b562419359db0822e143b7030e430'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9380519
+project-id = 1730031
+
+[[x-prismlauncher-dependencies]]
+addonId = '401955'
+type = 'REQUIRED'

@@ -1,0 +1,3937 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "relics"
+	group: "0A002B5076C58111"
+	icon: {
+		id: "relics:relic_experience_bottle"
+	}
+	id: "5402FC1CA514E906"
+	images: [ ]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "minecraft:chest"
+			}
+			id: "2321AE2AE2AD1E96"
+			rewards: [
+				{
+					id: "38F366C436D62E49"
+					item: {
+						count: 1
+						id: "minecraft:compass"
+					}
+					type: "item"
+				}
+				{
+					id: "0901DD608BEC35F9"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0236AC51F63CD98F"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								blink: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										cooldown: {
+											initialQuality: 10
+										}
+										distance: {
+											initialQuality: 7
+										}
+										max_charge: {
+											initialQuality: 6
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "relics:chorus_staff"
+			}
+			id: "2873FA8EC558B439"
+			rewards: [{
+				id: "104E6456812AE494"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "314FAA74DAC98E21"
+				item: { components: { "relics:data": { abilities: { abilities: { blink: { lock: { breaks: 5 }, points: 0, stats: { cooldown: { initialQuality: 7 }, distance: { initialQuality: 3 }, max_charge: { initialQuality: 2 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:chorus_staff" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								rewind: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										time: {
+											initialQuality: 4
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "relics:clot_of_time"
+			}
+			id: "1625C2D726F782C5"
+			rewards: [{
+				id: "4CA53B2B2ED2EE5D"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "6A93B93808020548"
+				item: { components: { "relics:data": { abilities: { abilities: { rewind: { lock: { breaks: 5 }, points: 0, stats: { time: { initialQuality: 2 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:clot_of_time" }
+				type: "item"
+			}]
+			x: 3.25d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								glass: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										capacity: {
+											initialQuality: 9
+										}
+										max_fluids: {
+											initialQuality: 6
+										}
+										speed: { }
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "relics:cut_glass_boot"
+			}
+			id: "2321C1B02FF9EB17"
+			rewards: [{
+				id: "404BCF7B663DB1A2"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "184577E32C38FD8F"
+				item: { components: { "relics:data": { abilities: { abilities: { glass: { lock: { breaks: 5 }, points: 0, stats: { capacity: { initialQuality: 3 }, max_fluids: { initialQuality: 5 }, speed: { } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:cut_glass_boot" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								dispersion: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										distribution_ratio: {
+											initialQuality: 1
+										}
+										player_xp_ratio: {
+											initialQuality: 3
+										}
+										same_item_bonus: {
+											initialQuality: 1
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "relics:experience_disperser"
+			}
+			id: "7CD26058B647A2FF"
+			rewards: [{
+				id: "6922AAC692AAD064"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "6A6F3B21EBD5B196"
+				item: { components: { "relics:data": { abilities: { abilities: { dispersion: { lock: { breaks: 5 }, points: 0, stats: { distribution_ratio: { }, player_xp_ratio: { }, same_item_bonus: { initialQuality: 1 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:experience_disperser" }
+				type: "item"
+			}]
+			x: 5.75d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								fog: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										air_loss: {
+											initialQuality: 4
+										}
+										duration: {
+											initialQuality: 4
+										}
+										radius: { }
+										suffocation_damage: {
+											initialQuality: 10
+										}
+										tremor: {
+											initialQuality: 3
+										}
+									}
+								}
+								gaze: {
+									lock: {
+										breaks: 0
+									}
+									points: 0
+									stats: {
+										charges: {
+											initialQuality: 1
+										}
+										damage: {
+											initialQuality: 5
+										}
+										range: {
+											initialQuality: 4
+										}
+										weakness: {
+											initialQuality: 2
+										}
+									}
+								}
+								spectral_escape: {
+									lock: {
+										breaks: 0
+									}
+									points: 0
+									stats: {
+										cooldown: {
+											initialQuality: 2
+										}
+										damage: {
+											initialQuality: 9
+										}
+										duration: {
+											initialQuality: 3
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "relics:ghostly_mantle"
+			}
+			id: "1C92FFC6226C0549"
+			rewards: [{
+				id: "51B55FBFC3303B3E"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "580828C7C18D8818"
+				item: { components: { "relics:data": { abilities: { abilities: { fog: { lock: { breaks: 5 }, points: 0, stats: { air_loss: { initialQuality: 8 }, duration: { initialQuality: 1 }, radius: { }, suffocation_damage: { initialQuality: 4 }, tremor: { initialQuality: 5 } } }, gaze: { lock: { breaks: 0 }, points: 0, stats: { charges: { initialQuality: 10 }, damage: { initialQuality: 6 }, range: { initialQuality: 8 }, weakness: { initialQuality: 8 } } }, spectral_escape: { lock: { breaks: 0 }, points: 0, stats: { cooldown: { initialQuality: 3 }, damage: { initialQuality: 6 }, duration: { initialQuality: 6 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:ghostly_mantle" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								distortion: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										miss_chance: {
+											initialQuality: 7
+										}
+									}
+								}
+								glitch: {
+									lock: {
+										breaks: 0
+									}
+									points: 0
+									stats: {
+										fall_damage: {
+											initialQuality: 8
+										}
+										phase_time: { }
+										stability_time: {
+											initialQuality: 2
+										}
+									}
+								}
+								illusion: {
+									lock: {
+										breaks: 0
+									}
+									points: 0
+									stats: {
+										duration: {
+											initialQuality: 4
+										}
+										echo_radius: {
+											initialQuality: 4
+										}
+										interval: {
+											initialQuality: 5
+										}
+										stun: {
+											initialQuality: 3
+										}
+										stun_radius: {
+											initialQuality: 3
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "relics:glitchy_mantle"
+			}
+			id: "63FFC8F8953DB367"
+			rewards: [{
+				id: "2F44CF96A579C482"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "56B388AFAF864404"
+				item: { components: { "relics:data": { abilities: { abilities: { distortion: { lock: { breaks: 5 }, points: 0, stats: { miss_chance: { initialQuality: 1 } } }, glitch: { lock: { breaks: 0 }, points: 0, stats: { fall_damage: { initialQuality: 9 }, phase_time: { initialQuality: 5 }, stability_time: { initialQuality: 3 } } }, illusion: { lock: { breaks: 0 }, points: 0, stats: { duration: { initialQuality: 8 }, echo_radius: { initialQuality: 2 }, interval: { initialQuality: 4 }, stun: { initialQuality: 5 }, stun_radius: { initialQuality: 10 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:glitchy_mantle" }
+				type: "item"
+			}]
+			x: 8.25d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				id: "relics:golden_tooth"
+			}
+			id: "1DD0D07EB665C37D"
+			rewards: [{
+				id: "7F3E22056AA1DE0D"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "0F011EF06FF77D09"
+				item: { count: 1, id: "relics:golden_tooth" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								pack: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										damage_modifier: {
+											initialQuality: 3
+										}
+										pet_radius: {
+											initialQuality: 6
+										}
+										resistance_per_pet: {
+											initialQuality: 8
+										}
+										revival_cost: {
+											initialQuality: 4
+										}
+									}
+								}
+								slots: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										amount: {
+											initialQuality: 10
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "relics:hunting_belt"
+			}
+			id: "04701C34862DD9D6"
+			rewards: [{
+				id: "0A3395FA9A187E65"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "380C1DFB5F4B6787"
+				item: { components: { "relics:data": { abilities: { abilities: { pack: { lock: { breaks: 5 }, points: 0, stats: { damage_modifier: { initialQuality: 9 }, pet_radius: { initialQuality: 9 }, resistance_per_pet: { initialQuality: 9 }, revival_cost: { } } }, slots: { lock: { breaks: 5 }, points: 0, stats: { amount: { initialQuality: 1 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:hunting_belt" }
+				type: "item"
+			}]
+			x: 10.75d
+			y: -7.0d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								regeneration: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										max_health: {
+											initialQuality: 2
+										}
+										regeneration: {
+											initialQuality: 6
+										}
+									}
+								}
+								shock: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										bounces: {
+											initialQuality: 10
+										}
+										cooldown: {
+											initialQuality: 3
+										}
+										damage: {
+											initialQuality: 4
+										}
+										damage_modifier: {
+											initialQuality: 9
+										}
+										distance: { }
+										duration: {
+											initialQuality: 8
+										}
+										knockback: { }
+										paralysis: {
+											initialQuality: 10
+										}
+										radius: {
+											initialQuality: 2
+										}
+										rings: {
+											initialQuality: 9
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "relics:jellyfish_necklace"
+			}
+			id: "371911768A3ADA3B"
+			rewards: [{
+				id: "23F51A223F056926"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "6518B63241215753"
+				item: { components: { "relics:data": { abilities: { abilities: { regeneration: { lock: { breaks: 5 }, points: 0, stats: { max_health: { initialQuality: 9 }, regeneration: { initialQuality: 8 } } }, shock: { lock: { breaks: 5 }, points: 0, stats: { bounces: { initialQuality: 3 }, cooldown: { initialQuality: 4 }, damage: { initialQuality: 3 }, damage_modifier: { initialQuality: 6 }, distance: { initialQuality: 3 }, duration: { initialQuality: 1 }, knockback: { initialQuality: 4 }, paralysis: { initialQuality: 5 }, radius: { initialQuality: 2 }, rings: { initialQuality: 8 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:jellyfish_necklace" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.75d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								gliding: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										damage: {
+											initialQuality: 4
+										}
+										efficiency: {
+											initialQuality: 3
+										}
+										resistance: {
+											initialQuality: 10
+										}
+									}
+								}
+								slots: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										amount: {
+											initialQuality: 9
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "relics:kinetic_belt"
+			}
+			id: "35C8D9579C92E5C6"
+			rewards: [{
+				id: "0CC921B48662D4C0"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "7359C0AF3B76AAA8"
+				item: { components: { "relics:data": { abilities: { abilities: { gliding: { lock: { breaks: 5 }, points: 0, stats: { damage: { initialQuality: 4 }, efficiency: { initialQuality: 1 }, resistance: { initialQuality: 5 } } }, slots: { lock: { breaks: 5 }, points: 0, stats: { amount: { initialQuality: 10 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:kinetic_belt" }
+				type: "item"
+			}]
+			x: 3.25d
+			y: -5.75d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								camouflage: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										absorption: {
+											initialQuality: 7
+										}
+										cooldown: {
+											initialQuality: 3
+										}
+										heal: {
+											initialQuality: 7
+										}
+									}
+								}
+								revival: {
+									lock: {
+										breaks: 0
+									}
+									points: 0
+									stats: {
+										damage: {
+											initialQuality: 4
+										}
+										heal: {
+											initialQuality: 7
+										}
+										paralysis: {
+											initialQuality: 9
+										}
+										radius: {
+											initialQuality: 7
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "relics:leafy_mantle"
+			}
+			id: "5B8063984C22400D"
+			rewards: [{
+				id: "5D79A6EE712BC4B1"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "6B843058B7E1039A"
+				item: { components: { "relics:data": { abilities: { abilities: { camouflage: { lock: { breaks: 5 }, points: 0, stats: { absorption: { initialQuality: 7 }, cooldown: { initialQuality: 7 }, heal: { initialQuality: 3 } } }, revival: { lock: { breaks: 0 }, points: 0, stats: { damage: { initialQuality: 4 }, heal: { initialQuality: 2 }, paralysis: { initialQuality: 7 }, radius: { initialQuality: 10 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:leafy_mantle" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.75d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								constellation: {
+									lock: {
+										breaks: 0
+									}
+									points: 0
+									stats: {
+										constellation_radius: {
+											initialQuality: 7
+										}
+										explosion_damage: { }
+										explosion_radius: {
+											initialQuality: 6
+										}
+										star_chance: {
+											initialQuality: 3
+										}
+										star_lifetime: {
+											initialQuality: 7
+										}
+										stun_duration: {
+											initialQuality: 9
+										}
+										tremor_duration: {
+											initialQuality: 3
+										}
+									}
+								}
+								invisibility: {
+									lock: {
+										breaks: 0
+									}
+									points: 0
+									stats: {
+										brightness: {
+											initialQuality: 8
+										}
+										cooldown: {
+											initialQuality: 9
+										}
+										damage: { }
+									}
+								}
+								phase: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										attack_damage: {
+											initialQuality: 2
+										}
+										attack_speed: {
+											initialQuality: 4
+										}
+										duration: {
+											initialQuality: 9
+										}
+										health_regeneration: {
+											initialQuality: 6
+										}
+										max_health: {
+											initialQuality: 4
+										}
+										modifier: {
+											initialQuality: 8
+										}
+									}
+								}
+								starfall: {
+									lock: {
+										breaks: 0
+									}
+									points: 0
+									stats: {
+										bounce_chance: {
+											initialQuality: 8
+										}
+										chance: { }
+										damage: {
+											initialQuality: 4
+										}
+										radius: {
+											initialQuality: 1
+										}
+										stun: {
+											initialQuality: 6
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "relics:midnight_mantle"
+			}
+			id: "1DE836D13296045F"
+			rewards: [{
+				id: "605B7552DB12771C"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "417ECDCC1FA1B0AE"
+				item: { components: { "relics:data": { abilities: { abilities: { constellation: { lock: { breaks: 0 }, points: 0, stats: { constellation_radius: { initialQuality: 5 }, explosion_damage: { initialQuality: 5 }, explosion_radius: { initialQuality: 9 }, star_chance: { }, star_lifetime: { initialQuality: 1 }, stun_duration: { initialQuality: 3 }, tremor_duration: { initialQuality: 5 } } }, invisibility: { lock: { breaks: 0 }, points: 0, stats: { brightness: { initialQuality: 9 }, cooldown: { initialQuality: 1 }, damage: { initialQuality: 8 } } }, phase: { lock: { breaks: 5 }, points: 0, stats: { attack_damage: { initialQuality: 9 }, attack_speed: { initialQuality: 8 }, duration: { initialQuality: 4 }, health_regeneration: { initialQuality: 9 }, max_health: { initialQuality: 10 }, modifier: { initialQuality: 9 } } }, starfall: { lock: { breaks: 0 }, points: 0, stats: { bounce_chance: { }, chance: { initialQuality: 8 }, damage: { initialQuality: 1 }, radius: { initialQuality: 3 }, stun: { initialQuality: 2 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:midnight_mantle" }
+				type: "item"
+			}]
+			x: 5.75d
+			y: -5.75d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				id: "relics:pet_bone"
+			}
+			id: "0B75C918042A1BBE"
+			rewards: [{
+				id: "08F0A85E9EEE6275"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "4CB4D32A7739AB7E"
+				item: { count: 1, id: "relics:pet_bone" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.75d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								barter: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										items_count: {
+											initialQuality: 6
+										}
+										trades: {
+											initialQuality: 2
+										}
+									}
+								}
+								looting: {
+									lock: {
+										breaks: 0
+									}
+									points: 0
+									stats: {
+										attack_damage: {
+											initialQuality: 6
+										}
+										attack_speed: {
+											initialQuality: 5
+										}
+										chance: {
+											initialQuality: 5
+										}
+										duration: {
+											initialQuality: 6
+										}
+										health: {
+											initialQuality: 5
+										}
+									}
+								}
+								neutrality: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: { }
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "relics:piglin_mask"
+			}
+			id: "4AF42AF578D19BBC"
+			rewards: [{
+				id: "2EC5930702D753FE"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "6FDD606A10732689"
+				item: { components: { "relics:data": { abilities: { abilities: { barter: { lock: { breaks: 5 }, points: 0, stats: { items_count: { initialQuality: 5 }, trades: { initialQuality: 1 } } }, looting: { lock: { breaks: 0 }, points: 0, stats: { attack_damage: { initialQuality: 7 }, attack_speed: { initialQuality: 5 }, chance: { initialQuality: 5 }, duration: { initialQuality: 10 }, health: { initialQuality: 1 } } }, neutrality: { lock: { breaks: 5 }, points: 0, stats: { } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:piglin_mask" }
+				type: "item"
+			}]
+			x: 8.25d
+			y: -5.75d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								reflection: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										bounces: {
+											initialQuality: 7
+										}
+										chance: {
+											initialQuality: 10
+										}
+										damage: {
+											initialQuality: 1
+										}
+										lifetime: {
+											initialQuality: 8
+										}
+										piercings: {
+											initialQuality: 5
+										}
+										stun: {
+											initialQuality: 9
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "relics:reflective_necklace"
+			}
+			id: "66A0EACEEB1C94F7"
+			rewards: [{
+				id: "5202C3977E88178E"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "19D0E92031EDB6D5"
+				item: { components: { "relics:data": { abilities: { abilities: { reflection: { lock: { breaks: 5 }, points: 0, stats: { bounces: { }, chance: { initialQuality: 10 }, damage: { initialQuality: 8 }, lifetime: { initialQuality: 7 }, piercings: { initialQuality: 1 }, stun: { initialQuality: 3 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:reflective_necklace" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -5.75d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								stable: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										heal: {
+											initialQuality: 7
+										}
+										max_slots: {
+											initialQuality: 3
+										}
+										resistance: {
+											initialQuality: 4
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "relics:rider_flute"
+			}
+			id: "259A331D03330E9D"
+			rewards: [{
+				id: "0B483E9DBEDFC89D"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "067B98F73D9EE53C"
+				item: { components: { "relics:data": { abilities: { abilities: { stable: { lock: { breaks: 5 }, points: 0, stats: { heal: { initialQuality: 4 }, max_slots: { initialQuality: 6 }, resistance: { initialQuality: 10 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:rider_flute" }
+				type: "item"
+			}]
+			x: 10.75d
+			y: -5.75d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								envy: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										incoming_damage_multiplier: {
+											initialQuality: 7
+										}
+										outgoing_damage_multiplier: {
+											initialQuality: 3
+										}
+									}
+								}
+								gluttony: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										early_multiplier: {
+											initialQuality: 7
+										}
+										late_multiplier: {
+											initialQuality: 9
+										}
+									}
+								}
+								greed: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										chance: {
+											initialQuality: 8
+										}
+										looting: {
+											initialQuality: 8
+										}
+										luck: {
+											initialQuality: 8
+										}
+									}
+								}
+								lust: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										amount: {
+											initialQuality: 6
+										}
+										time: {
+											initialQuality: 4
+										}
+									}
+								}
+								pride: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										multiplier: {
+											initialQuality: 7
+										}
+									}
+								}
+								sloth: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										speed: {
+											initialQuality: 7
+										}
+										time: {
+											initialQuality: 2
+										}
+									}
+								}
+								wrath: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										early_multiplier: {
+											initialQuality: 2
+										}
+										late_multiplier: {
+											initialQuality: 3
+										}
+										window: {
+											initialQuality: 8
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "relics:ring_of_the_seven_deadly_sins"
+			}
+			id: "68927E02189AB7BE"
+			rewards: [{
+				id: "5469ACDF1DA5689C"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "4D5CB45E9C06531E"
+				item: { components: { "relics:data": { abilities: { abilities: { envy: { lock: { breaks: 5 }, points: 0, stats: { incoming_damage_multiplier: { initialQuality: 1 }, outgoing_damage_multiplier: { initialQuality: 9 } } }, gluttony: { lock: { breaks: 5 }, points: 0, stats: { early_multiplier: { initialQuality: 10 }, late_multiplier: { initialQuality: 7 } } }, greed: { lock: { breaks: 5 }, points: 0, stats: { chance: { initialQuality: 5 }, looting: { initialQuality: 3 }, luck: { initialQuality: 3 } } }, lust: { lock: { breaks: 5 }, points: 0, stats: { amount: { initialQuality: 10 }, time: { initialQuality: 6 } } }, pride: { lock: { breaks: 5 }, points: 0, stats: { multiplier: { } } }, sloth: { lock: { breaks: 5 }, points: 0, stats: { speed: { }, time: { initialQuality: 5 } } }, wrath: { lock: { breaks: 5 }, points: 0, stats: { early_multiplier: { initialQuality: 8 }, late_multiplier: { initialQuality: 4 }, window: { initialQuality: 5 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:ring_of_the_seven_deadly_sins" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								skating: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										damage: {
+											initialQuality: 6
+										}
+										ignite: {
+											initialQuality: 2
+										}
+										resistance: {
+											initialQuality: 6
+										}
+										speed: {
+											initialQuality: 3
+										}
+										step_height: {
+											initialQuality: 4
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "relics:roller_skate"
+			}
+			id: "6E8369BF3356E394"
+			rewards: [{
+				id: "7764231ED1F612C4"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "7132604D0F23FCFF"
+				item: { components: { "relics:data": { abilities: { abilities: { skating: { lock: { breaks: 5 }, points: 0, stats: { damage: { initialQuality: 6 }, ignite: { initialQuality: 1 }, resistance: { initialQuality: 5 }, speed: { initialQuality: 8 }, step_height: { } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:roller_skate" }
+				type: "item"
+			}]
+			x: 3.25d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								retaliation: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										cooldown: {
+											initialQuality: 1
+										}
+										extension: {
+											initialQuality: 3
+										}
+										miss_damage: {
+											initialQuality: 7
+										}
+										miss_duration: {
+											initialQuality: 5
+										}
+										projectile_damage: {
+											initialQuality: 9
+										}
+										stun: { }
+										stun_radius: {
+											initialQuality: 8
+										}
+										window: {
+											initialQuality: 8
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "relics:shield_of_retaliation"
+			}
+			id: "4981DA7CBD0B5AD9"
+			rewards: [{
+				id: "3FB2CEDF7E19314C"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "492978A17E659604"
+				item: { components: { "relics:data": { abilities: { abilities: { retaliation: { lock: { breaks: 5 }, points: 0, stats: { cooldown: { initialQuality: 9 }, extension: { initialQuality: 6 }, miss_damage: { initialQuality: 10 }, miss_duration: { initialQuality: 10 }, projectile_damage: { initialQuality: 10 }, stun: { initialQuality: 6 }, stun_radius: { initialQuality: 8 }, window: { initialQuality: 9 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:shield_of_retaliation" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								sacrifice: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										resistance: {
+											initialQuality: 1
+										}
+										stacks: {
+											initialQuality: 5
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "relics:sphere_of_self_sacrifice"
+			}
+			id: "58667B27A6D7EADE"
+			rewards: [{
+				id: "767F6504D9240108"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "77B8A3330628BCA5"
+				item: { components: { "relics:data": { abilities: { abilities: { sacrifice: { lock: { breaks: 5 }, points: 0, stats: { resistance: { }, stacks: { initialQuality: 5 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:sphere_of_self_sacrifice" }
+				type: "item"
+			}]
+			x: 5.75d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								bounce: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										damage: {
+											initialQuality: 7
+										}
+										damage_modifier: {
+											initialQuality: 1
+										}
+										power: {
+											initialQuality: 4
+										}
+										radius: {
+											initialQuality: 5
+										}
+										stun: {
+											initialQuality: 6
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "relics:springy_boot"
+			}
+			id: "1A480FE2173077B9"
+			rewards: [{
+				id: "4E54E53242D879EA"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "268CFD54174B883C"
+				item: { components: { "relics:data": { abilities: { abilities: { bounce: { lock: { breaks: 5 }, points: 0, stats: { damage: { initialQuality: 1 }, damage_modifier: { initialQuality: 3 }, power: { initialQuality: 1 }, radius: { }, stun: { initialQuality: 10 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:springy_boot" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								satiety: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										chance: { }
+										healing: {
+											initialQuality: 9
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "relics:chef_hat"
+			}
+			id: "17CA64F98FF9657E"
+			rewards: [{
+				id: "3EE2ED09EE015D29"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "185962FB0A21421E"
+				item: { components: { "relics:data": { abilities: { abilities: { satiety: { lock: { breaks: 5 }, points: 0, stats: { chance: { initialQuality: 9 }, healing: { initialQuality: 1 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "relics:chef_hat" }
+				type: "item"
+			}]
+			x: 8.25d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"2873FA8EC558B439"
+				"1625C2D726F782C5"
+				"2321C1B02FF9EB17"
+				"7CD26058B647A2FF"
+				"1C92FFC6226C0549"
+				"63FFC8F8953DB367"
+				"1DD0D07EB665C37D"
+				"04701C34862DD9D6"
+				"371911768A3ADA3B"
+				"35C8D9579C92E5C6"
+				"5B8063984C22400D"
+				"1DE836D13296045F"
+				"0B75C918042A1BBE"
+				"4AF42AF578D19BBC"
+				"66A0EACEEB1C94F7"
+				"259A331D03330E9D"
+				"68927E02189AB7BE"
+				"6E8369BF3356E394"
+				"4981DA7CBD0B5AD9"
+				"58667B27A6D7EADE"
+				"1A480FE2173077B9"
+				"17CA64F98FF9657E"
+			]
+			icon: {
+				id: "relics:relic_experience_bottle"
+			}
+			id: "2EC188A6FE332060"
+			rewards: [
+				{
+					count: 8
+					id: "0EEE7A296081D462"
+					item: {
+						count: 1
+						id: "relics:relic_experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "3B36FEDB0B185B35"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "2E3EBEA1A94022A9"
+				type: "checkmark"
+			}]
+			x: 12.75d
+			y: -5.75d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								bridgecraft: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										bridge_duration: {
+											initialQuality: 4
+										}
+										charge_regen_time: {
+											initialQuality: 5
+										}
+										disappearance_action_lock_time: {
+											initialQuality: 4
+										}
+										healing_bonus: { }
+										max_bridge_length: {
+											initialQuality: 9
+										}
+										max_charges: { }
+										projectile_damage_bonus: {
+											initialQuality: 4
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "reliquified_ars_nouveau:architects_staff"
+			}
+			id: "561B774A78A239CD"
+			rewards: [{
+				id: "2D657C0687EFB553"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "70C9D3ADDCD4AE47"
+				item: { components: { "relics:data": { abilities: { abilities: { bridgecraft: { lock: { breaks: 5 }, points: 0, stats: { bridge_duration: { initialQuality: 4 }, charge_regen_time: { initialQuality: 7 }, disappearance_action_lock_time: { initialQuality: 3 }, healing_bonus: { initialQuality: 5 }, max_bridge_length: { initialQuality: 7 }, max_charges: { initialQuality: 1 }, projectile_damage_bonus: { initialQuality: 6 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_ars_nouveau:architects_staff" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								multicasted: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										failed_multicast_bonus: { }
+										mana_refund_chance: {
+											initialQuality: 1
+										}
+										mana_refund_percent: {
+											initialQuality: 3
+										}
+										max_multicasts: {
+											initialQuality: 8
+										}
+										multicast_chance: { }
+										multicast_damage_reduction: {
+											initialQuality: 5
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "reliquified_ars_nouveau:archmage_glove"
+			}
+			id: "1879F23453B8E00E"
+			rewards: [{
+				id: "6C952A22EC5B334E"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "0BA974D8EC012CD6"
+				item: { components: { "relics:data": { abilities: { abilities: { multicasted: { lock: { breaks: 5 }, points: 0, stats: { failed_multicast_bonus: { initialQuality: 8 }, mana_refund_chance: { initialQuality: 1 }, mana_refund_percent: { initialQuality: 6 }, max_multicasts: { initialQuality: 2 }, multicast_chance: { initialQuality: 5 }, multicast_damage_reduction: { initialQuality: 6 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_ars_nouveau:archmage_glove" }
+				type: "item"
+			}]
+			x: 3.25d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								ballistary: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										absorption_on_kill: {
+											initialQuality: 7
+										}
+										duplication_chance: {
+											initialQuality: 10
+										}
+										duplication_radius: {
+											initialQuality: 1
+										}
+										max_absorption: {
+											initialQuality: 1
+										}
+										projectile_count: {
+											initialQuality: 8
+										}
+										projectile_damage: {
+											initialQuality: 9
+										}
+										stun_duration: {
+											initialQuality: 7
+										}
+										trigger_chance: {
+											initialQuality: 3
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "reliquified_ars_nouveau:ballistarian_bracer"
+			}
+			id: "685D75E57E8DB5C4"
+			rewards: [{
+				id: "48A1391535073F4F"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "6739910C4EE260C7"
+				item: { components: { "relics:data": { abilities: { abilities: { ballistary: { lock: { breaks: 5 }, points: 0, stats: { absorption_on_kill: { initialQuality: 8 }, duplication_chance: { initialQuality: 1 }, duplication_radius: { initialQuality: 5 }, max_absorption: { initialQuality: 3 }, projectile_count: { initialQuality: 6 }, projectile_damage: { initialQuality: 8 }, stun_duration: { initialQuality: 3 }, trigger_chance: { initialQuality: 10 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_ars_nouveau:ballistarian_bracer" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								absorption: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										chain_damage_reduction: {
+											initialQuality: 3
+										}
+										distribution_radius: {
+											initialQuality: 7
+										}
+										healing_conversion: {
+											initialQuality: 1
+										}
+										mana_per_damage: {
+											initialQuality: 2
+										}
+										reflect_window: {
+											initialQuality: 10
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "reliquified_ars_nouveau:cloak_of_concealment"
+			}
+			id: "42100A38168C9807"
+			rewards: [{
+				id: "2D4E7E5614FE420E"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "3A1B82A273C35A9C"
+				item: { components: { "relics:data": { abilities: { abilities: { absorption: { lock: { breaks: 5 }, points: 0, stats: { chain_damage_reduction: { initialQuality: 6 }, distribution_radius: { initialQuality: 6 }, healing_conversion: { initialQuality: 8 }, mana_per_damage: { initialQuality: 6 }, reflect_window: { initialQuality: 5 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_ars_nouveau:cloak_of_concealment" }
+				type: "item"
+			}]
+			x: 5.75d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								onslaught: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										damage_boost: {
+											initialQuality: 1
+										}
+										damage_boost_duration: {
+											initialQuality: 5
+										}
+										heal_on_trigger: {
+											initialQuality: 4
+										}
+										max_glyphs: {
+											initialQuality: 10
+										}
+										propagation_chance: { }
+										propagation_radius: {
+											initialQuality: 2
+										}
+										propagation_targets: {
+											initialQuality: 8
+										}
+										trigger_chance: { }
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "reliquified_ars_nouveau:emblem_of_assault"
+			}
+			id: "2892823A25BB8C08"
+			rewards: [{
+				id: "3EE4DF1641292CEF"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "5237CDF8AC027942"
+				item: { components: { "relics:data": { abilities: { abilities: { onslaught: { lock: { breaks: 5 }, points: 0, stats: { damage_boost: { initialQuality: 2 }, damage_boost_duration: { initialQuality: 4 }, heal_on_trigger: { initialQuality: 9 }, max_glyphs: { initialQuality: 9 }, propagation_chance: { initialQuality: 1 }, propagation_radius: { initialQuality: 7 }, propagation_targets: { initialQuality: 9 }, trigger_chance: { initialQuality: 10 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_ars_nouveau:emblem_of_assault" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								sentinel: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										max_glyphs: {
+											initialQuality: 6
+										}
+										propagation_chance: {
+											initialQuality: 2
+										}
+										propagation_radius: {
+											initialQuality: 6
+										}
+										propagation_targets: {
+											initialQuality: 1
+										}
+										resistance_duration: {
+											initialQuality: 3
+										}
+										resistance_reduction: {
+											initialQuality: 3
+										}
+										trigger_chance: {
+											initialQuality: 7
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "reliquified_ars_nouveau:emblem_of_defense"
+			}
+			id: "1C2810CE60616090"
+			rewards: [{
+				id: "27358DD007947A3A"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "429D73CC12B65AA6"
+				item: { components: { "relics:data": { abilities: { abilities: { sentinel: { lock: { breaks: 5 }, points: 0, stats: { max_glyphs: { initialQuality: 4 }, propagation_chance: { initialQuality: 1 }, propagation_radius: { initialQuality: 9 }, propagation_targets: { initialQuality: 10 }, resistance_duration: { initialQuality: 7 }, resistance_reduction: { initialQuality: 9 }, trigger_chance: { initialQuality: 3 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_ars_nouveau:emblem_of_defense" }
+				type: "item"
+			}]
+			x: 8.25d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								devotion: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										absorption_cap: {
+											initialQuality: 6
+										}
+										absorption_hearts: {
+											initialQuality: 6
+										}
+										max_glyphs: {
+											initialQuality: 10
+										}
+										max_orbs: {
+											initialQuality: 8
+										}
+										preservation_chance: {
+											initialQuality: 2
+										}
+										propagation_chance: {
+											initialQuality: 3
+										}
+										propagation_radius: {
+											initialQuality: 2
+										}
+										propagation_targets: {
+											initialQuality: 9
+										}
+										spawn_interval: {
+											initialQuality: 7
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "reliquified_ars_nouveau:emblem_of_devotion"
+			}
+			id: "6A10146C1BAC9AEA"
+			rewards: [{
+				id: "0AD7F710D3DB5F64"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "6654025895C9CD19"
+				item: { components: { "relics:data": { abilities: { abilities: { devotion: { lock: { breaks: 5 }, points: 0, stats: { absorption_cap: { initialQuality: 9 }, absorption_hearts: { initialQuality: 6 }, max_glyphs: { initialQuality: 1 }, max_orbs: { initialQuality: 6 }, preservation_chance: { initialQuality: 10 }, propagation_chance: { initialQuality: 9 }, propagation_radius: { initialQuality: 10 }, propagation_targets: { initialQuality: 10 }, spawn_interval: { initialQuality: 3 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_ars_nouveau:emblem_of_devotion" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								pyroclastic: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										fire_damage_bonus: {
+											initialQuality: 6
+										}
+										fire_regeneration: {
+											initialQuality: 5
+										}
+										magic_fire_damage: {
+											initialQuality: 1
+										}
+										paralysis_chance: {
+											initialQuality: 2
+										}
+										paralysis_duration: {
+											initialQuality: 6
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "reliquified_ars_nouveau:flaming_bracer"
+			}
+			id: "5430BC9F3FAA7232"
+			rewards: [{
+				id: "385E7F56093FAF49"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "4408921690893470"
+				item: { components: { "relics:data": { abilities: { abilities: { pyroclastic: { lock: { breaks: 5 }, points: 0, stats: { fire_damage_bonus: { initialQuality: 4 }, fire_regeneration: { initialQuality: 8 }, magic_fire_damage: { initialQuality: 9 }, paralysis_chance: { initialQuality: 3 }, paralysis_duration: { initialQuality: 7 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_ars_nouveau:flaming_bracer" }
+				type: "item"
+			}]
+			x: 10.75d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								summoner: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										bleeding_duration: {
+											initialQuality: 1
+										}
+										bleeding_level: {
+											initialQuality: 5
+										}
+										bone_drop_chance: {
+											initialQuality: 7
+										}
+										bone_drop_max: {
+											initialQuality: 4
+										}
+										extra_wolf_cap: {
+											initialQuality: 7
+										}
+										extra_wolf_chance: {
+											initialQuality: 9
+										}
+										extra_wolf_lifetime: {
+											initialQuality: 4
+										}
+										max_wolves: {
+											initialQuality: 4
+										}
+										wolf_damage: {
+											initialQuality: 8
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "reliquified_ars_nouveau:horn_of_the_wild_hunter"
+			}
+			id: "046131EBA9392223"
+			rewards: [{
+				id: "190DB11C230F8BC3"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "22F3AEF80A96BAAF"
+				item: { components: { "relics:data": { abilities: { abilities: { summoner: { lock: { breaks: 5 }, points: 0, stats: { bleeding_duration: { initialQuality: 1 }, bleeding_level: { initialQuality: 7 }, bone_drop_chance: { initialQuality: 5 }, bone_drop_max: { }, extra_wolf_cap: { }, extra_wolf_chance: { }, extra_wolf_lifetime: { initialQuality: 8 }, max_wolves: { initialQuality: 5 }, wolf_damage: { initialQuality: 5 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_ars_nouveau:horn_of_the_wild_hunter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.25d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								deception: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										damage_reduction_per_illusion: {
+											initialQuality: 7
+										}
+										illusion_duration: {
+											initialQuality: 8
+										}
+										illusion_radius: {
+											initialQuality: 5
+										}
+										paralysis_duration: {
+											initialQuality: 1
+										}
+										trigger_chance: {
+											initialQuality: 5
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "reliquified_ars_nouveau:illusionists_mantle"
+			}
+			id: "7F317EBEC0F97512"
+			rewards: [{
+				id: "2198B8E0C629314A"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "53793548DE259E15"
+				item: { components: { "relics:data": { abilities: { abilities: { deception: { lock: { breaks: 5 }, points: 0, stats: { damage_reduction_per_illusion: { initialQuality: 10 }, illusion_duration: { initialQuality: 1 }, illusion_radius: { initialQuality: 10 }, paralysis_duration: { initialQuality: 10 }, trigger_chance: { initialQuality: 10 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_ars_nouveau:illusionists_mantle" }
+				type: "item"
+			}]
+			x: 3.25d
+			y: -1.25d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								resonance: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										debt_cost_increase: {
+											initialQuality: 7
+										}
+										mana_per_health: {
+											initialQuality: 6
+										}
+										mana_regen_bonus: {
+											initialQuality: 8
+										}
+										max_mana_bonus: {
+											initialQuality: 1
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "reliquified_ars_nouveau:mana_ring"
+			}
+			id: "41888980E8A5A2D5"
+			rewards: [{
+				id: "2F1BFF9D9B87AF26"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "1BEA4C7846FC3203"
+				item: { components: { "relics:data": { abilities: { abilities: { resonance: { lock: { breaks: 5 }, points: 0, stats: { debt_cost_increase: { initialQuality: 9 }, mana_per_health: { initialQuality: 9 }, mana_regen_bonus: { initialQuality: 7 }, max_mana_bonus: { initialQuality: 6 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_ars_nouveau:mana_ring" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.25d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								stasis: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										blinding_duration: {
+											initialQuality: 9
+										}
+										blinding_radius: {
+											initialQuality: 6
+										}
+										charge_regen_time: {
+											initialQuality: 2
+										}
+										max_charges: {
+											initialQuality: 8
+										}
+										protection_radius: {
+											initialQuality: 4
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "reliquified_ars_nouveau:quantum_bubble"
+			}
+			id: "1C60806349525130"
+			rewards: [{
+				id: "4243975134C9ED7E"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "098630FDDFEBF75B"
+				item: { components: { "relics:data": { abilities: { abilities: { stasis: { lock: { breaks: 5 }, points: 0, stats: { blinding_duration: { initialQuality: 3 }, blinding_radius: { initialQuality: 6 }, charge_regen_time: { initialQuality: 8 }, max_charges: { }, protection_radius: { initialQuality: 6 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_ars_nouveau:quantum_bubble" }
+				type: "item"
+			}]
+			x: 5.75d
+			y: -1.25d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								last_will: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										cooldown: {
+											initialQuality: 5
+										}
+										immortality_duration: {
+											initialQuality: 3
+										}
+										paralysis_duration: {
+											initialQuality: 5
+										}
+										revenge_damage_bonus: {
+											initialQuality: 2
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "reliquified_ars_nouveau:ring_of_last_will"
+			}
+			id: "0795821FA062D1F1"
+			rewards: [{
+				id: "508B02EA919C81DF"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "1C7CB87602CCC540"
+				item: { components: { "relics:data": { abilities: { abilities: { last_will: { lock: { breaks: 5 }, points: 0, stats: { cooldown: { initialQuality: 3 }, immortality_duration: { initialQuality: 10 }, paralysis_duration: { initialQuality: 10 }, revenge_damage_bonus: { initialQuality: 2 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_ars_nouveau:ring_of_last_will" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.25d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								thrift: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										combo_duration: { }
+										combo_max_stacks: {
+											initialQuality: 2
+										}
+										combo_regen_bonus_per_cast: {
+											initialQuality: 5
+										}
+										free_cast_chance: {
+											initialQuality: 4
+										}
+										mana_cost_reduction: { }
+										refund_delay: {
+											initialQuality: 3
+										}
+										refund_percent: {
+											initialQuality: 5
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "reliquified_ars_nouveau:ring_of_thrift"
+			}
+			id: "3B0D870E8836EEC2"
+			rewards: [{
+				id: "05CB938C4110448B"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "26600E6300D7283C"
+				item: { components: { "relics:data": { abilities: { abilities: { thrift: { lock: { breaks: 5 }, points: 0, stats: { combo_duration: { initialQuality: 6 }, combo_max_stacks: { initialQuality: 2 }, combo_regen_bonus_per_cast: { initialQuality: 3 }, free_cast_chance: { initialQuality: 9 }, mana_cost_reduction: { initialQuality: 4 }, refund_delay: { initialQuality: 8 }, refund_percent: { initialQuality: 2 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_ars_nouveau:ring_of_thrift" }
+				type: "item"
+			}]
+			x: 8.25d
+			y: -1.25d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								thorn_burst: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										bleeding_duration: {
+											initialQuality: 4
+										}
+										bleeding_level: {
+											initialQuality: 5
+										}
+										chain_chance: {
+											initialQuality: 7
+										}
+										chain_max_spikes: {
+											initialQuality: 2
+										}
+										damage_threshold_fraction: {
+											initialQuality: 4
+										}
+										max_spikes: {
+											initialQuality: 9
+										}
+										resistance_bonus: {
+											initialQuality: 7
+										}
+										resistance_duration: {
+											initialQuality: 6
+										}
+										spike_damage: {
+											initialQuality: 6
+										}
+										trigger_chance: {
+											initialQuality: 1
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "reliquified_ars_nouveau:spiked_cloak"
+			}
+			id: "73FBECD98956B076"
+			rewards: [{
+				id: "6A37AF4A6BC45006"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "56523E379A7BC194"
+				item: { components: { "relics:data": { abilities: { abilities: { thorn_burst: { lock: { breaks: 5 }, points: 0, stats: { bleeding_duration: { initialQuality: 2 }, bleeding_level: { initialQuality: 2 }, chain_chance: { initialQuality: 4 }, chain_max_spikes: { initialQuality: 5 }, damage_threshold_fraction: { initialQuality: 2 }, max_spikes: { initialQuality: 3 }, resistance_bonus: { }, resistance_duration: { }, spike_damage: { }, trigger_chance: { initialQuality: 3 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_ars_nouveau:spiked_cloak" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.25d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								spectral: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										charge_regen_time: {
+											initialQuality: 7
+										}
+										entity_reveal_radius: {
+											initialQuality: 9
+										}
+										max_charges: {
+											initialQuality: 3
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "reliquified_ars_nouveau:staff_of_the_spectral_walker"
+			}
+			id: "2F7BE38DEBC0A331"
+			rewards: [{
+				id: "180909E28F5EB5AA"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "077B52E91F16EAE5"
+				item: { components: { "relics:data": { abilities: { abilities: { spectral: { lock: { breaks: 5 }, points: 0, stats: { charge_regen_time: { initialQuality: 1 }, entity_reveal_radius: { initialQuality: 4 }, max_charges: { initialQuality: 6 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_ars_nouveau:staff_of_the_spectral_walker" }
+				type: "item"
+			}]
+			x: 10.75d
+			y: -1.25d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								broom: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										broom_health: {
+											initialQuality: 5
+										}
+										damage_reduction: {
+											initialQuality: 10
+										}
+										health_regen_interval: {
+											initialQuality: 4
+										}
+										max_height: {
+											initialQuality: 10
+										}
+										revive_cooldown: {
+											initialQuality: 6
+										}
+										speed: {
+											initialQuality: 7
+										}
+										sprint_mana_per_second: {
+											initialQuality: 3
+										}
+										sprint_speed_bonus: {
+											initialQuality: 6
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "reliquified_ars_nouveau:whirling_broom"
+			}
+			id: "77D81859E0AB760B"
+			rewards: [{
+				id: "3802D8A06EC1E563"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "2CF2FFB799921A8B"
+				item: { components: { "relics:data": { abilities: { abilities: { broom: { lock: { breaks: 5 }, points: 0, stats: { broom_health: { initialQuality: 4 }, damage_reduction: { initialQuality: 1 }, health_regen_interval: { initialQuality: 1 }, max_height: { initialQuality: 1 }, revive_cooldown: { initialQuality: 9 }, speed: { initialQuality: 2 }, sprint_mana_per_second: { initialQuality: 8 }, sprint_speed_bonus: { initialQuality: 10 } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_ars_nouveau:whirling_broom" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								wild_flight: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										dash_cooldown: {
+											initialQuality: 10
+										}
+										dash_strength: {
+											initialQuality: 6
+										}
+										flight_attack_bonus: {
+											initialQuality: 3
+										}
+										flight_damage_reduction: {
+											initialQuality: 8
+										}
+										flight_duration: {
+											initialQuality: 2
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "reliquified_ars_nouveau:wing_of_the_wild_stalker"
+			}
+			id: "151045886BEF9BF0"
+			rewards: [{
+				id: "1DE2C2FBC84A3DA7"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "05AF3A32AC293319"
+				item: { components: { "relics:data": { abilities: { abilities: { wild_flight: { lock: { breaks: 5 }, points: 0, stats: { dash_cooldown: { initialQuality: 5 }, dash_strength: { initialQuality: 4 }, flight_attack_bonus: { initialQuality: 6 }, flight_damage_reduction: { initialQuality: 9 }, flight_duration: { } } } }, synergies: { } }, leveling: { }, statistic: { } } }, count: 1, id: "reliquified_ars_nouveau:wing_of_the_wild_stalker" }
+				type: "item"
+			}]
+			x: 3.25d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"561B774A78A239CD"
+				"1879F23453B8E00E"
+				"685D75E57E8DB5C4"
+				"42100A38168C9807"
+				"2892823A25BB8C08"
+				"1C2810CE60616090"
+				"6A10146C1BAC9AEA"
+				"5430BC9F3FAA7232"
+				"046131EBA9392223"
+				"7F317EBEC0F97512"
+				"41888980E8A5A2D5"
+				"1C60806349525130"
+				"0795821FA062D1F1"
+				"3B0D870E8836EEC2"
+				"73FBECD98956B076"
+				"2F7BE38DEBC0A331"
+				"77D81859E0AB760B"
+				"151045886BEF9BF0"
+			]
+			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								resonance: {
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									stats: {
+										debt_cost_increase: {
+											initialQuality: 1
+										}
+										mana_per_health: {
+											initialQuality: 2
+										}
+										mana_regen_bonus: {
+											initialQuality: 9
+										}
+										max_mana_bonus: {
+											initialQuality: 8
+										}
+									}
+								}
+							}
+							synergies: { }
+						}
+						leveling: { }
+						statistic: { }
+					}
+				}
+				id: "reliquified_ars_nouveau:mana_ring"
+			}
+			id: "535DEB2128394A48"
+			rewards: [
+				{
+					count: 8
+					id: "7D617FD2FDFF71C3"
+					item: {
+						count: 1
+						id: "relics:relic_experience_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "58562D2CA30C93A2"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "5C0496D3911CC338"
+				type: "checkmark"
+			}]
+			x: 12.75d
+			y: -1.25d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				id: "ars_trinkets:essence_core_1"
+			}
+			id: "059E5DF517A07FE2"
+			rewards: [{
+				id: "609F80223CE83BEE"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "53131A918967334D"
+				item: { count: 1, id: "ars_trinkets:essence_core_1" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				id: "ars_trinkets:essence_core_2"
+			}
+			id: "40E2DA2963AEC363"
+			rewards: [{
+				id: "644F39C6B838559D"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "0012BB9E53DD7FC1"
+				item: { count: 1, id: "ars_trinkets:essence_core_2" }
+				type: "item"
+			}]
+			x: 3.25d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				id: "ars_trinkets:essence_core_3"
+			}
+			id: "67208313A550A3C1"
+			rewards: [{
+				id: "369E70A8F8217A27"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "5CD58BE81CF209C2"
+				item: { count: 1, id: "ars_trinkets:essence_core_3" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				components: {
+					"ftbquests:missing_item": "ars_trinkets:holy_heart"
+				}
+				id: "ftbquests:missing_item"
+			}
+			id: "5ACA3710A4B17B15"
+			rewards: [{
+				id: "4A2ED09FAAE354B2"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "4AC7239DE6B7C79F"
+				item: { components: { "ftbquests:missing_item": "ars_trinkets:holy_heart" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 5.75d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				id: "ars_trinkets:putrid_heart"
+			}
+			id: "0DD2A04B795C4D93"
+			rewards: [{
+				id: "276F145203B642AC"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "784F1E6F79EF0C76"
+				item: { count: 1, id: "ars_trinkets:putrid_heart" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				id: "ars_trinkets:omnipotence_crown"
+			}
+			id: "3147BD15BA276955"
+			rewards: [{
+				id: "065CCD79A079A268"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "0EAE4E5C55DFED43"
+				item: { count: 1, id: "ars_trinkets:omnipotence_crown" }
+				type: "item"
+			}]
+			x: 8.25d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				components: {
+					"ftbquests:missing_item": "ars_trinkets:unholy_focus"
+				}
+				id: "ftbquests:missing_item"
+			}
+			id: "53E68402FE7FF8F1"
+			rewards: [{
+				id: "32402A0C227AF5D9"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "76280DDD2E72DBE2"
+				item: { components: { "ftbquests:missing_item": "ars_trinkets:unholy_focus" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				id: "ars_trinkets:essence_ring_10"
+			}
+			id: "0DB900E99D35E2C8"
+			rewards: [{
+				id: "25FB7B8AD2E531EF"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "0ACAD58F4EFD3BB2"
+				item: { count: 1, id: "ars_trinkets:essence_ring_10" }
+				type: "item"
+			}]
+			x: 10.75d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				id: "ars_trinkets:essence_lotus_10"
+			}
+			id: "4A3B9E8985B526E5"
+			rewards: [{
+				id: "631BD42AA0B73DDC"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "166D525831A1AC70"
+				item: { count: 1, id: "ars_trinkets:essence_lotus_10" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.25d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				components: {
+					"ftbquests:missing_item": "ars_trinkets:monocle_10"
+				}
+				id: "ftbquests:missing_item"
+			}
+			id: "3ABAC3FE9F194EEA"
+			rewards: [{
+				id: "452FA0B3D1215FBC"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "32E2B6A7ECB1FE9F"
+				item: { components: { "ftbquests:missing_item": "ars_trinkets:monocle_10" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 3.25d
+			y: 3.25d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				id: "ars_trinkets:eternity_rune"
+			}
+			id: "0F3ADFD142EF50EC"
+			rewards: [{
+				id: "3EED1E0C7D3D22BE"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "7B561BA20F8D5C1B"
+				item: { count: 1, id: "ars_trinkets:eternity_rune" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.25d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				id: "ars_trinkets:mage_rune_greater"
+			}
+			id: "1AAD8BF0B2A4D119"
+			rewards: [{
+				id: "5E6A31DC9642D930"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "57A462B4256F9F5F"
+				item: { count: 1, id: "ars_trinkets:mage_rune_greater" }
+				type: "item"
+			}]
+			x: 5.75d
+			y: 3.25d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				id: "ars_trinkets:life_rune_greater"
+			}
+			id: "238EF073BD4077A7"
+			rewards: [{
+				id: "2FE1FA502BE48CC3"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "3C2AA058174A6115"
+				item: { count: 1, id: "ars_trinkets:life_rune_greater" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.25d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				id: "ars_trinkets:warrior_rune_greater"
+			}
+			id: "50008EA1800142C8"
+			rewards: [{
+				id: "715785848358A778"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "4CB635114E4F516E"
+				item: { count: 1, id: "ars_trinkets:warrior_rune_greater" }
+				type: "item"
+			}]
+			x: 8.25d
+			y: 3.25d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				id: "ars_trinkets:death_rune_greater"
+			}
+			id: "270995E5ACCB42A2"
+			rewards: [{
+				id: "720C54E0D11E08A6"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "39C8BEB586EEBA02"
+				item: { count: 1, id: "ars_trinkets:death_rune_greater" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 3.25d
+		}
+		{
+			dependencies: [
+				"059E5DF517A07FE2"
+				"40E2DA2963AEC363"
+				"67208313A550A3C1"
+				"5ACA3710A4B17B15"
+				"0DD2A04B795C4D93"
+				"3147BD15BA276955"
+				"53E68402FE7FF8F1"
+				"0DB900E99D35E2C8"
+				"4A3B9E8985B526E5"
+				"3ABAC3FE9F194EEA"
+				"0F3ADFD142EF50EC"
+				"1AAD8BF0B2A4D119"
+				"238EF073BD4077A7"
+				"50008EA1800142C8"
+				"270995E5ACCB42A2"
+			]
+			icon: {
+				id: "ars_trinkets:omnipotence_crown"
+			}
+			id: "0011998919F201C6"
+			rewards: [
+				{
+					count: 4
+					id: "5C92083C65BE970F"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem_block"
+					}
+					type: "item"
+				}
+				{
+					id: "7D1CDAFED2A58A53"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "01DB59CF94261510"
+				type: "checkmark"
+			}]
+			x: 12.75d
+			y: 2.625d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				id: "greatest_discount:ring_of_greatest_discount"
+			}
+			id: "7AEDCCC8F41FFDF1"
+			rewards: [{
+				id: "32870C68627E2C72"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "33A169645A1C60ED"
+				item: { count: 1, id: "greatest_discount:ring_of_greatest_discount" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				id: "greatest_discount:amulet_of_greater_mana_regen"
+			}
+			id: "70E58A4119AB7F40"
+			rewards: [{
+				id: "60A7D1731E98F81C"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "5639285C71470992"
+				item: { count: 1, id: "greatest_discount:amulet_of_greater_mana_regen" }
+				type: "item"
+			}]
+			x: 3.25d
+			y: 5.25d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				id: "greatest_discount:scarf_of_greatest_mana_regen"
+			}
+			id: "3A1144A369C32944"
+			rewards: [{
+				id: "59DE4D986ECB6591"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "07B4169432F4D415"
+				item: { count: 1, id: "greatest_discount:scarf_of_greatest_mana_regen" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.25d
+		}
+		{
+			dependencies: [
+				"7AEDCCC8F41FFDF1"
+				"70E58A4119AB7F40"
+				"3A1144A369C32944"
+			]
+			icon: {
+				id: "greatest_discount:ring_of_greatest_discount"
+			}
+			id: "1A79B721FE6CBBC2"
+			rewards: [
+				{
+					count: 2
+					id: "15EFF03587A2A950"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem_block"
+					}
+					type: "item"
+				}
+				{
+					id: "1D1D80ACB3737345"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "3A43593E78FB9927"
+				type: "checkmark"
+			}]
+			x: 12.75d
+			y: 5.25d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				id: "ars_violetgold_equipment:violetgold_helmet"
+			}
+			id: "20905454197202DF"
+			rewards: [{
+				id: "3B9CCA045AB9A16B"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "77267F64863A6985"
+				item: { count: 1, id: "ars_violetgold_equipment:violetgold_helmet" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.25d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				id: "ars_violetgold_equipment:violetgold_chestplate"
+			}
+			id: "4A924D1A03D58A46"
+			rewards: [{
+				id: "3D9FAC16AA4E01CA"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "0F962FAD84FFBFDB"
+				item: { count: 1, id: "ars_violetgold_equipment:violetgold_chestplate" }
+				type: "item"
+			}]
+			x: 3.25d
+			y: 7.25d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				id: "ars_violetgold_equipment:violetgold_leggings"
+			}
+			id: "47662A20A6F45AAE"
+			rewards: [{
+				id: "45173DBDFD985E48"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "3BEBA83FA67FD807"
+				item: { count: 1, id: "ars_violetgold_equipment:violetgold_leggings" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.25d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				id: "ars_violetgold_equipment:violetgold_boots"
+			}
+			id: "1B49F5046D7011B9"
+			rewards: [{
+				id: "12BAF666D5C805FB"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "76F2C9992F5829D3"
+				item: { count: 1, id: "ars_violetgold_equipment:violetgold_boots" }
+				type: "item"
+			}]
+			x: 5.75d
+			y: 7.25d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				id: "ars_violetgold_equipment:violetgold_blade"
+			}
+			id: "1B6199B1C59DDC18"
+			rewards: [{
+				id: "48A9420EFE3EA218"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "5183FEAE5AB56E2F"
+				item: { count: 1, id: "ars_violetgold_equipment:violetgold_blade" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 7.25d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				id: "ars_violetgold_equipment:violetgold_wand"
+			}
+			id: "6CDBF0FFE1C641F9"
+			rewards: [{
+				id: "38A17765592DE20A"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "44502C3505EF1552"
+				item: { count: 1, id: "ars_violetgold_equipment:violetgold_wand" }
+				type: "item"
+			}]
+			x: 8.25d
+			y: 7.25d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				id: "ars_violetgold_equipment:violetgold_amulet"
+			}
+			id: "6C0D5A6A211AC97E"
+			rewards: [{
+				id: "7F563F589FAC59CD"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "719C53D3F8C77D18"
+				item: { count: 1, id: "ars_violetgold_equipment:violetgold_amulet" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 7.25d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				id: "ars_violetgold_equipment:violetgold_ring_of_discount"
+			}
+			id: "038423391688E885"
+			rewards: [{
+				id: "7A7D0C92E6105B9F"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "39A320D8F67999B0"
+				item: { count: 1, id: "ars_violetgold_equipment:violetgold_ring_of_discount" }
+				type: "item"
+			}]
+			x: 10.75d
+			y: 7.25d
+		}
+		{
+			dependencies: [
+				"20905454197202DF"
+				"4A924D1A03D58A46"
+				"47662A20A6F45AAE"
+				"1B49F5046D7011B9"
+				"1B6199B1C59DDC18"
+				"6CDBF0FFE1C641F9"
+				"6C0D5A6A211AC97E"
+				"038423391688E885"
+			]
+			icon: {
+				id: "ars_violetgold_equipment:violetgold_ingot"
+			}
+			id: "432C951C8420C5E7"
+			rewards: [
+				{
+					count: 4
+					id: "79DA39AD1EF2D229"
+					item: {
+						count: 1
+						id: "ars_violetgold_equipment:violetgold_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "62D9AFA3BF2F8728"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "4BDBC8B72C550476"
+				type: "checkmark"
+			}]
+			x: 12.75d
+			y: 7.25d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				id: "cataclysm:the_incinerator"
+			}
+			id: "3EA689D6EDFF2600"
+			rewards: [{
+				id: "67CC12A790E377A1"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "271E4970E40A0760"
+				item: { count: 1, id: "cataclysm:the_incinerator" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.25d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				id: "cataclysm:bulwark_of_the_flame"
+			}
+			id: "5537F1F0BA4E1DE5"
+			rewards: [{
+				id: "38B2184AE08C3D7A"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "5BB9C703FD29E805"
+				item: { count: 1, id: "cataclysm:bulwark_of_the_flame" }
+				type: "item"
+			}]
+			x: 3.25d
+			y: 9.25d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				id: "cataclysm:gauntlet_of_guard"
+			}
+			id: "206700F5E175A9D7"
+			rewards: [{
+				id: "6A5C95EF35D57B15"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "71F5B6847313163C"
+				item: { count: 1, id: "cataclysm:gauntlet_of_guard" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 9.25d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				id: "cataclysm:gauntlet_of_bulwark"
+			}
+			id: "343118A8AA3274D9"
+			rewards: [{
+				id: "188FF88AD94C50E2"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "0F70CF691D2F1477"
+				item: { count: 1, id: "cataclysm:gauntlet_of_bulwark" }
+				type: "item"
+			}]
+			x: 5.75d
+			y: 9.25d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				id: "cataclysm:the_annihilator"
+			}
+			id: "2287D6533206131A"
+			rewards: [{
+				id: "3B4DD104D0D1E871"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "6BA4A037C9FD148E"
+				item: { count: 1, id: "cataclysm:the_annihilator" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 9.25d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				id: "cataclysm:infernal_forge"
+			}
+			id: "03C2583BFDE19630"
+			rewards: [{
+				id: "3A6EE6F33BCADA23"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "0FDB768C0CF8D7D6"
+				item: { count: 1, id: "cataclysm:infernal_forge" }
+				type: "item"
+			}]
+			x: 8.25d
+			y: 9.25d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				id: "cataclysm:void_forge"
+			}
+			id: "7FF18B74C3DAB7F8"
+			rewards: [{
+				id: "4EF46127B30C9AD1"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "54EA16E45D2AE55D"
+				item: { count: 1, id: "cataclysm:void_forge" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 9.25d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				id: "cataclysm:the_immolator"
+			}
+			id: "37EE06D121DE4C71"
+			rewards: [{
+				id: "1823B57C4FC13A6E"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "0146E89AA4883150"
+				item: { count: 1, id: "cataclysm:the_immolator" }
+				type: "item"
+			}]
+			x: 10.75d
+			y: 9.25d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				id: "cataclysm:wither_assault_shoulder_weapon"
+			}
+			id: "43F3961CE7FA79D2"
+			rewards: [{
+				id: "445322AC98CB00D2"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "73409DA05B29477F"
+				item: { count: 1, id: "cataclysm:wither_assault_shoulder_weapon" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				id: "cataclysm:void_assault_shoulder_weapon"
+			}
+			id: "0650B9A7FE357A9E"
+			rewards: [{
+				id: "6C5A9FA471127B8B"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "646772397BD22FC9"
+				item: { count: 1, id: "cataclysm:void_assault_shoulder_weapon" }
+				type: "item"
+			}]
+			x: 3.25d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				id: "cataclysm:laser_gatling"
+			}
+			id: "68A64415DA04263F"
+			rewards: [{
+				id: "7D13FADD8055FF5E"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "4EE00E8FE76842C3"
+				item: { count: 1, id: "cataclysm:laser_gatling" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				id: "cataclysm:wrath_of_the_desert"
+			}
+			id: "628EA57B6B368F52"
+			rewards: [{
+				id: "0954C544C2B7A8F4"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "4D41BF2A6A17B4AD"
+				item: { count: 1, id: "cataclysm:wrath_of_the_desert" }
+				type: "item"
+			}]
+			x: 5.75d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				id: "cataclysm:sandstorm_in_a_bottle"
+			}
+			id: "5D0E0B6B8060BAF2"
+			rewards: [{
+				id: "6C728EE467980C60"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "0BBA8401233988CB"
+				item: { count: 1, id: "cataclysm:sandstorm_in_a_bottle" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				id: "cataclysm:soul_render"
+			}
+			id: "44DE079252DD31C1"
+			rewards: [{
+				id: "354C52E28BF1CA9B"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "6E5F535275D8A891"
+				item: { count: 1, id: "cataclysm:soul_render" }
+				type: "item"
+			}]
+			x: 8.25d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				id: "cataclysm:cursed_bow"
+			}
+			id: "2D896E315E7F06DD"
+			rewards: [{
+				id: "6EF0264074E388C1"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "7FF612B81E253E21"
+				item: { count: 1, id: "cataclysm:cursed_bow" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				id: "cataclysm:tidal_claws"
+			}
+			id: "625D1C757252950F"
+			rewards: [{
+				id: "43AE3C0F274FB0DD"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "35DC5480BA3FE802"
+				item: { count: 1, id: "cataclysm:tidal_claws" }
+				type: "item"
+			}]
+			x: 10.75d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				id: "cataclysm:gauntlet_of_maelstrom"
+			}
+			id: "12E410E912DAE42B"
+			rewards: [{
+				id: "3BDFA2643D1C951B"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "4BAFEF7C41D03E42"
+				item: { count: 1, id: "cataclysm:gauntlet_of_maelstrom" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 11.75d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				id: "cataclysm:astrape"
+			}
+			id: "04CF6B9F65BDD1C9"
+			rewards: [{
+				id: "3A0E6C168F563707"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "0ED38A00A414CFB7"
+				item: { count: 1, id: "cataclysm:astrape" }
+				type: "item"
+			}]
+			x: 3.25d
+			y: 11.75d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				id: "cataclysm:ceraunus"
+			}
+			id: "16265B06EC9CED50"
+			rewards: [{
+				id: "41B0A9787160FEF1"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "0A095CADE3554A31"
+				item: { count: 1, id: "cataclysm:ceraunus" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 11.75d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				components: {
+					"ftbquests:missing_item": "cataclysm:zweiender"
+				}
+				id: "ftbquests:missing_item"
+			}
+			id: "75F75046D07EC09F"
+			rewards: [{
+				id: "7FCFF949C0ADB8BF"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "715BE697B004730A"
+				item: { components: { "ftbquests:missing_item": "cataclysm:zweiender" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 5.75d
+			y: 11.75d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				id: "cataclysm:ignitium_helmet"
+			}
+			id: "1868E1D6CBCFC639"
+			rewards: [{
+				id: "35EF31351C99291C"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "51A5D283537148EB"
+				item: { count: 1, id: "cataclysm:ignitium_helmet" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 11.75d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				id: "cataclysm:cursium_helmet"
+			}
+			id: "5736A942E5C5AC01"
+			rewards: [{
+				id: "432F87C92BA75947"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "0316331CD1FF79FF"
+				item: { count: 1, id: "cataclysm:cursium_helmet" }
+				type: "item"
+			}]
+			x: 8.25d
+			y: 11.75d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				id: "cataclysm:monstrous_helm"
+			}
+			id: "0FDD3749B5053F88"
+			rewards: [{
+				id: "27E8D74950ED0E45"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "53F2F7E319B124F6"
+				item: { count: 1, id: "cataclysm:monstrous_helm" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 11.75d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				components: {
+					"ftbquests:missing_item": "cataclysm:final_fractal"
+				}
+				id: "ftbquests:missing_item"
+			}
+			id: "0527639780A4D4DB"
+			rewards: [{
+				id: "0CEC080D0FC42762"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "42CE45BE5645974F"
+				item: { components: { "ftbquests:missing_item": "cataclysm:final_fractal" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 10.75d
+			y: 11.75d
+		}
+		{
+			dependencies: [
+				"3EA689D6EDFF2600"
+				"5537F1F0BA4E1DE5"
+				"206700F5E175A9D7"
+				"343118A8AA3274D9"
+				"2287D6533206131A"
+				"03C2583BFDE19630"
+				"7FF18B74C3DAB7F8"
+				"37EE06D121DE4C71"
+				"43F3961CE7FA79D2"
+				"0650B9A7FE357A9E"
+				"68A64415DA04263F"
+				"628EA57B6B368F52"
+				"5D0E0B6B8060BAF2"
+				"44DE079252DD31C1"
+				"2D896E315E7F06DD"
+				"625D1C757252950F"
+				"12E410E912DAE42B"
+				"04CF6B9F65BDD1C9"
+				"16265B06EC9CED50"
+				"75F75046D07EC09F"
+				"1868E1D6CBCFC639"
+				"5736A942E5C5AC01"
+				"0FDD3749B5053F88"
+				"0527639780A4D4DB"
+			]
+			icon: {
+				id: "cataclysm:the_incinerator"
+			}
+			id: "737BCDDBEC4AF98D"
+			rewards: [
+				{
+					id: "0A970E666280CAE6"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "00F68A0DDC239AAC"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "3C14DD14D791257C"
+				type: "checkmark"
+			}]
+			x: 12.75d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				id: "harsh_encounters:thunder_spear"
+			}
+			id: "4CE4BC673C64A8B9"
+			rewards: [{
+				id: "3F926E4E5C3403A8"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "663DB157956FC3EC"
+				item: { count: 1, id: "harsh_encounters:thunder_spear" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 13.75d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				id: "harsh_encounters:voltaic_hammer"
+			}
+			id: "3BA8DB469650EB54"
+			rewards: [{
+				id: "2728040E8ADF9230"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "47D933A9B13A89BD"
+				item: { count: 1, id: "harsh_encounters:voltaic_hammer" }
+				type: "item"
+			}]
+			x: 3.25d
+			y: 13.75d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				id: "harsh_encounters:deviser_gauntlet"
+			}
+			id: "5A01D6F1621E3906"
+			rewards: [{
+				id: "36F0A9B81F716A29"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "6DBECCCD0A25E9FC"
+				item: { count: 1, id: "harsh_encounters:deviser_gauntlet" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 13.75d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				id: "harsh_encounters:spark_rod"
+			}
+			id: "2B1ED3E5E6EB906A"
+			rewards: [{
+				id: "2B26F5B4EE7564D5"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "0D4A66470BDED566"
+				item: { count: 1, id: "harsh_encounters:spark_rod" }
+				type: "item"
+			}]
+			x: 5.75d
+			y: 13.75d
+		}
+		{
+			dependencies: ["2321AE2AE2AD1E96"]
+			icon: {
+				id: "harsh_encounters:soul_of_thunder"
+			}
+			id: "19062D6AEE2655D0"
+			rewards: [{
+				id: "5B9E28F90B28ED74"
+				type: "xp"
+				xp: 50
+			}]
+			size: 0.75d
+			tasks: [{
+				id: "0A61742466DBF5AD"
+				item: { count: 1, id: "harsh_encounters:soul_of_thunder" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 13.75d
+		}
+		{
+			dependencies: [
+				"4CE4BC673C64A8B9"
+				"3BA8DB469650EB54"
+				"5A01D6F1621E3906"
+				"2B1ED3E5E6EB906A"
+				"19062D6AEE2655D0"
+			]
+			icon: {
+				id: "harsh_encounters:thunder_spear"
+			}
+			id: "7314A9BA52B79FA9"
+			rewards: [
+				{
+					count: 4
+					id: "3BC6CAFAE6393C79"
+					item: {
+						count: 1
+						id: "minecraft:lightning_rod"
+					}
+					type: "item"
+				}
+				{
+					id: "1E1DB02227D4963E"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "1CD4C8074BAE63A9"
+				type: "checkmark"
+			}]
+			x: 12.75d
+			y: 13.75d
+		}
+		{
+			dependencies: [
+				"2EC188A6FE332060"
+				"535DEB2128394A48"
+				"0011998919F201C6"
+				"1A79B721FE6CBBC2"
+				"432C951C8420C5E7"
+				"737BCDDBEC4AF98D"
+				"7314A9BA52B79FA9"
+			]
+			icon: {
+				id: "minecraft:nether_star"
+			}
+			id: "7ED86E2A3F491367"
+			rewards: [
+				{
+					count: 2
+					id: "59A04131F1D5294C"
+					item: {
+						count: 1
+						id: "minecraft:nether_star"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "53B60813E20CF8CB"
+					item: {
+						count: 1
+						id: "minecraft:diamond_block"
+					}
+					type: "item"
+				}
+				{
+					id: "459EDED2D2FBE068"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "heart"
+			size: 2.0d
+			tasks: [{
+				id: "283CEE5F17F9EA6C"
+				type: "checkmark"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+	]
+}
