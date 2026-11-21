@@ -1,0 +1,26 @@
+#The ratio of mana transferred from the player to the source
+# Default: 1.0
+# Range: 0.0 ~ 1.7976931348623157E308
+ratio = 1.0
+#The maximum mana that can be transferred at once. 0 means no maximum
+# Default: 0
+# Range: > 0
+maxPerTrans = 0
+#The cooling time of transferring mana(By tick)
+# Default: 0
+# Range: > 0
+coolingTime = 0
+#Whether to allow only empty hands to use
+needEmptyHand = true
+#When Crouching not transfer mana
+noCrouching = true
+#Whether to cancel the right-click event after injecting is successful
+cancelRightClickEvent = false
+#The number of particles to be displayed when charging
+# Default: 20
+# Range: > 0
+chargeParticleCount = 20
+#The radius of the particles to be displayed when charging
+# Default: 0.5
+# Range: 0.0 ~ 1.7976931348623157E308
+chargeParticleRadius = 0.5

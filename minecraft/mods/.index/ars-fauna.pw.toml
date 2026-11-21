@@ -1,0 +1,21 @@
+filename = 'Ars Fauna-1.4.1.jar'
+name = 'Ars Fauna'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Ars Fauna-1.21.1-1.4.1.jar'
+
+[download]
+hash = '1e152efcae3ea38f494287bcfa993c5f9256a540'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6857658
+project-id = 1055577
+
+[[x-prismlauncher-dependencies]]
+addonId = '401955'
+type = 'REQUIRED'

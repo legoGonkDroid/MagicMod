@@ -1,0 +1,96 @@
+# MagicMod — Prism Launcher instance (NeoForge 1.21.1)
+#
+# This folder is both the live Prism instance and the git repo. Layout mirrors
+# AllTheMods/ATM-10: only the pack *definition* is tracked — configs, scripts,
+# datapacks, quests and mod metadata. Mod jars are NOT committed; they are
+# described by minecraft/mods/.index/*.pw.toml (written by Prism, packwiz format)
+# and downloaded by packwiz-installer / the .mrpack built in CI.
+#
+# Tracked:
+#   mmc-pack.json, patches/                   -> Minecraft + NeoForge version
+#   minecraft/mods/.index/*.pw.toml           -> mod list (source, version, hash)
+#   minecraft/config/, defaultconfigs/        -> mod configs (incl. FTB quests)
+#   minecraft/kubejs/ (scripts), datapacks/   -> custom content
+#   questgen/                                 -> quest book generator
+#   README/CHANGELOG/changelogs/.github       -> docs + CI
+
+# --- Prism per-machine instance state (use instance.cfg.example) ---
+instance.cfg
+natives/
+.LAUNCHER_TEMP/
+
+# --- Mod jars (described by mods/.index/*.pw.toml instead) ---
+minecraft/mods/*.jar
+minecraft/mods/*.jar.disabled
+!minecraft/mods/.index/
+minecraft/packwiz-installer*.jar
+minecraft/packwiz.json
+
+# --- Worlds & player data (personal; share separately if needed) ---
+minecraft/saves/
+minecraft/screenshots/
+minecraft/blueprints/
+minecraft/data/
+minecraft/usercache.json
+minecraft/usernamecache.json
+minecraft/servers.dat
+minecraft/servers.dat_old
+minecraft/command_history.txt
+minecraft/patchouli_data.json
+minecraft/.qmenu_opened.marker
+
+# --- Personal client settings (keybinds, video, sound) ---
+minecraft/options.txt
+minecraft/optionsof.txt
+minecraft/optionsshaders.txt
+minecraft/emi.json
+
+# --- Logs, crash dumps, debug output ---
+minecraft/logs/
+minecraft/crash-reports/
+minecraft/.mixin.out/
+minecraft/debug/
+*.log
+*.log.gz
+hs_err_pid*.log
+
+# --- Caches / downloads / runtime-generated ---
+minecraft/downloads/
+minecraft/server-resource-packs/
+minecraft/dynamic-data-pack-cache/
+minecraft/dynamic-resource-pack-cache/
+minecraft/.cache/
+minecraft/.fabric/
+minecraft/local/
+minecraft/config/embeddium-fingerprint.json
+minecraft/config/fabric/indigo-renderer.properties
+
+# --- Xaero's Minimap / World Map per-player map + waypoint data ---
+minecraft/xaero/
+minecraft/XaeroWaypoints*/
+minecraft/XaeroWorldMap*/
+minecraft/config/xaeropatreon.txt
+
+# --- KubeJS generated output / editor files (scripts in kubejs/*_scripts are tracked) ---
+minecraft/kubejs/exported/
+minecraft/kubejs/probe/
+minecraft/kubejs/*/jsconfig.json
+minecraft/kubejs/config/probe-settings.json
+.probe
+
+# --- FTB Quests recovery files ---
+minecraft/config/ftbquests/quests/lang/recovery/
+
+# --- Build output (CI assembles the packwiz pack here) ---
+/build/
+
+# --- Quest generator cache ---
+questgen/.cache/
+__pycache__/
+
+# --- OS / editor junk ---
+.DS_Store
+Thumbs.db
+*~
+.idea/
+.vscode/

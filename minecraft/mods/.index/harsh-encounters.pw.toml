@@ -1,0 +1,18 @@
+filename = 'harsh_encounters-1.0.2-neoforge-1.21.1.jar'
+name = 'Harsh Encounters'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.2'
+
+[download]
+hash = '7af869b6d4c3a626529b84587f492cddfd7c402eb340b64ef9854aa01ade51f5993187b86765bd2af431f522e99b6b0546bb053cab85fd03b3744fb5301b94bb'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/16z29tUI/versions/grukQpqB/harsh_encounters-1.0.2-neoforge-1.21.1.jar'
+
+[update.modrinth]
+mod-id = '16z29tUI'
+version = 'grukQpqB'

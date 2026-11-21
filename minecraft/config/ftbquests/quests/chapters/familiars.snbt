@@ -1,0 +1,396 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "familiars"
+	group: "0A002B5076C58111"
+	icon: {
+		id: "ars_nouveau:familiar_starbuncle"
+	}
+	id: "63E15E0E2B711266"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "ars_nouveau:ritual_binding"
+			}
+			id: "23EDDE1DC3C56D3E"
+			rewards: [
+				{
+					count: 8
+					id: "033FD02F331CE798"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem"
+					}
+					type: "item"
+				}
+				{
+					id: "7D1832659B312297"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "07CAA3ADEDD008BC"
+				item: { count: 1, id: "ars_nouveau:ritual_binding" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23EDDE1DC3C56D3E"]
+			icon: {
+				id: "minecraft:lead"
+			}
+			id: "6BA98A66C3841E1E"
+			optional: true
+			rewards: [
+				{
+					id: "6E8FAE3B5DF92F47"
+					item: {
+						count: 1
+						id: "minecraft:cake"
+					}
+					type: "item"
+				}
+				{
+					id: "7ADFD2A78CCD0583"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				advancement: "ars_nouveau:familiar"
+				criterion: ""
+				id: "00C4A13D230CAA4F"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["23EDDE1DC3C56D3E"]
+			icon: {
+				id: "ars_nouveau:familiar_starbuncle"
+			}
+			id: "028135C4F99230EB"
+			rewards: [
+				{
+					count: 16
+					id: "5CE086D46EEDA656"
+					item: {
+						count: 1
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "619CC99C7D69AA06"
+					type: "xp"
+					xp: 75
+				}
+			]
+			tasks: [{
+				id: "1A0CA754D553A3FB"
+				item: { count: 1, id: "ars_nouveau:familiar_starbuncle" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.75d
+		}
+		{
+			dependencies: ["23EDDE1DC3C56D3E"]
+			icon: {
+				id: "ars_nouveau:familiar_whirlisprig"
+			}
+			id: "29D1F1E3CD4AF47C"
+			rewards: [
+				{
+					count: 16
+					id: "3D2493D668243C20"
+					item: {
+						count: 1
+						id: "minecraft:sweet_berries"
+					}
+					type: "item"
+				}
+				{
+					id: "31810D902D29AB82"
+					type: "xp"
+					xp: 75
+				}
+			]
+			tasks: [{
+				id: "3CE1B7BD854A3605"
+				item: { count: 1, id: "ars_nouveau:familiar_whirlisprig" }
+				type: "item"
+			}]
+			x: 4.25d
+			y: -1.75d
+		}
+		{
+			dependencies: ["23EDDE1DC3C56D3E"]
+			icon: {
+				id: "ars_nouveau:familiar_drygmy"
+			}
+			id: "37AFEDB75355326E"
+			rewards: [
+				{
+					count: 16
+					id: "1344338127729419"
+					item: {
+						count: 1
+						id: "minecraft:leather"
+					}
+					type: "item"
+				}
+				{
+					id: "0A0A89311BADCB59"
+					type: "xp"
+					xp: 75
+				}
+			]
+			tasks: [{
+				id: "0BF135EE6302E98A"
+				item: { count: 1, id: "ars_nouveau:familiar_drygmy" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.75d
+		}
+		{
+			dependencies: ["23EDDE1DC3C56D3E"]
+			icon: {
+				id: "ars_nouveau:familiar_wixie"
+			}
+			id: "0F1E47952E9CE18C"
+			rewards: [
+				{
+					count: 16
+					id: "2C5E7372CFD74F8B"
+					item: {
+						count: 1
+						id: "minecraft:nether_wart"
+					}
+					type: "item"
+				}
+				{
+					id: "38F59DEA7EFB8810"
+					type: "xp"
+					xp: 75
+				}
+			]
+			tasks: [{
+				id: "60D0A07867C2197F"
+				item: { count: 1, id: "ars_nouveau:familiar_wixie" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23EDDE1DC3C56D3E"]
+			icon: {
+				id: "ars_nouveau:familiar_bookwyrm"
+			}
+			id: "4D1506D8BD8CB66D"
+			rewards: [
+				{
+					count: 8
+					id: "1ABEE7E1D4C0D8B9"
+					item: {
+						count: 1
+						id: "minecraft:book"
+					}
+					type: "item"
+				}
+				{
+					id: "5851C0E945A6F670"
+					type: "xp"
+					xp: 75
+				}
+			]
+			tasks: [{
+				id: "6566288EE22766D2"
+				item: { count: 1, id: "ars_nouveau:familiar_bookwyrm" }
+				type: "item"
+			}]
+			x: 4.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23EDDE1DC3C56D3E"]
+			icon: {
+				id: "ars_nouveau:familiar_amethyst_golem"
+			}
+			id: "3F936B469C00244A"
+			rewards: [
+				{
+					count: 8
+					id: "446A824731434FB9"
+					item: {
+						count: 1
+						id: "minecraft:amethyst_block"
+					}
+					type: "item"
+				}
+				{
+					id: "19BA575257A5B9A6"
+					type: "xp"
+					xp: 75
+				}
+			]
+			tasks: [{
+				id: "17CCC922C4F97EF9"
+				item: { count: 1, id: "ars_nouveau:familiar_amethyst_golem" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23EDDE1DC3C56D3E"]
+			icon: {
+				id: "ars_elemental:firenando_familiar"
+			}
+			id: "4B33564E26678EFE"
+			rewards: [
+				{
+					count: 8
+					id: "0905A143AF06E389"
+					item: {
+						count: 1
+						id: "minecraft:magma_block"
+					}
+					type: "item"
+				}
+				{
+					id: "72EE40F8C6B1E4C8"
+					type: "xp"
+					xp: 75
+				}
+			]
+			tasks: [{
+				id: "2DB3D5A17ECA894E"
+				item: { count: 1, id: "ars_elemental:firenando_familiar" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.75d
+		}
+		{
+			dependencies: ["23EDDE1DC3C56D3E"]
+			icon: {
+				id: "ars_elemental:flashjack_familiar"
+			}
+			id: "7D91B5C3CA090810"
+			rewards: [
+				{
+					count: 16
+					id: "388174DC2FBE3BEE"
+					item: {
+						count: 1
+						id: "minecraft:feather"
+					}
+					type: "item"
+				}
+				{
+					id: "13CD1632AF72683E"
+					type: "xp"
+					xp: 75
+				}
+			]
+			tasks: [{
+				id: "3F9599A35EEE7B00"
+				item: { count: 1, id: "ars_elemental:flashjack_familiar" }
+				type: "item"
+			}]
+			x: 4.25d
+			y: 1.75d
+		}
+		{
+			dependencies: ["23EDDE1DC3C56D3E"]
+			icon: {
+				id: "ars_elemental:siren_familiar"
+			}
+			id: "3F99E250434B5E56"
+			rewards: [
+				{
+					count: 8
+					id: "537DE53A5FF4A00B"
+					item: {
+						count: 1
+						id: "minecraft:prismarine_crystals"
+					}
+					type: "item"
+				}
+				{
+					id: "601141B3D6AF4563"
+					type: "xp"
+					xp: 75
+				}
+			]
+			tasks: [{
+				id: "2A6663838E706825"
+				item: { count: 1, id: "ars_elemental:siren_familiar" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.75d
+		}
+		{
+			dependencies: [
+				"028135C4F99230EB"
+				"29D1F1E3CD4AF47C"
+				"37AFEDB75355326E"
+				"0F1E47952E9CE18C"
+				"4D1506D8BD8CB66D"
+				"3F936B469C00244A"
+				"4B33564E26678EFE"
+				"7D91B5C3CA090810"
+				"3F99E250434B5E56"
+			]
+			icon: {
+				id: "ars_nouveau:starbuncle_plush"
+			}
+			id: "398B66729C66E007"
+			rewards: [
+				{
+					id: "1E8B27FB4BFAB5DC"
+					item: {
+						count: 1
+						id: "ars_nouveau:starbuncle_plush"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5446F93C99ADEF3B"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem_block"
+					}
+					type: "item"
+				}
+				{
+					id: "434F40CD45FF8BE9"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "heart"
+			size: 2.0d
+			tasks: [{
+				id: "2DF586E57D7B9467"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+	]
+}

@@ -1,0 +1,21 @@
+filename = 'put_mana_in-1.21.1-1.3.0.0.jar'
+name = 'Put Mana In'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'put_mana_in-1.21.1-1.3.0.0.jar'
+
+[download]
+hash = '5cd86a2e012d48b4ca4f6b726445a5c71d204289'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7028854
+project-id = 1194625
+
+[[x-prismlauncher-dependencies]]
+addonId = '401955'
+type = 'REQUIRED'

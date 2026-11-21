@@ -1,0 +1,25 @@
+filename = 'ars_affinity-1.21.1-1.1.1.jar'
+name = 'Ars Affinity'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ars_affinity-1.21.1-1.1.1.jar'
+
+[download]
+hash = 'ecb08d69e18e07c8cdf9f2806c05cb814a406e86'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7416588
+project-id = 1319260
+
+[[x-prismlauncher-dependencies]]
+addonId = '561470'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '401955'
+type = 'REQUIRED'

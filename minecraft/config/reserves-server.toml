@@ -1,0 +1,64 @@
+#Essence Charge and Reserve Orb features.
+[charges]
+	#Enable charge storage, Reserve Orbs, and charge transfers.
+	orbChargeSystem = true
+	#Enable Charge glyph behavior and binary charge expressions.  Requires Ars Nouveau.
+	glyphs = true
+	#Enable the Teleport glyph.  Requires Ars Nouveau.
+	teleportGlyph = true
+	#Enable passive charge generation from Charge Threads.  Requires Ars Nouveau.
+	threads = true
+	#Enable minimum and maximum charge contingency glyphs.  Requires Ars Nouveau.
+	chargeContingencies = true
+	#Enable bound Contingency Threads on equipped Reserve Orbs.  Requires Ars Nouveau and Curios.
+	contingencyThreads = true
+	#Enable beneficial effects from consuming charges on the caster.
+	selfEffects = true
+	#Enable entity-targeted hostile Charge attacks.
+	offensiveEffects = true
+	#Enable obtaining and using the Reserving enchantment.  Requires Ars Nouveau and Curios.
+	reservingProtection = true
+
+#Individual Essence Charge types.  Disabling a type preserves charges already stored in orbs,
+#but prevents its glyphs, threads, contingencies, HUD entry, self effects, and attacks from working.
+[chargeTypes]
+	#Enable Fire Charges and their related features.
+	fire = true
+	#Enable Water Charges and their related features.
+	water = true
+	#Enable Air Charges and their related features.
+	air = true
+	#Enable Earth Charges and their related features.
+	earth = true
+	#Enable Abjuration Charges and their related features.
+	abjuration = true
+	#Enable Conjuration Charges and their related features.
+	conjuration = true
+	#Enable Manipulation Charges and their related features.
+	manipulation = true
+	#Enable Anima Charges and their related features.
+	anima = true
+
+#Revival sources, ordering, and related integrations.
+[revival]
+	#Coordinate revival sources in Reserves' documented priority order.
+	priority = true
+	#Enable Harvesting and Mana Charm revival and recharging behavior.
+	customCharms = true
+	#Recognize and activate Ars Nouveau's Thread of Undying.
+	arsThread = true
+	#Recognize and activate Ars Additions' Charm of Second Wind.
+	arsAdditionsCharm = true
+	#Recognize Totems of Undying equipped through Curios.
+	curiosTotems = true
+	#Recognize revival items carried by a player's tamed Ghosts pet.
+	ghostSources = true
+	#Let every supported revival source trigger Contingency: Death.  Requires Not Enough Glyphs.
+	deathContingencies = true
+
+#Optional Ghosts mod behavior.
+[ghosts]
+	#Let spellbook use pass through the Ghosts interaction menu so touch spells can hit a pet ghost.
+	spellbookInteractions = true
+	#Recharge supported revival charms held by a tamed ghost.
+	charmRecharging = true

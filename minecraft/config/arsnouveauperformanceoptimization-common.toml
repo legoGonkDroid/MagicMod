@@ -1,0 +1,60 @@
+[particles]
+	enabled = true
+	# Default: 32.0
+	# Range: 4.0 ~ 256.0
+	maxDistance = 32.0
+	# Default: 0.75
+	# Range: 0.0 ~ 1.0
+	density = 0.75
+	glowEnabled = true
+	helixEnabled = true
+	lineEnabled = true
+	sparkleEnabled = true
+
+[rituals]
+	enabled = true
+	# Default: 32.0
+	# Range: 4.0 ~ 256.0
+	maxDistance = 32.0
+	# Default: 0.6
+	# Range: 0.0 ~ 1.0
+	densityScale = 0.6
+
+[beams]
+	enabled = true
+	# Default: 32.0
+	# Range: 4.0 ~ 256.0
+	maxDistance = 32.0
+
+[blockEntities]
+	enabled = true
+	# Default: 64.0
+	# Range: 4.0 ~ 512.0
+	maxDistance = 64.0
+
+[bookwyrm]
+	enabled = true
+	# Default: 200
+	# Range: 20 ~ 6000
+	taskMaxAgeTicks = 200
+	# Default: 10
+	# Range: 0 ~ 200
+	entityCacheTicks = 10
+
+[logic]
+	enabled = true
+
+	[logic.starbuncle]
+		enabled = true
+		# Default: 4
+		# Range: 1 ~ 40
+		pickupScanIntervalTicks = 4
+		# Default: 40
+		# Range: 0 ~ 600
+		frameScanCacheTicks = 40
+
+	[logic.source]
+		enabled = true
+
+[debug]
+	enabled = false

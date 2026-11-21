@@ -1,0 +1,21 @@
+filename = 'ars_trinkets-1.21.1-3.1.1.jar'
+name = 'Ars Trinkets'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ars_trinkets-1.21.1-3.1.1.jar'
+
+[download]
+hash = 'aeaafebb878288f0fc82354f941a2f92eb75b8ef'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9645326
+project-id = 950506
+
+[[x-prismlauncher-dependencies]]
+addonId = '401955'
+type = 'REQUIRED'

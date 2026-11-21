@@ -1,0 +1,21 @@
+filename = 'arsvioletgoldequipment-1.2.0.jar'
+name = 'Ars Violetgold Equipment'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'arsvioletgoldequipment-1.2.0.jar'
+
+[download]
+hash = '0b70eaef90030e7f90a1bb3bff31a4b204d8f289'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 8662655
+project-id = 1602666
+
+[[x-prismlauncher-dependencies]]
+addonId = '401955'
+type = 'REQUIRED'

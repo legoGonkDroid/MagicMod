@@ -1,0 +1,36 @@
+#The rate of max health that the armor trys to keep your health by consuming mana
+# Default: 0.5
+# Range: 0.0 ~ 1.0
+keepingHealthRate = 0.5
+#The mana that every health decrease point costs
+# Default: 15
+# Range: > 1
+manaConsumption = 15
+#The rate of the spell's mana consumed when using violetgold blade.
+# Default: 0.5
+# Range: 0.0 ~ 1.0
+bladeManaConsumptionRate = 0.5
+#The radius of the violetgold blade skill.
+# Default: 24
+# Range: > 1
+bladeSkillRadius = 24
+#The times of the violetgold blade skill cast spell.
+# Default: 3
+# Range: > 1
+bladeSkillCastCount = 3
+#Average blocks between each vortex spawn point in the skill area.
+# Default: 3
+# Range: > 1
+bladeSkillDensity = 3
+#The maximum distance at which the violetgold wand casts spells on targets along the line of sight.
+# Default: 30
+# Range: > 1
+wandPenetrationDistance = 30
+#Allow the violetgold penetration wand to cast spells. If disabled, the wand cannot cast at all.
+allowVioletgoldWand = true
+#Allow the violetgold wand to cast inscribed spells containing the Burst glyph. If disabled, spells that include Burst are not cast (and no mana is consumed).
+allowWandBurstGlyph = false
+#Allow the violetgold wand to cast inscribed spells containing the Explosion glyph. If disabled, spells that include Explosion are not cast (and no mana is consumed).
+allowWandExplosionGlyph = false
+#Allow the violetgold wand to cast inscribed spells containing the Sensitive glyph. If disabled, spells that include Sensitive are not cast (and no mana is consumed).
+allowWandSensitiveGlyph = true

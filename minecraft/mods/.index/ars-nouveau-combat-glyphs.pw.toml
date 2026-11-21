@@ -1,0 +1,21 @@
+filename = 'ars_nouveau_combat_glyphs-1.53.0.jar'
+name = 'Ars Nouveau Combat Glyphs'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'ars_nouveau_combat_glyphs-1.53.0.jar'
+
+[download]
+hash = '0ce1b3b605abb03b333a5bc577985cb7790f6c89'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 9511137
+project-id = 1633424
+
+[[x-prismlauncher-dependencies]]
+addonId = '401955'
+type = 'REQUIRED'

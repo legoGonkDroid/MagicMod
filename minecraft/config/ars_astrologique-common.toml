@@ -1,0 +1,5 @@
+["Glyph Backlash"]
+	#Enable or Disable the Invigorate glyph from preventing Mana Regeneration while active.
+	invigorate_block_regen = true
+	#Enable or Disable the Lethargy backlash from using the Alacrity glyph
+	enable_lethargy = true

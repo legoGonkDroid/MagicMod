@@ -1,0 +1,545 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "end"
+	group: "4F280FD29EF0C5A6"
+	icon: {
+		id: "minecraft:dragon_egg"
+	}
+	id: "348A0D3791AEEFA3"
+	images: [ ]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5EFA885D9AEFAE41"]
+			icon: {
+				id: "minecraft:ender_eye"
+			}
+			id: "317465858DE5EB14"
+			rewards: [
+				{
+					count: 4
+					id: "5A603DF2257923E8"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "428CD78EA2B2EF41"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "11030EEC681F96C8"
+				item: { count: 1, id: "minecraft:ender_eye" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["317465858DE5EB14"]
+			icon: {
+				id: "minecraft:ender_pearl"
+			}
+			id: "1D26E3D6E92E0E01"
+			rewards: [
+				{
+					count: 32
+					id: "22A42546F876FBC5"
+					item: {
+						count: 1
+						id: "minecraft:torch"
+					}
+					type: "item"
+				}
+				{
+					id: "202A81B20E9775F8"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:story/follow_ender_eye"
+				criterion: ""
+				id: "77F0630FE64DA8B6"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D26E3D6E92E0E01"]
+			icon: {
+				id: "minecraft:end_portal_frame"
+			}
+			id: "5EDA6521ABA10748"
+			rewards: [
+				{
+					count: 16
+					id: "04C77C4182A8D8B9"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "5593657ECF5DF541"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [{
+				id: "56C20E40AC839C19"
+				structure: "minecraft:stronghold"
+				type: "structure"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5EDA6521ABA10748"]
+			icon: {
+				id: "minecraft:end_stone"
+			}
+			id: "4657BCC10052A211"
+			rewards: [
+				{
+					count: 2
+					id: "2994854F183C2D4B"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:long_slow_falling"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+				{
+					id: "347158C3F073318E"
+					item: {
+						count: 1
+						id: "minecraft:water_bucket"
+					}
+					type: "item"
+				}
+				{
+					id: "3E4D93606274BF16"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:story/enter_the_end"
+				criterion: ""
+				id: "05096953A323AD18"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4657BCC10052A211"
+				"4B88868819FDE868"
+				"4CC906EF71AE9DFE"
+				"625F33B59B65C3D7"
+				"206A89D716A9547F"
+				"29ED9FA48728B604"
+				"0D0C6CE3052F5D2D"
+				"49862A26D14C441F"
+				"38BE02671CD75231"
+			]
+			icon: {
+				id: "minecraft:dragon_head"
+			}
+			id: "7599D7356E551C7E"
+			rewards: [
+				{
+					id: "54D74E8736778486"
+					item: {
+						count: 1
+						id: "minecraft:elytra"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7A2BE5616B0DDA32"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem_block"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2D96B85A1BE41FD9"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "2E361717790F723C"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "heart"
+			size: 2.5d
+			tasks: [{
+				advancement: "minecraft:end/kill_dragon"
+				criterion: ""
+				id: "39BC8DC367543489"
+				type: "advancement"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7599D7356E551C7E"]
+			icon: {
+				id: "minecraft:dragon_egg"
+			}
+			id: "48A3CCCA2DB113D7"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "59BB90829A26B381"
+					item: {
+						count: 1
+						id: "minecraft:item_frame"
+					}
+					type: "item"
+				}
+				{
+					id: "476D4A5603BDB917"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "6B29E9238C882BD9"
+				item: { count: 1, id: "minecraft:dragon_egg" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7599D7356E551C7E"]
+			icon: {
+				id: "minecraft:dragon_breath"
+			}
+			id: "70E0292A312F799D"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "749C9B15C45B5133"
+					item: {
+						count: 1
+						id: "minecraft:glass_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "48BA2B07F506BEEF"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:end/dragon_breath"
+				criterion: ""
+				id: "198D4E97A105B458"
+				type: "advancement"
+			}]
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7599D7356E551C7E"]
+			icon: {
+				id: "minecraft:ender_pearl"
+			}
+			id: "50DC5E499EF909B9"
+			rewards: [
+				{
+					count: 8
+					id: "5DF9FF900022515A"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "5A213DCB41AD22E2"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:end/enter_end_gateway"
+				criterion: ""
+				id: "1BE846F7B0FB32FB"
+				type: "advancement"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50DC5E499EF909B9"]
+			icon: {
+				id: "minecraft:purpur_block"
+			}
+			id: "39D27B1C48A89A23"
+			rewards: [
+				{
+					count: 16
+					id: "51C32950D6E81EF1"
+					item: {
+						count: 1
+						id: "minecraft:golden_carrot"
+					}
+					type: "item"
+				}
+				{
+					id: "61C3D648F7A4564A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:end/find_end_city"
+				criterion: ""
+				id: "6A15A704B7121541"
+				type: "advancement"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["39D27B1C48A89A23"]
+			icon: {
+				id: "minecraft:shulker_shell"
+			}
+			id: "4A60F9C26DACEBA1"
+			rewards: [
+				{
+					count: 4
+					id: "548FAE41284EC128"
+					item: {
+						count: 1
+						id: "minecraft:chest"
+					}
+					type: "item"
+				}
+				{
+					id: "057BEB13BB860263"
+					type: "xp"
+					xp: 80
+				}
+			]
+			tasks: [{
+				id: "2ED9CE69EBCDA3AE"
+				item: { count: 1, id: "minecraft:shulker_shell" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["39D27B1C48A89A23"]
+			icon: {
+				id: "minecraft:elytra"
+			}
+			id: "0B1F42180D6C711D"
+			optional: true
+			rewards: [
+				{
+					count: 32
+					id: "05906DA56400B20B"
+					item: {
+						count: 1
+						id: "minecraft:firework_rocket"
+					}
+					type: "item"
+				}
+				{
+					id: "60D9C352C9C21403"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:end/elytra"
+				criterion: ""
+				id: "2E4F051532B0EEDE"
+				type: "advancement"
+			}]
+			x: 15.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["50DC5E499EF909B9"]
+			icon: {
+				id: "minecraft:obsidian"
+			}
+			id: "2E5AA8D0EBD3F36E"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "0E9FF1F6622D0132"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "28E7204023942001"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:ender_golem"
+				id: "0B31F895DF44212A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 13.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4A60F9C26DACEBA1"]
+			icon: {
+				id: "cataclysm:void_eye"
+			}
+			id: "160A2087324C23F0"
+			rewards: [
+				{
+					count: 2
+					id: "0EFC0E449B12B341"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:long_slow_falling"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+				{
+					id: "64119875AC1D60FF"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "6FBF727C5507F64A"
+				item: { count: 1, id: "cataclysm:void_eye" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["160A2087324C23F0"]
+			icon: {
+				id: "cataclysm:altar_of_void"
+			}
+			id: "14E5B135384EA44E"
+			rewards: [
+				{
+					id: "03BC208B362F4319"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "128EBEEB1B6D6D69"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "01F9A485EB959143"
+				structure: "cataclysm:ruined_citadel"
+				type: "structure"
+			}]
+			x: 19.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["14E5B135384EA44E"]
+			icon: {
+				id: "cataclysm:music_disc_ender_guardian"
+			}
+			id: "6909A8C6DFBDE3AD"
+			rewards: [
+				{
+					count: 2
+					id: "3C9EBD47896947CC"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "36C072F39CFE425B"
+					item: {
+						count: 1
+						id: "minecraft:nether_star"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "06D36C2C93BD685E"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem_block"
+					}
+					type: "item"
+				}
+				{
+					id: "00E287C23A61312A"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "heart"
+			size: 2.0d
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				id: "235B616AD3A0B82D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 21.0d
+			y: 0.0d
+		}
+	]
+}

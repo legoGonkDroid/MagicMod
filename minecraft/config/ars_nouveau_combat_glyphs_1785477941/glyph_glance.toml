@@ -1,0 +1,44 @@
+#General settings
+[general]
+	#Is Enabled?
+	enabled = true
+	#Cost
+	# Default: 10
+	# Range: > -2147483648
+	cost = 10
+	#Is Starter Glyph?
+	starter = false
+	#The maximum number of times this glyph may appear in a single spell
+	# Default: 2147483647
+	# Range: > 1
+	per_spell_limit = 2147483647
+	#The tier of the glyph
+	# Default: 1
+	# Range: 1 ~ 99
+	glyph_tier = 1
+	#Limits the number of times a given augment may be applied to a given effect
+	#Example entry: "glyph_amplify=5"
+	augment_limits = ["ars_nouveau:glyph_sensitive=3", "ars_nouveau:glyph_amplify=3", "ars_nouveau:glyph_dampen=3"]
+	#How much an augment should cost when used on this effect or form. This overrides the default cost in the augment config.
+	#Example entry: "glyph_amplify=50"
+	augment_cost_overrides = []
+	#Base cast range in blocks
+	# Default: 24
+	# Range: 1 ~ 128
+	base_range = 24
+	#Cast range added per Amplify level
+	# Default: 4
+	# Range: 0 ~ 64
+	amplify_range = 4
+	#Cast range removed per Dampen level
+	# Default: 4
+	# Range: 0 ~ 64
+	dampen_range = 4
+	#Minimum cast range in blocks
+	# Default: 12
+	# Range: 1 ~ 128
+	min_range = 12
+	#Maximum cast range in blocks
+	# Default: 36
+	# Range: 1 ~ 512
+	max_range = 36

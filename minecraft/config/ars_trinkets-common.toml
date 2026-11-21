@@ -1,0 +1,430 @@
+ars_trinkets_curios_config = "ars_trinkets/curios_config.json"
+#^^THE FILE ABOVE HAS TO BE SPECIFIED WITH THE PATH FORMATTING OF YOUR OS!
+#PLACE IT WITHIN THE NEOFORGE CONFIG DIRECTORY!
+#THIS PATH IS RELATIVE.
+#FOR A PATH IN "~/Documents/my-instance/config/ars_trinkets/custom_eternity_rune.json", PLEASE PUT "ars_trinkets/custom_eternity_rune.json"
+#AN EXAMPLE CONFIG CAN BE FOUND HERE!!! (https://github.com/clcment446/ars_trinkets
+# Default: 100
+# Range: 1 ~ 10000000
+aura_base_duration = 100
+# Default: 10
+# Range: 1 ~ 10000000
+aura_base_radius = 10
+# Default: 10
+# Range: 1 ~ 10000000
+aura_base_delay = 10
+# Default: 5
+# Range: 1 ~ 10000000
+aura_base_accelerate = 5
+# Default: 9
+# Range: 0 ~ 9
+max_level_allowed = 9
+lotus_curios_amplifications = [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+ring_curios_amplifications = [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+monocle_curios_amplifications = [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+soul_quantity = [500, 1000, 2500, 5000, 10000, 25000, 50000, 100000, 250000]
+essence_soul_quantity = [25, 50, 125, 250, 500, 1500, 3000, 6000, 15000]
+damage_bonus = [1.1, 1.15, 1.2, 1.3, 1.5, 2.0, 4.0, 8.0, 15.0]
+mana_bonus = [75, 150, 375, 750, 1500, 4500, 9000, 18000, 45000]
+regen_bonus = [75, 150, 375, 750, 1500, 4500, 9000, 18000, 45000]
+
+[bonus_glyph_slots]
+	#Enables addon-controlled bonus glyph slot resolution.
+	enabled = true
+	#Reject spells that exceed the computed slot cap during server-side cast.
+	enforce_on_cast = true
+	#When Infinite Spells is disabled, stack player/item bonus glyph slots instead of taking the larger bonus.
+	stack_with_infinite_spells = true
+	#Used when no player/caster bonus could be resolved.
+	# Default: 0
+	# Range: 0 ~ 1024
+	fallback_bonus = 0
+	#Bonus glyph slots by player level, formatted as level;bonus_total.
+	level_bonus_totals = ["1;0", "2;0", "3;0", "4;0", "5;0", "6;1", "7;2", "8;3", "9;5"]
+
+[omnipotence_crown]
+	#Horizontal offset in pixels for the crown's extra-life icons above the food bar.
+	# Default: 0
+	# Range: -1000 ~ 1000
+	lives_hud_x_offset = 0
+	#Vertical offset in pixels for the crown's extra-life icons above the food bar.
+	# Default: 0
+	# Range: -1000 ~ 1000
+	lives_hud_y_offset = 0
+
+[karma_system]
+	#Enable tribulation difficulty scaling based on player actions (karma system).
+	enabled = true
+	#Global scale multiplier for all karma-related penalties. Adjust to fine-tune overall difficulty progression.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	karma_scale = 1.0
+	#Weight multiplier for player kills in karma calculation.
+	# Default: 5.0
+	# Range: 0.0 ~ 100.0
+	player_kill_weight = 5.0
+	#Weight multiplier for passive mob kills in karma calculation.
+	# Default: 0.5
+	# Range: 0.0 ~ 100.0
+	passive_mob_kill_weight = 0.5
+	#Weight multiplier for player deaths in karma calculation.
+	# Default: 2.0
+	# Range: 0.0 ~ 100.0
+	death_weight = 2.0
+	#Dampening factor for playtime (hours). Higher values reduce karma scaling for experienced players.
+	# Default: 0.001
+	# Range: 0.0 ~ 0.1
+	playtime_dampening = 0.001
+	#Dampening factor for villager trades. More trades = lower tribulation difficulty.
+	# Default: 0.05
+	# Range: 0.0 ~ 1.0
+	villager_trade_dampening = 0.05
+	#Dampening factor for animals bred. More breeding = lower tribulation difficulty (highest importance).
+	# Default: 0.1
+	# Range: 0.0 ~ 1.0
+	animals_bred_dampening = 0.1
+	#Scale tribulation difficulty with player's in-game level via LevelingCapability.
+	scale_with_level = true
+	#Percentage of the caster's souls consumed by Devour Soul before each cast.
+	# Default: 10.0
+	# Range: 0.0 ~ 100.0
+	devour_soul_consumption_percent = 10.0
+	#Bonus damage per square root of souls consumed by Devour Soul.
+	# Default: 2.0
+	# Range: 0.0 ~ 100000.0
+	devour_soul_damage_per_sqrt_soul = 2.0
+	#Essence yield multiplier for a mob hit by Devour Soul that is then killed by the caster (also guarantees the drop). Scales with Amplify.
+	# Default: 3.0
+	# Range: 1.0 ~ 1000.0
+	devour_soul_essence_yield_multiplier = 3.0
+	#Master switch: mobs killed by a player (or their spells) drop an essence matching the mob's level. The arsTrinketsEssenceDrops gamerule must also be true.
+	essence_drops_enabled = true
+	#Only hostile mobs drop essence.
+	essence_drops_hostile_only = true
+	#Chance (0-1) that a kill drops essence.
+	# Default: 0.35
+	# Range: 0.0 ~ 1.0
+	essence_drop_chance = 0.35
+	#Average extra essences dropped per mob core.
+	# Default: 0.1
+	# Range: 0.0 ~ 1000.0
+	essence_drop_extra_per_core = 0.1
+	#Never drop an essence the killer cannot use (essence tier below the killer's level). Stops farming trivial mobs for junk.
+	essence_drop_only_usable = true
+	#Maximum essences dropped by a single kill (after core and Devour Soul bonuses).
+	# Default: 8
+	# Range: 1 ~ 1000
+	essence_drop_max_count = 8
+
+[mob_scaling]
+	#Scales mob HP, attack, and armor from base stats, level, and random cores.
+	enabled = true
+	#Minimum mob level. Formula: level = clamp(floor(log(score) / log(score_base)), level_min, level_max).
+	# Default: 1
+	# Range: 1 ~ 100
+	level_min = 1
+	#Maximum mob level. Formula: score = max(level_score_floor, base_health + base_attack + base_armor). Per-player spawn cap: max_mob_level = min(level_max, player_level + player_level_offset).
+	# Default: 9
+	# Range: 1 ~ 100
+	level_max = 9
+	#Mob levels allowed above the player's level. Formula: max_mob_level = min(level_max, player_level + player_level_offset).
+	# Default: 1
+	# Range: 0 ~ 100
+	player_level_offset = 1
+	#Only players within this many blocks of a spawning mob affect its level/core cap and roaming difficulty. Players farther away are ignored.
+	# Default: 128.0
+	# Range: 1.0 ~ 3.0E7
+	player_cap_radius = 128.0
+	#Which player in range caps a spawning mob: NEAREST (closest player), LOWEST (weakest player in range, protects low-level players), HIGHEST (strongest player in range).
+	#Allowed Values: NEAREST, LOWEST, HIGHEST
+	player_cap_mode = "NEAREST"
+	#Minimum score used by level calculation. Formula: score = max(level_score_floor, health + attack + armor).
+	# Default: 1.0
+	# Range: 1.0E-4 ~ 100000.0
+	level_score_floor = 1.0
+	#Logarithm base used by level calculation. Formula: raw_level = floor(log(score) / log(level_score_base)).
+	# Default: 2.0
+	# Range: 1.0001 ~ 100.0
+	level_score_base = 2.0
+	#Minimum random core count. Formula: health_multiplier = health_growth_base^(level - level_min) * cores.
+	# Default: 1
+	# Range: 1 ~ 100
+	core_min = 1
+	#Maximum random core count. Formula: combat_multiplier = level * cores; armor is capped separately. Per-player spawn cap: max_mob_cores = min(core_max, player_cores + player_core_offset).
+	# Default: 9
+	# Range: 1 ~ 100
+	core_max = 9
+	#Mob cores allowed above the player's core count. Formula: max_mob_cores = min(core_max, player_cores + player_core_offset).
+	# Default: 3
+	# Range: 0 ~ 100
+	player_core_offset = 3
+	#Health growth base per level. Formula: health_multiplier = health_growth_base^(level - level_min) * clamped_cores.
+	# Default: 2.0
+	# Range: 1.0 ~ 100.0
+	health_growth_base = 2.0
+	#Core-roll weight decay. Formula: core_weight = core_decay^((core - 1) * level_bias).
+	# Default: 0.7
+	# Range: 1.0E-4 ~ 1.0
+	core_decay = 0.7
+	#Core-roll level bias divisor. Formula: level_bias = 1 - clamp(level, level_min, level_max) / core_level_bias_divisor.
+	# Default: 12.0
+	# Range: 1.0 ~ 1000.0
+	core_level_bias_divisor = 12.0
+	#Applies level/core health scaling to mobs. Disable to keep their vanilla health.
+	health_scaling_enabled = true
+	#Maximum health multiplier from mob level/core scaling. Lower this for nerfed difficulty.
+	# Default: 16.0
+	# Range: 1.0 ~ 100000.0
+	health_scaling_max_multiplier = 1.5
+	#Maximum armor value after mob level/core scaling.
+	# Default: 40.0
+	# Range: 0.0 ~ 100000.0
+	armor_scaling_cap = 40.0
+	#Mob attack-event damage coefficient. Formula: final_damage = base_damage * level_damage_multiplier * cores * damage_coefficient.
+	# Default: 0.5
+	# Range: 0.0 ~ 100.0
+	damage_scaling_coefficient = 0.5
+	#Normalizes player damage against leveled mobs using the mob's inverse level multiplier.
+	level_damage_normalization_enabled = true
+	#Strength of mob level damage normalization: 0 disables it, 1 fully cancels equal-level scaling.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	level_damage_normalization_coefficient = 1.0
+	#Allows player difficulty to increase roaming mob HP.
+	roaming_health_enabled = true
+	#Maximum multiplier applied to roaming mob HP from player difficulty.
+	# Default: 4.0
+	# Range: 1.0 ~ 100000.0
+	roaming_health_multiplier_max = 1.0
+	#Legacy roaming attack scaling; mob capability damage remains authoritative when disabled.
+	roaming_attack_enabled = false
+	#Legacy roaming resistance effect. Disabled by default to avoid absolute damage immunity.
+	roaming_resistance_enabled = false
+
+[tribulations]
+	#Master toggle for the tribulation system. When disabled, tribulations are not started or processed.
+	enabled = true
+	# Default: 1.5
+	# Range: 0.0 ~ 1000.0
+	intensity_base = 1.5
+	# Default: 1.25
+	# Range: 0.0 ~ 1000.0
+	intensity_per_level = 1.25
+	# Default: 45
+	# Range: 1 ~ 100000
+	duration_base_seconds = 45
+	# Default: 10.0
+	# Range: 0.0 ~ 100000.0
+	duration_seconds_per_intensity = 10.0
+	# Default: 180
+	# Range: 1 ~ 100000
+	duration_max_seconds = 180
+	# Default: 0.8
+	# Range: 0.0 ~ 1.0
+	boss_enhancement_chance = 0.8
+	# Default: 2
+	# Range: 1 ~ 1000
+	additional_layer_levels_per_step = 2
+
+	[tribulations.lightning_rain]
+		# Default: 8
+		# Range: 1 ~ 100000
+		interval_ticks = 8
+		# Default: 40.0
+		# Range: 0.0 ~ 100000.0
+		radius_base = 40.0
+		# Default: 12.0
+		# Range: 0.0 ~ 100000.0
+		radius_per_intensity = 12.0
+		# Default: 3.0
+		# Range: 0.0 ~ 100000.0
+		radius_per_spell_damage = 3.0
+		# Default: 10
+		# Range: 1 ~ 100000
+		strike_chance_base = 10
+		# Default: 1.5
+		# Range: 0.0 ~ 100000.0
+		strike_chance_reduction_per_intensity = 1.5
+		# Default: 15.0
+		# Range: 0.0 ~ 100000.0
+		damage_base = 15.0
+		# Default: 1.0
+		# Range: 0.0 ~ 100000.0
+		damage_per_spell_damage = 1.0
+		# Default: 3.0
+		# Range: 0.0 ~ 100000.0
+		damage_size_base = 3.0
+		# Default: 0.5
+		# Range: 0.0 ~ 100000.0
+		damage_size_per_intensity = 0.5
+		# Default: 1.5
+		# Range: 0.0 ~ 100000.0
+		damage_multiplier_generic_threshold = 1.5
+		# Default: 2.5
+		# Range: 1.0E-4 ~ 100000.0
+		damage_multiplier_health_ratio_divisor = 2.5
+		# Default: 1.0
+		# Range: 0.0 ~ 100000.0
+		damage_multiplier_min = 1.0
+		# Default: 2.0
+		# Range: 0.0 ~ 100000.0
+		damage_multiplier_max = 2.0
+
+	[tribulations.star_rain]
+		# Default: 5
+		# Range: 1 ~ 100000
+		interval_ticks = 5
+		# Default: 56.0
+		# Range: 0.0 ~ 100000.0
+		radius_base = 56.0
+		# Default: 16.0
+		# Range: 0.0 ~ 100000.0
+		radius_per_intensity = 16.0
+		# Default: 4.0
+		# Range: 0.0 ~ 100000.0
+		radius_per_spell_damage = 4.0
+		# Default: 2.0
+		# Range: 0.0 ~ 100000.0
+		strike_count_base = 2.0
+		# Default: 0.9
+		# Range: 0.0 ~ 100000.0
+		strike_count_per_intensity = 0.9
+		# Default: 4
+		# Range: 1 ~ 100000
+		strike_count_random_bound = 4
+		# Default: 14
+		# Range: 1 ~ 100000
+		strike_count_max = 14
+
+	[tribulations.ailments]
+		# Default: 30
+		# Range: 1 ~ 100000
+		interval_ticks = 30
+		# Default: 160
+		# Range: 1 ~ 100000
+		duration_base_ticks = 160
+		# Default: 45.0
+		# Range: 0.0 ~ 100000.0
+		duration_per_intensity = 45.0
+		# Default: 30
+		# Range: 1 ~ 100000
+		duration_min_ticks = 30
+		# Default: 0.01
+		# Range: 0.0 ~ 1.0
+		warding_duration_reduction = 0.01
+		# Default: 1.0
+		# Range: 0.0 ~ 100000.0
+		amplifier_base = 1.0
+		# Default: 0.9
+		# Range: 0.0 ~ 100000.0
+		amplifier_per_intensity = 0.9
+		# Default: 5
+		# Range: 0 ~ 255
+		amplifier_max = 5
+		# Default: 20.0
+		# Range: 0.0 ~ 100000.0
+		health_scaling_threshold = 20.0
+		# Default: 10.0
+		# Range: 1.0E-4 ~ 100000.0
+		health_scaling_divisor = 10.0
+		# Default: 1
+		# Range: 0 ~ 100000
+		health_random_bonus = 1
+
+	[tribulations.perception_distortion]
+		# Default: 20
+		# Range: 1 ~ 100000
+		interval_ticks = 20
+		# Default: 100
+		# Range: 1 ~ 100000
+		duration_base_ticks = 100
+		# Default: 35.0
+		# Range: 0.0 ~ 100000.0
+		duration_per_intensity = 35.0
+		# Default: 20
+		# Range: 1 ~ 100000
+		duration_min_ticks = 20
+		# Default: 0.01
+		# Range: 0.0 ~ 1.0
+		warding_duration_reduction = 0.01
+		# Default: 1.0
+		# Range: 0.0 ~ 100000.0
+		amplifier_base = 1.0
+		# Default: 0.7
+		# Range: 0.0 ~ 100000.0
+		amplifier_per_intensity = 0.7
+		# Default: 4
+		# Range: 0 ~ 255
+		amplifier_max = 4
+
+	[tribulations.boss_enhancement]
+		# Default: 80
+		# Range: 1 ~ 100000
+		interval_ticks = 80
+		# Default: 80.0
+		# Range: 0.0 ~ 100000.0
+		radius_base = 80.0
+		# Default: 24.0
+		# Range: 0.0 ~ 100000.0
+		radius_per_intensity = 24.0
+		# Default: 6.0
+		# Range: 0.0 ~ 100000.0
+		radius_per_spell_damage = 6.0
+		# Default: 260
+		# Range: 1 ~ 100000
+		effect_duration_ticks = 260
+		#Legacy boss strength/resistance/damage effects are disabled by default; mob capability damage is authoritative.
+		# Default: 6
+		# Range: 0 ~ 255
+		strength_max = 6
+		# Default: 2.0
+		# Range: 0.0 ~ 100000.0
+		strength_base = 2.0
+		# Default: 1.1
+		# Range: 0.0 ~ 100000.0
+		strength_per_intensity = 1.1
+		# Default: 0.15
+		# Range: 0.0 ~ 100000.0
+		strength_per_player_damage = 0.15
+		# Default: 5
+		# Range: 0 ~ 255
+		resistance_max = 5
+		# Default: 1.0
+		# Range: 0.0 ~ 100000.0
+		resistance_base = 1.0
+		# Default: 0.9
+		# Range: 0.0 ~ 100000.0
+		resistance_per_intensity = 0.9
+		# Default: 1.0
+		# Range: 0.0 ~ 100000.0
+		speed_base = 1.0
+		# Default: 0.25
+		# Range: 0.0 ~ 100000.0
+		speed_per_intensity = 0.25
+		# Default: 0.25
+		# Range: 0.0 ~ 100000.0
+		speed_per_spell_damage = 0.25
+		# Default: 6
+		# Range: 0 ~ 255
+		health_max = 6
+		# Default: 1.0
+		# Range: 0.0 ~ 100000.0
+		health_base = 1.0
+		# Default: 0.7
+		# Range: 0.0 ~ 100000.0
+		health_per_intensity = 0.7
+		# Default: 6
+		# Range: 0 ~ 255
+		damage_max = 6
+		# Default: 1.0
+		# Range: 0.0 ~ 100000.0
+		damage_base = 1.0
+		# Default: 0.6
+		# Range: 0.0 ~ 100000.0
+		damage_per_intensity = 0.6
+		# Default: 0.2
+		# Range: 0.0 ~ 100000.0
+		damage_per_player_damage = 0.2
+		# Default: 0.15
+		# Range: 0.0 ~ 100000.0
+		damage_per_spell_damage = 0.15

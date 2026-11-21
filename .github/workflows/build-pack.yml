@@ -1,0 +1,62 @@
+name: Build pack
+
+# Push a tag like v0.2.0 to publish a release:
+#  - the `pack` branch gets a packwiz pack (what friends' packwiz-installer syncs from)
+#  - a GitHub Release gets .mrpack (Modrinth/Prism import) and CurseForge .zip exports
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: stable
+
+      - name: Install packwiz
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Assemble pack
+        run: |
+          VERSION="${GITHUB_REF_NAME#v}"
+          [ "$GITHUB_REF_TYPE" = tag ] || VERSION="dev-${GITHUB_SHA::7}"
+          echo "VERSION=$VERSION" >> "$GITHUB_ENV"
+          python3 tools/build_pack.py --version "$VERSION"
+          cd build/pack
+          packwiz refresh --build
+
+      - name: Publish pack branch
+        run: |
+          cd build/pack
+          git init -q -b pack
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "MagicMod $VERSION"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" pack
+
+      - name: Export .mrpack
+        continue-on-error: true
+        run: cd build/pack && packwiz -y modrinth export -o "../MagicMod-$VERSION.mrpack"
+
+      - name: Export CurseForge zip
+        continue-on-error: true
+        run: cd build/pack && packwiz -y curseforge export -o "../MagicMod-$VERSION-curseforge.zip"
+
+      - name: Create release
+        if: github.ref_type == 'tag'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          NOTES=changelogs/${GITHUB_REF_NAME}.md
+          [ -f "$NOTES" ] || NOTES=CHANGELOG.md
+          gh release create "$GITHUB_REF_NAME" --title "MagicMod $VERSION" --notes-file "$NOTES" \
+            $(ls build/*.mrpack build/*.zip 2>/dev/null)

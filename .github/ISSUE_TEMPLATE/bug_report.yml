@@ -1,0 +1,38 @@
+name: Bug report / crash
+description: Something broke or the game crashed
+labels: [bug]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Pack version
+      description: From the release you installed, e.g. 0.1.0
+    validations:
+      required: true
+  - type: dropdown
+    id: install
+    attributes:
+      label: How did you install?
+      options:
+        - .mrpack import
+        - packwiz auto-update
+        - Cloned the repo
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: input
+    id: log
+    attributes:
+      label: Log / crash report
+      description: Upload `minecraft/logs/latest.log` or the crash report to https://mclo.gs and paste the link.
+  - type: textarea
+    id: changes
+    attributes:
+      label: Mods added or removed
+      description: List anything you changed from the pack, if any.

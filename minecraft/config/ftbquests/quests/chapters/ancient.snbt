@@ -1,0 +1,693 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ancient"
+	group: "4F280FD29EF0C5A6"
+	icon: {
+		id: "cataclysm:mech_eye"
+	}
+	id: "0F8457B1E19AEECC"
+	images: [ ]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["54B4BDFB34BDCE24"]
+			icon: {
+				id: "cataclysm:ancient_metal_ingot"
+			}
+			id: "4A7C7305AAE99FDA"
+			rewards: [
+				{
+					count: 2
+					id: "6B998F40D51DBA85"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:long_regeneration"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2545300C319899B4"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:strong_healing"
+							}
+						}
+						count: 1
+						id: "minecraft:splash_potion"
+					}
+					type: "item"
+				}
+				{
+					id: "6C27613B6EA7B7EE"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "4702CC31605364FA"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A7C7305AAE99FDA"]
+			icon: {
+				id: "cataclysm:mech_eye"
+			}
+			id: "7371C0683E759989"
+			rewards: [
+				{
+					count: 2
+					id: "1D8A9B2B12609428"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "2E92CD13163661D8"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [{
+				id: "69E0A2DDA877744C"
+				item: { count: 1, id: "cataclysm:mech_eye" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7371C0683E759989"]
+			icon: {
+				id: "cataclysm:mech_eye"
+			}
+			id: "19919BEDB5AF98F5"
+			rewards: [
+				{
+					count: 2
+					id: "5334FAC01C57BE39"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "7CDD845223652987"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [{
+				id: "77908B50B770FB4E"
+				structure: "cataclysm:ancient_factory"
+				type: "structure"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["19919BEDB5AF98F5"]
+			icon: {
+				id: "cataclysm:music_disc_the_harbinger"
+			}
+			id: "206A89D716A9547F"
+			rewards: [
+				{
+					id: "2E972C8275F2D89B"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "6FF6F75D96B50CC8"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "3FCA5DD4AFB70F9F"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				id: "44F0D97AA521D8D5"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4A7C7305AAE99FDA"]
+			icon: {
+				id: "cataclysm:desert_eye"
+			}
+			id: "695796396133F94E"
+			rewards: [
+				{
+					count: 2
+					id: "722BDEBD2232C96F"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "4762D6FA8B5F7C20"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [{
+				id: "24E167A38A5EB25A"
+				item: { count: 1, id: "cataclysm:desert_eye" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["695796396133F94E"]
+			icon: {
+				id: "cataclysm:desert_eye"
+			}
+			id: "3BA252D2C611CA91"
+			rewards: [
+				{
+					count: 2
+					id: "1583E34F3CBC088D"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "13781F99D1790DF1"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [{
+				id: "79F30DEEA38AA4C7"
+				structure: "cataclysm:cursed_pyramid"
+				type: "structure"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3BA252D2C611CA91"]
+			icon: {
+				id: "cataclysm:music_disc_ancient_remnant"
+			}
+			id: "29ED9FA48728B604"
+			rewards: [
+				{
+					id: "4AA019654EA2DE41"
+					item: {
+						count: 1
+						id: "minecraft:diamond_block"
+					}
+					type: "item"
+				}
+				{
+					id: "54FDBB76B76C416D"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "76D1052666E9A290"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				id: "5053AA8288C45550"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4A7C7305AAE99FDA"]
+			icon: {
+				id: "cataclysm:cursed_eye"
+			}
+			id: "04F6248117437E68"
+			rewards: [
+				{
+					count: 2
+					id: "7C119427CF3487AE"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "6BEE83727DCB249E"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [{
+				id: "0C2C18A551447268"
+				item: { count: 1, id: "cataclysm:cursed_eye" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["04F6248117437E68"]
+			icon: {
+				id: "cataclysm:cursed_eye"
+			}
+			id: "38FB7F5E67BBAD55"
+			rewards: [
+				{
+					count: 2
+					id: "27A152C22996BAD6"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "7C682D3FB317DCCE"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [{
+				id: "202057C674F63306"
+				structure: "cataclysm:frosted_prison"
+				type: "structure"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38FB7F5E67BBAD55"]
+			icon: {
+				id: "cataclysm:music_disc_maledictus"
+			}
+			id: "0D0C6CE3052F5D2D"
+			rewards: [
+				{
+					id: "58C29E2AA7E18251"
+					item: {
+						count: 1
+						id: "minecraft:totem_of_undying"
+					}
+					type: "item"
+				}
+				{
+					id: "0736D1883D652EEC"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "6B6BED6EFBB68887"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				id: "1FADCAC53FBC8AC0"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A7C7305AAE99FDA"]
+			icon: {
+				id: "cataclysm:abyss_eye"
+			}
+			id: "667793AAD652F840"
+			rewards: [
+				{
+					count: 2
+					id: "493F4F631A54844B"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "7C30040DEB59E8EA"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [{
+				id: "11E50BE84567C01C"
+				item: { count: 1, id: "cataclysm:abyss_eye" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["667793AAD652F840"]
+			icon: {
+				id: "cataclysm:abyss_eye"
+			}
+			id: "4545848B4D52CEB6"
+			rewards: [
+				{
+					count: 2
+					id: "3280FB2B045BC21E"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "6630AAF55AC45806"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [{
+				id: "1CD4826E19E51781"
+				structure: "cataclysm:sunken_city"
+				type: "structure"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4545848B4D52CEB6"
+				"1FAC4E4B6A8BEF47"
+			]
+			icon: {
+				id: "cataclysm:music_disc_the_leviathan"
+			}
+			id: "49862A26D14C441F"
+			rewards: [
+				{
+					id: "11B546A6F579FFB1"
+					item: {
+						count: 1
+						id: "minecraft:heart_of_the_sea"
+					}
+					type: "item"
+				}
+				{
+					id: "442F45E98965FD8D"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "05DB0669F2C759FA"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				id: "4B57C3E3531C16BE"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4A7C7305AAE99FDA"]
+			icon: {
+				id: "cataclysm:storm_eye"
+			}
+			id: "56F3BA2F1D35594B"
+			rewards: [
+				{
+					count: 2
+					id: "63A7D05C6B2398B5"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "32427BBD8102833B"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [{
+				id: "698B06A2D2C847F0"
+				item: { count: 1, id: "cataclysm:storm_eye" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["56F3BA2F1D35594B"]
+			icon: {
+				id: "cataclysm:storm_eye"
+			}
+			id: "07BB68C27288814B"
+			rewards: [
+				{
+					count: 2
+					id: "75C58DAC67CF03BA"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "0F57E3F5C9327966"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [{
+				id: "0D8BAE6203383CD6"
+				structure: "cataclysm:acropolis"
+				type: "structure"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["07BB68C27288814B"]
+			icon: {
+				id: "cataclysm:music_disc_scylla"
+			}
+			id: "38BE02671CD75231"
+			rewards: [
+				{
+					id: "5CEBC2CE40D4E9D8"
+					item: {
+						count: 1
+						id: "minecraft:trident"
+					}
+					type: "item"
+				}
+				{
+					id: "6D9BAF87E34E6D84"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "1BF0D6FE8FC5B78C"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:scylla"
+				id: "0E3BA7EAAE498292"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4545848B4D52CEB6"]
+			icon: {
+				id: "cataclysm:abyssal_sacrifice"
+			}
+			id: "1FAC4E4B6A8BEF47"
+			rewards: [
+				{
+					count: 2
+					id: "34D29B5DE6B26752"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:long_water_breathing"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7929CDA1D491C231"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:long_night_vision"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+				{
+					id: "26364D454E20D470"
+					type: "xp"
+					xp: 60
+				}
+			]
+			tasks: [{
+				id: "6DE8C84C66DB5F41"
+				item: { count: 1, id: "cataclysm:abyssal_sacrifice" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4A7C7305AAE99FDA"]
+			icon: {
+				id: "cataclysm:music_disc_the_cataclysmfarer"
+			}
+			id: "711CBA42CDA6DC9D"
+			optional: true
+			rewards: [
+				{
+					id: "7A5C88032CCFC5A4"
+					item: {
+						count: 1
+						id: "minecraft:jukebox"
+					}
+					type: "item"
+				}
+				{
+					id: "61613598FE004615"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "4D56C83055241D4C"
+				item: { count: 1, id: "cataclysm:music_disc_the_cataclysmfarer" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"206A89D716A9547F"
+				"29ED9FA48728B604"
+				"0D0C6CE3052F5D2D"
+				"49862A26D14C441F"
+				"38BE02671CD75231"
+			]
+			icon: {
+				id: "cataclysm:ancient_metal_ingot"
+			}
+			id: "43D035AE4CBC4BC7"
+			rewards: [
+				{
+					count: 2
+					id: "0167BA48721C0E8C"
+					item: {
+						count: 1
+						id: "minecraft:diamond_block"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5C1CF34AD9FB60F4"
+					item: {
+						count: 1
+						id: "ars_nouveau:source_gem_block"
+					}
+					type: "item"
+				}
+				{
+					id: "7D1F5312D5D2D875"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "15074E3AE048F610"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+	]
+}

@@ -1,0 +1,33 @@
+filename = 'ars_astrologique-1.21.1-0.1.1-alpha.jar'
+name = 'Ars Astrologique'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'ars_astrologique-1.21.1-0.1.1-alpha.jar'
+
+[download]
+hash = '915c09ce5e13e3bc6021c6fd8bf288f53deca6a3'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7775183
+project-id = 1481522
+
+[[x-prismlauncher-dependencies]]
+addonId = '974408'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '401955'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1441516'
+type = 'OPTIONAL'
+
+[[x-prismlauncher-dependencies]]
+addonId = '561470'
+type = 'OPTIONAL'
