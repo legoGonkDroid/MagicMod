@@ -64,6 +64,7 @@ minecraft/.fabric/
 minecraft/local/
 minecraft/config/embeddium-fingerprint.json
 minecraft/config/fabric/indigo-renderer.properties
+minecraft/config/ars_nouveau/search_index/
 
 # --- Xaero's Minimap / World Map per-player map + waypoint data ---
 minecraft/xaero/

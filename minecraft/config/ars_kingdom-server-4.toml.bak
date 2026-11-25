@@ -1,0 +1,27 @@
+#Default colony rules, used until a colony builds a Source Sanctum.
+[rules]
+	#Dye functional Ars blocks (jars, relays, sourcelinks, braziers, turrets, apparatus) in the colony color.
+	dye_machines = true
+	#Dye Ars decor blocks (sourcestone, archwood, sconces, grates) in the colony color.
+	dye_decor = true
+	#Also repaint blocks that a player dyed by hand.
+	override_custom_colors = false
+	#Remove the colony dye when a block leaves the colony or the colony is deleted.
+	undye_on_leave = true
+	#Source transfer particles from a dyed jar use the jar's dye color.
+	recolor_transfer_particles = true
+	#Ritual particles on a dyed brazier use the brazier's dye color.
+	recolor_rituals = true
+	#Allow Wilden raids on colonies.
+	wilden_raids = true
+
+[crafting]
+	#Don't import Ars machine recipes for items an Archwood Colonies crafter recipe already makes.
+	skip_archwood_duplicates = true
+
+#Colony color: each MineColonies team color maps to one of the 16 dye colors.
+[colors]
+	#Entries are TEAM_COLOR=dye. Use 'none' (or leave a color out) for no colony dye.
+	#Team colors: BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY,
+	#DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE (the default team color).
+	team_color_dyes = ["BLACK=BLACK", "DARK_BLUE=BLUE", "DARK_GREEN=GREEN", "DARK_AQUA=CYAN", "DARK_RED=RED", "DARK_PURPLE=PURPLE", "GOLD=ORANGE", "GRAY=LIGHT_GRAY", "DARK_GRAY=GRAY", "BLUE=LIGHT_BLUE", "GREEN=LIME", "AQUA=LIGHT_BLUE", "RED=PINK", "LIGHT_PURPLE=MAGENTA", "YELLOW=YELLOW", "WHITE=none"]

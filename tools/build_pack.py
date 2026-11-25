@@ -28,6 +28,7 @@ OVERRIDE_FILES = ["icon.png"]
 EXCLUDE = shutil.ignore_patterns(
     "exported", "probe", "jsconfig.json", "probe-settings.json", "recovery",
     "embeddium-fingerprint.json", "xaeropatreon.txt", "indigo-renderer.properties",
+    "search_index",
 )
 
 

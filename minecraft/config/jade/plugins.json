@@ -82,6 +82,9 @@
   "waystones": {
     "waystone": true
   },
+  "ars_zero": {
+    "entity_mana": true
+  },
   "jadearsnouveauprogress": {
     "ars_nouveau_tooltip": true,
     "show_tooltip": true,

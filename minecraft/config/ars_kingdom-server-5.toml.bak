@@ -1,0 +1,20 @@
+#Default colony rules, used until a colony builds a Source Sanctum.
+[rules]
+	#Dye functional Ars blocks (jars, relays, sourcelinks, braziers, turrets, apparatus) in the colony color.
+	dye_machines = true
+	#Dye Ars decor blocks (sourcestone, archwood, sconces, grates) in the colony color.
+	dye_decor = true
+	#Also repaint blocks that a player dyed by hand.
+	override_custom_colors = false
+	#Remove the colony dye when a block leaves the colony or the colony is deleted.
+	undye_on_leave = true
+	#Source transfer particles from a dyed jar use the jar's dye color.
+	recolor_transfer_particles = true
+	#Ritual particles on a dyed brazier use the brazier's dye color.
+	recolor_rituals = true
+	#Allow Wilden raids on colonies.
+	wilden_raids = true
+
+[crafting]
+	#Don't import Ars machine recipes for items an Archwood Colonies crafter recipe already makes.
+	skip_archwood_duplicates = true

@@ -1,0 +1,28 @@
+#What the Source Vessel can copy, and how much source one copy costs.
+[costs]
+	#Entries are "<item id>=<source>" or "#<item tag>=<source>".
+	#An exact item entry wins over a tag entry; among tags the first match in this list wins.
+	#A source jar holds 10000 source.
+	costs = ["minecraft:dirt=100", "minecraft:cobblestone=100", "minecraft:smooth_stone=200", "minecraft:sand=150", "minecraft:gravel=150", "minecraft:granite=200", "minecraft:diorite=200", "minecraft:andesite=200", "minecraft:deepslate=250", "minecraft:clay_ball=150", "minecraft:clay=600", "minecraft:flint=300", "minecraft:oak_log=400", "minecraft:spruce_log=400", "minecraft:birch_log=400", "minecraft:jungle_log=400", "minecraft:acacia_log=400", "minecraft:dark_oak_log=400", "minecraft:mangrove_log=400", "minecraft:cherry_log=400", "minecraft:crimson_stem=400", "minecraft:warped_stem=400", "ars_nouveau:blue_archwood_log=800", "ars_nouveau:red_archwood_log=800", "ars_nouveau:purple_archwood_log=800", "ars_nouveau:green_archwood_log=800", "ars_nouveau:frostaya_pod=500", "ars_nouveau:bombegranate_pod=500", "ars_nouveau:mendosteen_pod=500", "ars_nouveau:bastion_pod=500", "#c:ingots/copper=2500", "#c:ingots/iron=5000", "#c:ingots/gold=10000", "#c:dusts/redstone=1000", "#c:gems/lapis=1500", "#c:gems/quartz=2000", "#c:gems/amethyst=2000", "minecraft:ender_pearl=7500", "minecraft:blaze_rod=7500", "#c:gems/emerald=40000", "#c:gems/diamond=50000"]
+
+#How fast the vessel absorbs source from nearby source jars.
+[absorption]
+	#Ticks between pulls (20 ticks = 1 second).
+	# Default: 10
+	# Range: 1 ~ 1200
+	pullIntervalTicks = 10
+	#Maximum source taken from nearby jars per pull.
+	# Default: 50
+	# Range: 1 ~ 1000000
+	sourcePerPull = 50
+	#Range (in blocks) in which the vessel looks for source jars.
+	# Default: 6
+	# Range: 1 ~ 32
+	jarRange = 6
+
+#Linking output inventories with the Dominion Wand.
+[linking]
+	#Maximum distance (in blocks) between the vessel and a linked inventory.
+	# Default: 16
+	# Range: 1 ~ 64
+	linkRange = 16

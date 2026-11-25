@@ -1,0 +1,42 @@
+#Default colony rules, used until a colony builds a Source Sanctum.
+[rules]
+	#Dye functional Ars blocks (jars, relays, sourcelinks, braziers, turrets, apparatus) in the colony color.
+	dye_machines = true
+	#Dye Ars decor blocks (sourcestone, archwood, sconces, grates) in the colony color.
+	dye_decor = true
+	#Also repaint blocks that a player dyed by hand.
+	override_custom_colors = false
+	#Remove the colony dye when a block leaves the colony or the colony is deleted.
+	undye_on_leave = true
+	#Source transfer particles from a dyed jar use the jar's dye color.
+	recolor_transfer_particles = true
+	#Ritual particles on a dyed brazier use the brazier's dye color.
+	recolor_rituals = true
+	#Allow Wilden raids on colonies.
+	wilden_raids = true
+
+[crafting]
+	#Don't import Ars machine recipes for items an Archwood Colonies crafter recipe already makes.
+	skip_archwood_duplicates = true
+
+#Colony color: each MineColonies team color maps to one of the 16 dye colors.
+[colors]
+	#Entries are TEAM_COLOR=dye. Use 'none' (or leave a color out) for no colony dye: Ars blocks keep their
+	#native purple look. By default DARK_PURPLE is 'none', so WHITE dyes blocks white.
+	#Team colors: BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY,
+	#DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE (MineColonies' default team color).
+	team_color_dyes = ["BLACK=BLACK", "DARK_BLUE=BLUE", "DARK_GREEN=GREEN", "DARK_AQUA=CYAN", "DARK_RED=RED", "DARK_PURPLE=none", "GOLD=ORANGE", "GRAY=LIGHT_GRAY", "DARK_GRAY=GRAY", "BLUE=LIGHT_BLUE", "GREEN=LIME", "AQUA=LIGHT_BLUE", "RED=PINK", "LIGHT_PURPLE=MAGENTA", "YELLOW=YELLOW", "WHITE=WHITE"]
+
+#Colony dye sweeps: re-checking every Ars block in a colony's chunks.
+#Sweeps run after team color changes, finished builds, new claims, colony deletion and config changes,
+#and when an out-of-date chunk loads.
+[sweeps]
+	#How many chunks a sweep processes per server tick.
+	# Default: 2
+	# Range: 1 ~ 64
+	sweep_chunks_per_tick = 2
+	#Every this many minutes, re-sweep all loaded colony chunks to catch anything missed
+	#(e.g. decorations placed by builders, blocks changed by other mods). 0 disables it.
+	# Default: 30
+	# Range: 0 ~ 1440
+	backstop_sweep_minutes = 30
